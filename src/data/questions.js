@@ -963,7 +963,7 @@ const questions = [
     ],
     correctAnswer: 0,
     vocabWords: [{"word":"deindustrialization","definition":"the decline of industrial activity in a region or economy"},{"word":"systemic","definition":"relating to or affecting an entire system rather than individual parts"}],
-    explanation: "Wilson 'does not deny the importance of cultural values but argues they are themselves shaped by structural conditions.' This means he sees culture as an effect, not an independent cause — making A correct. A is wrong because Wilson doesn't deny culture's role entirely."
+    explanation: "Wilson 'does not deny the importance of cultural values but argues they are themselves shaped by structural conditions.' This means he sees culture as an effect, not an independent cause — making (A) correct. C is wrong because Wilson doesn't deny culture's role entirely."
   },
   {
     id: 62,
@@ -1136,7 +1136,7 @@ const questions = [
       "D) academic scholars should not rely on government reports for research."
     ],
     correctAnswer: 2,
-    explanation: "The chairman called it 'comprehensive,' but 4 of 10 members dissented saying evidence was ignored, and scholars note 'neither report alone provided a complete picture.' This implies the majority report was not as comprehensive as claimed (C). A goes too far — the passage doesn't say which was more accurate. C is unsupported."
+    explanation: "The chairman called it 'comprehensive,' but 4 of 10 members dissented saying evidence was ignored, and scholars note 'neither report alone provided a complete picture.' This implies the majority report was not as comprehensive as claimed (C). A goes too far — the passage doesn't say which was more accurate. B is unsupported."
   },
   {
     id: 73,
