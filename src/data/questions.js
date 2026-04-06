@@ -1184,6 +1184,403 @@ const questions = [
     vocabWords: [{"word":"shared fictions","definition":"collectively held beliefs or constructs that enable social coordination (e.g., money, nations, laws)"}],
     explanation: "Harari asks how cooperation became possible (mechanism). Graeber shifts to why some societies used cooperation for domination while others prevented it (choices about usage). This is a reframing from mechanism to choice (C)."
   },
+
+  // ========== NEW BATCH: Questions 76-100 ==========
+
+  // --- Transitions (need more) ---
+  {
+    id: 76,
+    category: "Transitions",
+    difficulty: "Medium",
+    passage: `Volcanic eruptions can devastate local ecosystems, burying landscapes under ash and lava. _______ the nutrient-rich volcanic soil that forms over subsequent decades often supports unusually productive plant growth, making volcanic regions some of the most fertile agricultural areas on Earth.`,
+    question: "Which choice completes the text with the most logical transition?",
+    choices: [
+      "A) Paradoxically,",
+      "B) Similarly,",
+      "C) For this reason,",
+      "D) In other words,"
+    ],
+    correctAnswer: 0,
+    explanation: "'Paradoxically' (A) signals an unexpected contrast — devastation leads to fertility. 'Similarly' implies sameness, 'For this reason' implies cause from the same direction, and 'In other words' implies rephrasing."
+  },
+  {
+    id: 77,
+    category: "Transitions",
+    difficulty: "Easy",
+    passage: `The museum's permanent collection includes over 30,000 artifacts spanning five millennia of human civilization. _______ its temporary exhibitions, which rotate every three months, draw from collections around the world.`,
+    question: "Which choice completes the text with the most logical transition?",
+    choices: [
+      "A) Nevertheless,",
+      "B) Therefore,",
+      "C) In addition,",
+      "D) Instead,"
+    ],
+    correctAnswer: 2,
+    explanation: "The second sentence adds information about temporary exhibitions alongside the permanent collection. 'In addition' (C) correctly signals this additive relationship."
+  },
+  {
+    id: 78,
+    category: "Transitions",
+    difficulty: "Hard",
+    passage: `The company's CEO publicly championed work-life balance, encouraging employees to take full vacations and disconnect from email after hours. _______ internal performance reviews obtained by journalists revealed that managers consistently penalized employees who actually followed this advice, rating them lower on \"commitment\" and \"leadership potential.\"`,
+    question: "Which choice completes the text with the most logical transition?",
+    choices: [
+      "A) Accordingly,",
+      "B) In fact,",
+      "C) Specifically,",
+      "D) Nonetheless,"
+    ],
+    correctAnswer: 3,
+    vocabWords: [{"word":"championed","definition":"supported or fought publicly for a cause or principle"}],
+    explanation: "'Nonetheless' (D) introduces a contradiction between the CEO's public statements and the company's actual behavior. 'In fact' could work to intensify, but here the second sentence contradicts rather than intensifies. 'Accordingly' and 'Specifically' imply alignment."
+  },
+  {
+    id: 79,
+    category: "Transitions",
+    difficulty: "Medium",
+    passage: `Early astronomers assumed that the planets moved in perfect circles around the Sun. Johannes Kepler, after years of painstaking calculations using Tycho Brahe's observational data, demonstrated that planetary orbits are actually elliptical. _______ his discovery met with skepticism, as many scholars were reluctant to abandon the ancient ideal of circular motion.`,
+    question: "Which choice completes the text with the most logical transition?",
+    choices: [
+      "A) Initially,",
+      "B) As a result,",
+      "C) In contrast,",
+      "D) For example,"
+    ],
+    correctAnswer: 0,
+    explanation: "'Initially' (A) signals that the skepticism was a first reaction that eventually changed. 'As a result' would mean the skepticism was caused by his discovery (partially true but the word 'initially' better captures the temporal nuance). 'In contrast' doesn't fit because the skepticism isn't being contrasted with anything."
+  },
+  {
+    id: 80,
+    category: "Transitions",
+    difficulty: "Hard",
+    passage: `Behavioral economists have shown that people are loss-averse: losing $100 feels roughly twice as painful as gaining $100 feels pleasurable. This asymmetry, researchers argue, is not irrational but evolutionary — organisms that treated threats as more urgent than opportunities were more likely to survive. _______ critics point out that in modern financial contexts, loss aversion leads to systematically poor investment decisions, such as holding losing stocks too long.`,
+    question: "Which choice completes the text with the most logical transition?",
+    choices: [
+      "A) Furthermore,",
+      "B) That said,",
+      "C) In other words,",
+      "D) Consequently,"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"loss-averse","definition":"tending to prefer avoiding losses over acquiring equivalent gains"},{"word":"asymmetry","definition":"lack of equality or equivalence between parts"}],
+    explanation: "'That said' (B) acknowledges the evolutionary argument just made while pivoting to a counterpoint about modern contexts. 'Furthermore' would add to the same point, 'In other words' rephrases, and 'Consequently' implies direct causation."
+  },
+
+  // --- Standard English Conventions (need more) ---
+  {
+    id: 81,
+    category: "Standard English Conventions",
+    difficulty: "Easy",
+    passage: `The students in Professor Chen's advanced seminar _______ required to submit a 20-page research paper by the end of the semester.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) is",
+      "B) was",
+      "C) are",
+      "D) has been"
+    ],
+    correctAnswer: 2,
+    explanation: "'The students' is a plural subject requiring a plural verb. 'Are' (C) is the correct plural present tense form. 'Is' and 'was' are singular, 'has been' is singular."
+  },
+  {
+    id: 82,
+    category: "Standard English Conventions",
+    difficulty: "Medium",
+    passage: `The new housing _______ which was designed by a team of award-winning architects, features rooftop gardens, communal workspaces, and energy-efficient heating systems.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) complex, which",
+      "B) complex which",
+      "C) complex; which",
+      "D) complex. Which"
+    ],
+    correctAnswer: 0,
+    explanation: "The relative clause 'which was designed...' is nonrestrictive (extra info, not essential to identify the complex). Nonrestrictive clauses must be set off with a comma. 'Complex, which' (A) is correct."
+  },
+  {
+    id: 83,
+    category: "Standard English Conventions",
+    difficulty: "Hard",
+    passage: `The data collected from the satellite, combined with observations from ground-based telescopes, _______ that the asteroid's trajectory will bring it within 20,000 miles of Earth — closer than many communications satellites.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) suggest",
+      "B) are suggesting",
+      "C) have suggested",
+      "D) suggests"
+    ],
+    correctAnswer: 3,
+    vocabWords: [{"word":"trajectory","definition":"the path followed by a moving object through space"}],
+    explanation: "The subject is 'The data' (singular in this usage, referring to a body of information, not the Latin plural). The interrupting phrase 'combined with observations...' does not change the subject. 'Suggests' (D) agrees with the singular subject."
+  },
+  {
+    id: 84,
+    category: "Standard English Conventions",
+    difficulty: "Medium",
+    passage: `After reviewing the _______ the committee decided to postpone the vote until more information could be gathered from affected communities.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) proposal.",
+      "B) proposal;",
+      "C) proposal,",
+      "D) proposal:"
+    ],
+    correctAnswer: 2,
+    explanation: "'After reviewing the proposal' is an introductory prepositional phrase. It should be followed by a comma before the main clause begins. 'Proposal,' (C) is correct."
+  },
+  {
+    id: 85,
+    category: "Standard English Conventions",
+    difficulty: "Easy",
+    passage: `The twins have very different personalities: one is outgoing and _______ while the other prefers solitude and quiet reflection.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) adventurous,",
+      "B) adventurous;",
+      "C) adventurous.",
+      "D) adventurous"
+    ],
+    correctAnswer: 0,
+    explanation: "A comma (A) is needed after 'adventurous' to separate it from the conjunction 'while' that introduces the contrasting clause about the other twin."
+  },
+  {
+    id: 86,
+    category: "Standard English Conventions",
+    difficulty: "Hard",
+    passage: `The young conductor — who at twenty-three is the youngest person ever to lead the philharmonic — _______ her baton with a precision that belied her age, drawing a standing ovation from the typically reserved audience.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) wielded",
+      "B) has wielded",
+      "C) wielding",
+      "D) wields"
+    ],
+    correctAnswer: 0,
+    explanation: "The sentence describes a completed past event (she drew a standing ovation). The main verb needs past tense. 'Wielded' (A) is correct. 'Wielding' creates a fragment, 'wields' is present tense, 'has wielded' implies ongoing relevance."
+  },
+
+  // --- Craft and Structure (need more) ---
+  {
+    id: 87,
+    category: "Craft and Structure",
+    difficulty: "Medium",
+    passage: `When the school board announced it would eliminate the arts program to cut costs, music teacher David Hernandez organized a student concert in the board meeting room. Thirty students performed selections from Beethoven, Duke Ellington, and a piece one student had composed herself. Board members, several of whom had tears in their eyes, voted unanimously the following week to restore full funding.`,
+    question: "The author most likely includes the detail about board members' tears to:",
+    choices: [
+      "A) suggest that the board members were unprofessional.",
+      "B) criticize the students' musical abilities.",
+      "C) illustrate the emotional impact that influenced the board's reversal.",
+      "D) argue that all schools should require music education."
+    ],
+    correctAnswer: 2,
+    explanation: "The tears show emotional impact, and the very next sentence describes the vote reversal. The author connects the emotional reaction to the decision change, illustrating how the concert influenced the outcome (C)."
+  },
+  {
+    id: 88,
+    category: "Craft and Structure",
+    difficulty: "Easy",
+    passage: `Scientists have long debated whether the giant squid is an active predator that hunts prey aggressively or a passive drifter that waits for food to come to it. Recent footage from deep-sea cameras shows giant squid pursuing and attacking prey with remarkable speed, effectively settling the debate.`,
+    question: "As used in the passage, 'settling' most nearly means:",
+    choices: [
+      "A) inhabiting",
+      "B) calming",
+      "C) resolving",
+      "D) depositing"
+    ],
+    correctAnswer: 2,
+    explanation: "In context, 'settling the debate' means ending or resolving it. The footage provided a definitive answer. 'Resolving' (C) is the closest meaning."
+  },
+  {
+    id: 89,
+    category: "Craft and Structure",
+    difficulty: "Hard",
+    passage: `The senator's 47-page policy proposal was titled \"A Common-Sense Approach to Immigration Reform.\" Critics on the left called it \"draconian.\" Critics on the right called it \"amnesty.\" The senator herself, when pressed by reporters, declined to summarize it in fewer than three paragraphs, noting that \"the problem with immigration policy is that everyone wants a bumper sticker and nobody wants to read the manual.\"`,
+    question: "The structure of the passage primarily serves to:",
+    choices: [
+      "A) argue that the senator's proposal was the best solution available.",
+      "B) demonstrate that immigration policy is too complex for public debate.",
+      "C) highlight the gap between the nuance of the proposal and the reductive responses it received.",
+      "D) compare the political left and right's approaches to immigration."
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"draconian","definition":"excessively harsh or severe"},{"word":"reductive","definition":"tending to present something in an oversimplified form"}],
+    explanation: "The passage contrasts a 47-page nuanced proposal with one-word reactions ('draconian,' 'amnesty') and the senator's frustration about 'bumper sticker' thinking. This gap between complexity and oversimplification is the structural point (C)."
+  },
+  {
+    id: 90,
+    category: "Craft and Structure",
+    difficulty: "Medium",
+    passage: `Archaeologist Maria Rivera spent fifteen years excavating a site that most of her colleagues had dismissed as insignificant. Her persistence paid off: in the final season of digging, she uncovered a ceremonial chamber that fundamentally altered scholars' understanding of pre-Columbian trade networks.`,
+    question: "The passage primarily characterizes Rivera as:",
+    choices: [
+      "A) reckless in ignoring her colleagues' expert opinions.",
+      "B) primarily motivated by a desire to prove others wrong.",
+      "C) lucky to have found something important by chance.",
+      "D) determined and ultimately vindicated by her discovery."
+    ],
+    correctAnswer: 3,
+    vocabWords: [{"word":"vindicated","definition":"shown to be right or justified after being doubted"}],
+    explanation: "The passage describes 15 years of persistence despite colleagues' dismissal, then a major discovery. This characterizes Rivera as determined and ultimately vindicated (D). There's no suggestion of recklessness, luck, or spite."
+  },
+
+  // --- Information and Ideas ---
+  {
+    id: 91,
+    category: "Information and Ideas",
+    difficulty: "Medium",
+    passage: `A 2024 study examined the effects of background music on reading comprehension. Participants who read passages in silence scored an average of 82% on comprehension questions. Those who read with instrumental music scored 79% — a statistically insignificant difference. However, participants who read with lyrical music (songs with words) scored just 68%, a statistically significant drop. The researchers concluded that the cognitive interference of processing lyrics competes with the language-processing demands of reading.`,
+    question: "Based on the study, which of the following statements is best supported?",
+    choices: [
+      "A) The critical factor is whether the music contains words, not whether music is present.",
+      "B) All music impairs reading comprehension equally.",
+      "C) Reading in silence is always preferable to reading with any kind of audio.",
+      "D) Instrumental music significantly improves reading comprehension."
+    ],
+    correctAnswer: 0,
+    explanation: "Instrumental music (79%) was statistically similar to silence (82%), but lyrical music (68%) was significantly worse. The distinguishing factor is lyrics vs. no lyrics, not music vs. silence (A)."
+  },
+  {
+    id: 92,
+    category: "Information and Ideas",
+    difficulty: "Hard",
+    passage: `Economist Raj Chetty's research used tax records to track millions of Americans born in the 1980s, measuring whether children born into low-income families eventually earned higher incomes as adults. He found enormous variation by geography: a child born into poverty in Salt Lake City had a 10.8% chance of reaching the top income quintile, while an otherwise identical child born in Charlotte had only a 4.4% chance. Notably, the differences persisted even when controlling for race, family structure, and local cost of living.`,
+    question: "The phrase 'otherwise identical' is significant in the context of the passage because it:",
+    choices: [
+      "A) proves that geography is the sole determinant of economic mobility.",
+      "B) implies that the tax records used in the study were unreliable.",
+      "C) suggests that children in Salt Lake City are inherently more talented.",
+      "D) indicates that the researchers compared children with similar backgrounds to isolate geography's effect."
+    ],
+    correctAnswer: 3,
+    explanation: "'Otherwise identical' means the children were similar in all relevant characteristics except geography. This language signals that the researcher controlled for other variables to isolate the geographic effect (D)."
+  },
+  {
+    id: 93,
+    category: "Information and Ideas",
+    difficulty: "Easy",
+    passage: `Honeybees communicate the location of food sources through a behavior known as the \"waggle dance.\" A forager bee returns to the hive and performs a figure-eight pattern, with the angle of the dance indicating the direction relative to the Sun and the duration of the waggle indicating the distance. Other bees observe the dance and then fly directly to the food source.`,
+    question: "According to the passage, the duration of the waggle in a bee's dance communicates:",
+    choices: [
+      "A) the quality of the food source.",
+      "B) the type of flower found.",
+      "C) the direction relative to the Sun.",
+      "D) the distance to the food source."
+    ],
+    correctAnswer: 3,
+    explanation: "The passage explicitly states that 'the duration of the waggle indicating the distance.' Direction is communicated by the angle, not the duration. The correct answer is (D)."
+  },
+
+  // --- Expression of Ideas ---
+  {
+    id: 94,
+    category: "Expression of Ideas",
+    difficulty: "Medium",
+    passage: `A student is writing a research paper about renewable energy adoption. The student wants to emphasize the speed of recent change.\n\n• In 2010, solar energy provided less than 0.1% of global electricity.\n• By 2024, solar provided approximately 6% of global electricity.\n• The cost of solar panels dropped 89% between 2010 and 2024.\n• China, the United States, and India are the three largest solar energy producers.`,
+    question: "Which choice most effectively uses information from the notes to accomplish the student's goal?",
+    choices: [
+      "A) China, the United States, and India lead the world in solar energy production, reflecting a global trend toward renewable energy sources.",
+      "B) Solar energy is one of several renewable energy sources that countries around the world are investing in.",
+      "C) The cost of solar panels has decreased significantly over the past decade, making solar energy more affordable for homeowners.",
+      "D) Solar energy's share of global electricity has surged from less than 0.1% in 2010 to approximately 6% in 2024, a sixty-fold increase driven in part by an 89% drop in panel costs."
+    ],
+    correctAnswer: 3,
+    explanation: "The student wants to emphasize speed of change. Only B highlights the dramatic growth (0.1% to 6%) with a time frame (2010-2024) and connects it to cost reduction, conveying rapid transformation (D)."
+  },
+  {
+    id: 95,
+    category: "Expression of Ideas",
+    difficulty: "Hard",
+    passage: `Text 1: Neuroscientist Antonio Damasio argues that emotions are essential to rational decision-making. His research on patients with damage to the ventromedial prefrontal cortex — a brain region linking emotion to cognition — shows that while these patients retain normal intelligence, they make catastrophically poor life decisions. Damasio concludes that \"gut feelings\" are not obstacles to reason but necessary inputs to it.\n\nText 2: Behavioral economist Daniel Kahneman distinguishes between two cognitive systems: System 1 (fast, intuitive, emotional) and System 2 (slow, deliberate, logical). While Kahneman acknowledges that System 1 is essential for daily functioning, he documents dozens of systematic biases it produces — from anchoring to availability bias — and argues that better decisions typically require engaging System 2 to override emotional impulses.`,
+    question: "Damasio would most likely respond to Kahneman's framework by arguing that:",
+    choices: [
+      "A) System 2 thinking is always superior to System 1 thinking.",
+      "B) Kahneman's research methodology is fundamentally flawed.",
+      "C) the biases Kahneman identifies are actually rare in real-world settings.",
+      "D) overriding emotional input entirely would impair rather than improve decision quality."
+    ],
+    correctAnswer: 3,
+    explanation: "Damasio's core argument is that emotions are 'necessary inputs' to reason, and patients without emotional input make 'catastrophically poor decisions.' He would counter Kahneman's suggestion to override emotions by arguing this would impair decisions (D)."
+  },
+  {
+    id: 96,
+    category: "Expression of Ideas",
+    difficulty: "Medium",
+    passage: `Throughout the 19th century, doctors dismissed the idea that handwashing could prevent disease. When Hungarian physician Ignaz Semmelweis demonstrated in 1847 that handwashing with chlorinated lime solution dramatically reduced maternal mortality, the medical establishment rejected his findings. Semmelweis was ridiculed, lost his position, and eventually died in an asylum. Decades later, Louis Pasteur's germ theory vindicated Semmelweis's work, and handwashing became standard medical practice.`,
+    question: "The author would most likely agree with which statement?",
+    choices: [
+      "A) Scientific institutions always quickly adopt evidence-based practices.",
+      "B) Pasteur deserves more credit than Semmelweis for promoting handwashing.",
+      "C) Modern medicine no longer resists new ideas the way it did in the 19th century.",
+      "D) Valid scientific findings can be rejected by the establishment before eventually being accepted."
+    ],
+    correctAnswer: 3,
+    explanation: "The passage tells a story of correct findings being rejected then vindicated decades later. This directly supports the idea that valid science can face institutional resistance before acceptance (D). A is contradicted by the passage."
+  },
+
+  // --- Mixed categories, varied difficulty ---
+  {
+    id: 97,
+    category: "Craft and Structure",
+    difficulty: "Easy",
+    passage: `The village had exactly one doctor, one school, one church, and one bar. On any given evening, at least three of these four institutions were addressing the same problem.`,
+    question: "The tone of the passage is best described as:",
+    choices: [
+      "A) tragic and despairing.",
+      "B) wryly humorous.",
+      "C) nostalgic and sentimental.",
+      "D) clinically objective."
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"wryly","definition":"in a way that expresses dry, often ironic humor"}],
+    explanation: "The passage sets up a factual-sounding list, then delivers a punchline implying the village has a major problem (likely alcoholism). This deadpan delivery of a dark observation is wryly humorous (B)."
+  },
+  {
+    id: 98,
+    category: "Information and Ideas",
+    difficulty: "Medium",
+    passage: `Researchers studying the placebo effect found that the color of a pill influences its perceived effectiveness. In clinical trials, blue pills were more effective as sedatives than red pills, while red pills were more effective as stimulants. Larger pills produced stronger placebo effects than smaller ones, and capsules outperformed tablets. Most strikingly, placebo injections were more effective than placebo pills, and placebo surgeries were more effective than placebo injections.`,
+    question: "The passage presents the examples in an order that primarily serves to:",
+    choices: [
+      "A) rank medical treatments from least to most expensive.",
+      "B) demonstrate an escalating pattern where more invasive placebos produce stronger effects.",
+      "C) argue that doctors should prescribe placebos instead of real medication.",
+      "D) prove that all medical treatments are essentially placebos."
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"placebo","definition":"a treatment with no therapeutic effect, used as a control in testing new drugs"}],
+    explanation: "The examples escalate: color → size → form (capsule vs tablet) → injection → surgery. Each step is more invasive/dramatic, and each produces a stronger effect. This escalating pattern is the structural principle (B)."
+  },
+  {
+    id: 99,
+    category: "Transitions",
+    difficulty: "Medium",
+    passage: `Many parents limit their children's screen time based on the assumption that excessive device use harms cognitive development. _______ a 2024 meta-analysis of 87 studies found no consistent evidence linking moderate screen time to negative cognitive outcomes in children, though the authors cautioned that content quality matters more than duration.`,
+    question: "Which choice completes the text with the most logical transition?",
+    choices: [
+      "A) To support this concern,",
+      "B) However,",
+      "C) Similarly,",
+      "D) As a result,"
+    ],
+    correctAnswer: 1,
+    explanation: "Parents assume screen time is harmful, but the study found no consistent evidence of harm — a direct contradiction. 'However' (B) signals this contrast."
+  },
+  {
+    id: 100,
+    category: "Expression of Ideas",
+    difficulty: "Hard",
+    passage: `Text 1: Political philosopher John Rawls proposed the \"veil of ignorance\" thought experiment: if you had to design a society's rules without knowing what position you'd hold in it — your race, gender, wealth, abilities — you would design a system that protects the most vulnerable, because you might end up being one of them. Rawls argued this produces the most just society.\n\nText 2: Philosopher Robert Nozick countered that Rawls's framework ignores how things are acquired. If someone earns wealth through legitimate means — talent, hard work, voluntary exchange — taking it through redistribution violates their rights, regardless of what a hypothetical person behind a veil might prefer. Nozick argued that justice is about respecting the process, not engineering the outcome.`,
+    question: "The fundamental disagreement between Rawls and Nozick concerns:",
+    choices: [
+      "A) whether wealthy people work harder than poor people.",
+      "B) whether thought experiments are valid philosophical tools.",
+      "C) whether justice should be defined by outcomes or by the processes that produce them.",
+      "D) whether government should exist at all."
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"veil of ignorance","definition":"a thought experiment where decision-makers don't know their own position in society"},{"word":"redistribution","definition":"the transfer of income or wealth from some individuals to others through social mechanisms"}],
+    explanation: "Rawls focuses on outcomes (protect the vulnerable, design fair results). Nozick focuses on process (respect how things were acquired). Their core disagreement is outcomes vs. process (C)."
+  },
 ]
 
 export default questions
