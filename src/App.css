@@ -908,6 +908,90 @@ body {
   }
 }
 
+/* Arena Mode */
+.arena {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.arena-hud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  padding: 0 0.15rem;
+}
+
+.arena-hud-left,
+.arena-hud-right {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  min-width: 80px;
+}
+
+.arena-hud-left {
+  justify-content: flex-start;
+}
+
+.arena-hud-right {
+  justify-content: flex-end;
+}
+
+.arena-hud-center {
+  text-align: center;
+}
+
+.arena-count {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.arena-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+
+.arena-btn:hover {
+  color: var(--text);
+  border-color: var(--primary);
+}
+
+.arena-btn-active {
+  background: rgba(59, 130, 246, 0.1);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.arena-filters {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.85rem;
+  margin-bottom: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  animation: slideDown 0.15s ease-out;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 /* Previous Question */
 .btn-prev {
   background: transparent;

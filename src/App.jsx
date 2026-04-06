@@ -1,7 +1,6 @@
 import { useState, useCallback, useMemo, useEffect, useRef } from 'react'
 import Navbar from './components/Navbar'
 import QuestionCard from './components/QuestionCard'
-import ProgressBar from './components/ProgressBar'
 import ReviewQueue from './components/ReviewQueue'
 import questions from './data/questions'
 import StatsPanel from './components/StatsPanel'
@@ -82,6 +81,7 @@ export default function App() {
   const [reviewingPrev, setReviewingPrev] = useState(null)
   const [starredOnly, setStarredOnly] = useState(false)
   const [starredIds, setStarredIds] = useState(() => getStarred())
+  const [showFilters, setShowFilters] = useState(false)
 
   // Session state
   const [sessionMode, setSessionMode] = useState('free') // 'free' | 'weakness' | 'timed'
@@ -288,7 +288,6 @@ export default function App() {
                     Exit
                   </button>
                 </div>
-                <ProgressBar current={sessionIndex} total={sessionQueue.length} />
                 {currentQuestion && (
                   <QuestionCard
                     key={key}
@@ -300,113 +299,108 @@ export default function App() {
                 )}
               </div>
             ) : (
-              <>
-                <div className="session-modes">
-                  <button className="session-mode-btn session-mode-timed" onClick={startTimed}>
-                    <span className="session-mode-icon">⏱</span>
-                    <span className="session-mode-label">
-                      <strong>Timed Test</strong>
-                      <small>{TIMED_TEST_COUNT} questions · 32 min</small>
-                    </span>
-                  </button>
-                  <button className="session-mode-btn session-mode-weakness" onClick={startWeakness}>
-                    <span className="session-mode-icon">🎯</span>
-                    <span className="session-mode-label">
-                      <strong>Weakness Drill</strong>
-                      <small>{WEAKNESS_COUNT} questions from weak areas</small>
-                    </span>
-                  </button>
-                </div>
-
-                <div className="category-filters">
-                  {CATEGORIES.map(cat => (
-                    <button
-                      key={cat}
-                      className={`category-chip ${category === cat ? 'active' : ''}`}
-                      onClick={() => setCategory(cat)}
-                    >
-                      {cat}
-                      <span className="chip-count">
-                        {cat === 'All' ? questions.length : questions.filter(q => q.category === cat).length}
-                      </span>
+              <div className="arena">
+                {/* Minimal HUD */}
+                <div className="arena-hud">
+                  <div className="arena-hud-left">
+                    {lastAnsweredQuestion && !reviewingPrev && (
+                      <button className="arena-btn" onClick={handlePrevious} title="Previous question">
+                        ←
+                      </button>
+                    )}
+                    {reviewingPrev && (
+                      <button className="arena-btn" onClick={handleBackToCurrent}>
+                        Back
+                      </button>
+                    )}
+                  </div>
+                  <div className="arena-hud-center">
+                    <span className="arena-count">{answeredInCategory} / {filtered.length}</span>
+                  </div>
+                  <div className="arena-hud-right">
+                    <button className="arena-btn" onClick={startWeakness} title="Weakness Drill">🎯</button>
+                    <button className="arena-btn" onClick={startTimed} title="Timed Test">⏱</button>
+                    <button className={`arena-btn ${showFilters ? 'arena-btn-active' : ''}`} onClick={() => setShowFilters(f => !f)} title="Filters">
+                      ☰
                     </button>
-                  ))}
-                </div>
-                <div className="category-filters">
-                  {DIFFICULTIES.map(diff => (
-                    <button
-                      key={diff}
-                      className={`category-chip diff-chip ${difficulty === diff ? 'active' : ''} ${diff !== 'All Levels' ? 'diff-' + diff.toLowerCase() : ''}`}
-                      onClick={() => setDifficulty(diff)}
-                    >
-                      {diff}
-                      <span className="chip-count">
-                        {diff === 'All Levels' ? questions.length : questions.filter(q => q.difficulty === diff).length}
-                      </span>
-                    </button>
-                  ))}
-                  <button
-                    className={`category-chip starred-chip ${starredOnly ? 'active' : ''}`}
-                    onClick={() => {
-                      setStarredIds(getStarred())
-                      setStarredOnly(s => !s)
-                    }}
-                    title="Show only starred questions"
-                  >
-                    {starredOnly ? '★' : '☆'} Starred
-                    <span className="chip-count">{starredIds.length}</span>
-                  </button>
+                  </div>
                 </div>
 
-                <ProgressBar current={answeredInCategory} total={filtered.length} />
-
-                {reviewingPrev ? (
-                  <div className="prev-review">
-                    <div className="prev-review-header">
-                      <span className="prev-review-label">Reviewing previous question</span>
-                      <button className="btn-secondary" onClick={handleBackToCurrent}>
-                        Back to Current
+                {/* Collapsible filter drawer */}
+                {showFilters && (
+                  <div className="arena-filters">
+                    <div className="category-filters">
+                      {CATEGORIES.map(cat => (
+                        <button
+                          key={cat}
+                          className={`category-chip ${category === cat ? 'active' : ''}`}
+                          onClick={() => setCategory(cat)}
+                        >
+                          {cat}
+                          <span className="chip-count">
+                            {cat === 'All' ? questions.length : questions.filter(q => q.category === cat).length}
+                          </span>
+                        </button>
+                      ))}
+                    </div>
+                    <div className="category-filters">
+                      {DIFFICULTIES.map(diff => (
+                        <button
+                          key={diff}
+                          className={`category-chip diff-chip ${difficulty === diff ? 'active' : ''} ${diff !== 'All Levels' ? 'diff-' + diff.toLowerCase() : ''}`}
+                          onClick={() => setDifficulty(diff)}
+                        >
+                          {diff}
+                          <span className="chip-count">
+                            {diff === 'All Levels' ? questions.length : questions.filter(q => q.difficulty === diff).length}
+                          </span>
+                        </button>
+                      ))}
+                      <button
+                        className={`category-chip starred-chip ${starredOnly ? 'active' : ''}`}
+                        onClick={() => {
+                          setStarredIds(getStarred())
+                          setStarredOnly(s => !s)
+                        }}
+                      >
+                        {starredOnly ? '★' : '☆'} Starred
+                        <span className="chip-count">{starredIds.length}</span>
                       </button>
                     </div>
-                    <QuestionCard
-                      key={'prev-' + reviewingPrev.id}
-                      question={reviewingPrev}
-                      onAnswer={() => {}}
-                      onNext={handleBackToCurrent}
-                      reviewOnly
-                    />
+                    <button className="btn-primary" onClick={handleReset} style={{ fontSize: '0.78rem', padding: '0.4rem 0.8rem' }}>
+                      Reset Progress
+                    </button>
                   </div>
+                )}
+
+                {/* The arena — just the question */}
+                {reviewingPrev ? (
+                  <QuestionCard
+                    key={'prev-' + reviewingPrev.id}
+                    question={reviewingPrev}
+                    onAnswer={() => {}}
+                    onNext={handleBackToCurrent}
+                    reviewOnly
+                  />
                 ) : isComplete ? (
                   <div className="complete-state">
                     <h2>All done!</h2>
-                    <p>You've completed all {filtered.length} {category === 'All' ? '' : category + ' '}questions.</p>
-                    <p>Check your Review queue for any missed questions.</p>
-                    {lastAnsweredQuestion && (
-                      <button className="btn-secondary" onClick={handlePrevious} style={{ marginTop: '0.75rem' }}>
-                        Review Previous Question
-                      </button>
-                    )}
-                    <button className="btn-primary" onClick={handleReset} style={{ marginTop: '0.75rem' }}>
+                    <p>You've completed all {filtered.length} questions in this set.</p>
+                    <p>Try a different filter, or reset progress to replay.</p>
+                    <button className="btn-primary" onClick={handleReset} style={{ marginTop: '1rem' }}>
                       Start Over
                     </button>
                   </div>
                 ) : (
-                  <>
-                    {lastAnsweredQuestion && (
-                      <button className="btn-prev" onClick={handlePrevious}>
-                        ← Previous Question
-                      </button>
-                    )}
-                    <QuestionCard
-                      key={key}
-                      question={currentQuestion}
-                      onAnswer={handleAnswer}
-                      onNext={handleNext}
-                      onStarChange={() => setStarredIds(getStarred())}
-                    />
-                  </>
+                  <QuestionCard
+                    key={key}
+                    question={currentQuestion}
+                    onAnswer={handleAnswer}
+                    onNext={handleNext}
+                    onStarChange={() => setStarredIds(getStarred())}
+                  />
                 )}
-              </>
+              </div>
             )}
           </>
         ) : view === 'review' ? (
