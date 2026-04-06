@@ -169,10 +169,13 @@ export default function App() {
       setStarredIds(getStarred())
       setKey(k => k + 1)
     } else {
-      // Session mode: advance through queue
+      // Session mode: mark as answered in global progress too
+      if (currentQuestion) {
+        markAnswered(currentQuestion.id)
+        setAnsweredIds(prev => [...prev, currentQuestion.id])
+      }
       const nextIdx = sessionIndex + 1
       if (nextIdx >= sessionQueue.length) {
-        // Session complete
         setSessionResults({
           correct: sessionCorrect,
           total: sessionQueue.length,
