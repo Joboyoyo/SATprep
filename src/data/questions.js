@@ -22,12 +22,12 @@ const questions = [
     passage: `The following is adapted from a study on urban ecology. Cities, often perceived as concrete jungles devoid of nature, are in fact teeming with biodiversity. Recent studies have shown that urban areas can support a surprising variety of species, from peregrine falcons nesting on skyscrapers to coyotes navigating suburban neighborhoods. However, this urban wildlife faces unique challenges, including habitat fragmentation, pollution, and the constant encroachment of human development. Researchers argue that understanding urban ecosystems is crucial not only for conservation but also for improving the quality of life for city dwellers themselves.`,
     question: "As used in the passage, 'encroachment' most nearly means:",
     choices: [
-      "A) retreat",
-      "B) gradual intrusion",
+      "A) gradual intrusion",
+      "B) retreat",
       "C) sudden destruction",
       "D) careful planning"
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     vocabWords: [{"word":"encroachment","definition":"gradual intrusion beyond proper or established limits"},{"word":"devoid","definition":"entirely lacking or free from"}],
     explanation: "'Encroachment' means a gradual advance beyond proper limits. In context, human development is slowly intruding into wildlife habitats."
   },
@@ -53,13 +53,13 @@ const questions = [
     passage: `In 1848, a railroad construction foreman named Phineas Gage survived a remarkable accident: a large iron rod was driven completely through his skull, destroying much of his left frontal lobe. Although Gage survived and could walk and speak, his personality changed dramatically. Once reliable and well-liked, he became impulsive, irreverent, and unable to stick to plans. His case became one of the first to suggest that the frontal lobes play a critical role in personality and decision-making, fundamentally changing our understanding of brain function.`,
     question: "Based on the passage, which of the following was true about Gage BEFORE the accident?",
     choices: [
-      "A) He was impulsive and irreverent.",
+      "A) He was considered dependable by others.",
       "B) He had difficulty making decisions.",
-      "C) He was considered dependable by others.",
+      "C) He was impulsive and irreverent.",
       "D) He had a history of brain injuries."
     ],
-    correctAnswer: 2,
-    explanation: "The passage says he was 'once reliable and well-liked' before the accident, meaning he was considered dependable (C)."
+    correctAnswer: 0,
+    explanation: "The passage says he was 'once reliable and well-liked' before the accident, meaning he was considered dependable (A)."
   },
   {
     id: 5,
@@ -68,14 +68,14 @@ const questions = [
     passage: `The debate over whether homework improves academic achievement has persisted for decades. Proponents argue that homework reinforces classroom learning and builds study habits. Critics, however, point to research showing that excessive homework can increase stress, reduce family time, and may not significantly boost performance, particularly for younger students. A 2006 meta-analysis by Harris Cooper found that homework had a positive effect on achievement for high school students but little to no impact for elementary school students. This nuanced finding suggests that a one-size-fits-all homework policy may be misguided.`,
     question: "Which choice best describes the structure of the passage?",
     choices: [
-      "A) A claim is made, and then evidence is presented to refute it entirely.",
-      "B) Two opposing viewpoints are presented, followed by research that partially supports each.",
+      "A) Two opposing viewpoints are presented, followed by research that partially supports each.",
+      "B) A claim is made, and then evidence is presented to refute it entirely.",
       "C) A historical overview leads to a definitive conclusion about homework policy.",
       "D) An anecdote introduces a broader discussion of educational theory."
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     vocabWords: [{"word":"meta-analysis","definition":"a statistical method that combines results from multiple studies"},{"word":"proponents","definition":"people who advocate for or support something"}],
-    explanation: "The passage presents pro-homework and anti-homework views, then cites Cooper's research which supports homework for older but not younger students — partially supporting each side (B)."
+    explanation: "The passage presents pro-homework and anti-homework views, then cites Cooper's research which supports homework for older but not younger students — partially supporting each side (A)."
   },
   {
     id: 6,
@@ -84,12 +84,12 @@ const questions = [
     passage: `The debate over whether homework improves academic achievement has persisted for decades. Proponents argue that homework reinforces classroom learning and builds study habits. Critics, however, point to research showing that excessive homework can increase stress, reduce family time, and may not significantly boost performance, particularly for younger students. A 2006 meta-analysis by Harris Cooper found that homework had a positive effect on achievement for high school students but little to no impact for elementary school students. This nuanced finding suggests that a one-size-fits-all homework policy may be misguided.`,
     question: "The word 'nuanced' in the final sentence most nearly means:",
     choices: [
-      "A) biased",
-      "B) subtle and complex",
+      "A) subtle and complex",
+      "B) biased",
       "C) controversial",
       "D) widely accepted"
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     vocabWords: [{"word":"nuanced","definition":"characterized by subtle shades of meaning or expression"}],
     explanation: "'Nuanced' means showing subtle distinctions. Cooper's finding is complex because homework helps some age groups but not others."
   },
@@ -102,12 +102,12 @@ const questions = [
     choices: [
       "A) dismissive, because it is not a technological innovation.",
       "B) skeptical, because the cost would be prohibitive.",
-      "C) supportive, because it is a practical and cost-effective solution.",
-      "D) neutral, presenting it as one of many equally viable options."
+      "C) neutral, presenting it as one of many equally viable options.",
+      "D) supportive, because it is a practical and cost-effective solution."
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     vocabWords: [{"word":"desalination","definition":"the process of removing salt from seawater to make it drinkable"},{"word":"infrastructure","definition":"the basic physical systems of a society (roads, bridges, pipes, etc.)"}],
-    explanation: "The author says fixing leaks 'could dramatically improve water availability at a fraction of the cost,' clearly supporting this approach as practical (C)."
+    explanation: "The author says fixing leaks 'could dramatically improve water availability at a fraction of the cost,' clearly supporting this approach as practical (D)."
   },
   {
     id: 8,
@@ -117,13 +117,13 @@ const questions = [
     question: "The passage implies that desalination is:",
     choices: [
       "A) the most effective solution to water scarcity.",
-      "B) a promising but resource-demanding technology.",
+      "B) cheaper than fixing aging infrastructure.",
       "C) already widely implemented in most cities.",
-      "D) cheaper than fixing aging infrastructure."
+      "D) a promising but resource-demanding technology."
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     vocabWords: [{"word":"energy-intensive","definition":"requiring a large amount of energy to produce or operate"}],
-    explanation: "The passage says desalination 'shows promise' but is 'expensive and energy-intensive,' making B the best inference."
+    explanation: "The passage says desalination 'shows promise' but is 'expensive and energy-intensive,' making D the best inference."
   },
   {
     id: 9,
@@ -134,12 +134,12 @@ const questions = [
     choices: [
       "A) Julius Caesar was solely responsible for burning the library.",
       "B) Emperor Theodosius ordered the library's complete destruction.",
-      "C) The library's decline was a gradual process rather than a single event.",
-      "D) Historians agree on when and how the library was destroyed."
+      "C) Historians agree on when and how the library was destroyed.",
+      "D) The library's decline was a gradual process rather than a single event."
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     vocabWords: [{"word":"repository","definition":"a place where things are stored in large quantities"},{"word":"catastrophic","definition":"involving or causing sudden great damage or suffering"}],
-    explanation: "The final sentence explicitly states 'no single catastrophic event destroyed the library; rather, it declined gradually,' supporting C."
+    explanation: "The final sentence explicitly states 'no single catastrophic event destroyed the library; rather, it declined gradually,' supporting D."
   },
   {
     id: 10,
@@ -149,13 +149,13 @@ const questions = [
     question: "The phrase 'repository of knowledge' most nearly means:",
     choices: [
       "A) a school for training scholars",
-      "B) a place where information is stored",
+      "B) a marketplace for selling books",
       "C) a government building",
-      "D) a marketplace for selling books"
+      "D) a place where information is stored"
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     vocabWords: [{"word":"repository","definition":"a place where things are stored or deposited"}],
-    explanation: "A 'repository' is a place where things are stored or deposited. In context, the library stored scrolls containing knowledge (B)."
+    explanation: "A 'repository' is a place where things are stored or deposited. In context, the library stored scrolls containing knowledge (D)."
   },
   {
     id: 11,
@@ -165,13 +165,13 @@ const questions = [
     question: "The primary purpose of the passage is to:",
     choices: [
       "A) prove that emotional intelligence is more important than IQ.",
-      "B) provide an overview of emotional intelligence and the debate surrounding it.",
-      "C) argue that emotional intelligence research lacks scientific validity.",
+      "B) argue that emotional intelligence research lacks scientific validity.",
+      "C) provide an overview of emotional intelligence and the debate surrounding it.",
       "D) explain how emotional intelligence is measured."
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     vocabWords: [{"word":"emotional intelligence","definition":"the ability to recognize, understand, and manage emotions"},{"word":"rigor","definition":"the quality of being extremely thorough and careful"}],
-    explanation: "The passage introduces EQ, presents Goleman's claims, notes criticism, and mentions its influence — an overview with both sides of the debate (B)."
+    explanation: "The passage introduces EQ, presents Goleman's claims, notes criticism, and mentions its influence — an overview with both sides of the debate (C)."
   },
   {
     id: 12,
@@ -180,13 +180,13 @@ const questions = [
     passage: `The concept of \"emotional intelligence\" — the ability to recognize, understand, and manage one's own emotions and those of others — was popularized by psychologist Daniel Goleman in his 1995 book. Goleman argued that emotional intelligence, or EQ, could be more important than traditional IQ in determining success in life and work. While some researchers have supported this claim, others have questioned the scientific rigor of EQ measurements and whether emotional intelligence is truly distinct from personality traits. Despite this debate, the concept has had an enormous influence on education and corporate training.`,
     question: "Which of the following, if true, would most weaken Goleman's argument?",
     choices: [
-      "A) Many successful CEOs score high on emotional intelligence tests.",
-      "B) Studies show that EQ scores are strongly correlated with existing personality assessments and do not predict outcomes beyond what IQ already predicts.",
+      "A) Studies show that EQ scores are strongly correlated with existing personality assessments and do not predict outcomes beyond what IQ already predicts.",
+      "B) Many successful CEOs score high on emotional intelligence tests.",
       "C) Emotional intelligence training programs have become popular in schools.",
       "D) Goleman's book sold millions of copies worldwide."
     ],
-    correctAnswer: 1,
-    explanation: "If EQ overlaps with personality and doesn't predict beyond IQ, it undermines Goleman's claim that EQ is distinctly more important than IQ (B)."
+    correctAnswer: 0,
+    explanation: "If EQ overlaps with personality and doesn't predict beyond IQ, it undermines Goleman's claim that EQ is distinctly more important than IQ (A)."
   },
   {
     id: 13,
@@ -195,14 +195,14 @@ const questions = [
     passage: `When Marie Curie began her doctoral research in Paris in the 1890s, she chose to investigate a curious phenomenon recently discovered by Henri Becquerel: certain uranium compounds emitted rays that could fog a photographic plate. Curie hypothesized that this \"radioactivity\" — a term she coined — was an atomic property rather than a chemical one. Through painstaking experimentation, she and her husband Pierre isolated two new elements, polonium and radium, from tons of pitchblende ore. Her work earned her two Nobel Prizes and fundamentally altered our understanding of the atom, though the health consequences of prolonged radiation exposure would only become apparent years later.`,
     question: "The passage suggests that Curie's hypothesis about radioactivity was significant because it:",
     choices: [
-      "A) proved that Becquerel's earlier discovery was incorrect.",
-      "B) shifted the understanding of radioactivity from a chemical to an atomic phenomenon.",
+      "A) shifted the understanding of radioactivity from a chemical to an atomic phenomenon.",
+      "B) proved that Becquerel's earlier discovery was incorrect.",
       "C) led directly to the development of nuclear weapons.",
       "D) was the first scientific hypothesis ever tested by a woman."
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     vocabWords: [{"word":"radioactivity","definition":"the emission of ionizing radiation by unstable atomic nuclei"},{"word":"pitchblende","definition":"a mineral that is the main ore of uranium"}],
-    explanation: "Curie hypothesized radioactivity was 'an atomic property rather than a chemical one,' which was a fundamental shift in understanding (B)."
+    explanation: "Curie hypothesized radioactivity was 'an atomic property rather than a chemical one,' which was a fundamental shift in understanding (A)."
   },
   {
     id: 14,
@@ -213,12 +213,12 @@ const questions = [
     choices: [
       "A) diminish the importance of Curie's scientific achievements.",
       "B) suggest that Curie was reckless in her research methods.",
-      "C) add an ironic or poignant dimension to her accomplishments.",
-      "D) argue that radiation research should have been banned."
+      "C) argue that radiation research should have been banned.",
+      "D) add an ironic or poignant dimension to her accomplishments."
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     vocabWords: [{"word":"painstaking","definition":"done with or employing great care and thoroughness"}],
-    explanation: "The clause adds poignancy by noting that the very phenomenon Curie studied ultimately harmed her health — ironic given her groundbreaking success (C)."
+    explanation: "The clause adds poignancy by noting that the very phenomenon Curie studied ultimately harmed her health — ironic given her groundbreaking success (D)."
   },
   {
     id: 15,
@@ -227,13 +227,13 @@ const questions = [
     passage: `Social media platforms have transformed how people consume news. A recent survey found that 55% of American adults get news from social media at least sometimes. While this increases access to information, it also raises concerns about misinformation. Unlike traditional news outlets, social media platforms use algorithms that prioritize engagement over accuracy, often amplifying sensational or misleading content. Furthermore, the echo chamber effect — where users are primarily exposed to viewpoints that reinforce their existing beliefs — can deepen political polarization and reduce exposure to diverse perspectives.`,
     question: "Based on the passage, the 'echo chamber effect' most directly contributes to:",
     choices: [
-      "A) increased engagement on social media platforms.",
+      "A) deeper political divisions among people.",
       "B) better-informed citizens.",
-      "C) deeper political divisions among people.",
+      "C) increased engagement on social media platforms.",
       "D) more accurate news reporting."
     ],
-    correctAnswer: 2,
-    explanation: "The passage explicitly states the echo chamber effect 'can deepen political polarization,' which means deeper political divisions (C)."
+    correctAnswer: 0,
+    explanation: "The passage explicitly states the echo chamber effect 'can deepen political polarization,' which means deeper political divisions (A)."
   },
   {
     id: 16,
@@ -243,12 +243,12 @@ const questions = [
     question: "The passage draws a contrast between social media and traditional news outlets primarily in terms of:",
     choices: [
       "A) their audience size.",
-      "B) what their content distribution systems prioritize.",
-      "C) the political leanings of their journalists.",
+      "B) the political leanings of their journalists.",
+      "C) what their content distribution systems prioritize.",
       "D) how much they charge for subscriptions."
     ],
-    correctAnswer: 1,
-    explanation: "The key contrast is that social media algorithms 'prioritize engagement over accuracy' unlike traditional outlets, a difference in content distribution priorities (B)."
+    correctAnswer: 2,
+    explanation: "The key contrast is that social media algorithms 'prioritize engagement over accuracy' unlike traditional outlets, a difference in content distribution priorities (C)."
   },
   {
     id: 17,
@@ -258,13 +258,13 @@ const questions = [
     question: "The author mentions Europa primarily to:",
     choices: [
       "A) argue that life definitely exists on Jupiter's moons.",
-      "B) provide an example of where extremophile-like life might be found beyond Earth.",
+      "B) suggest that NASA should prioritize missions to Europa.",
       "C) compare the Mariana Trench to conditions on Jupiter.",
-      "D) suggest that NASA should prioritize missions to Europa."
+      "D) provide an example of where extremophile-like life might be found beyond Earth."
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     vocabWords: [{"word":"extremophiles","definition":"organisms that thrive in physically or chemically extreme conditions"},{"word":"extraterrestrial","definition":"of or from outside the earth or its atmosphere"}],
-    explanation: "Europa is mentioned as an example of a place where life 'could exist' given what we've learned from deep-sea extremophiles (B)."
+    explanation: "Europa is mentioned as an example of a place where life 'could exist' given what we've learned from deep-sea extremophiles (D)."
   },
   {
     id: 18,
@@ -273,13 +273,13 @@ const questions = [
     passage: `Deep in the Mariana Trench, nearly 11 kilometers below the ocean's surface, scientists have discovered thriving communities of microorganisms. These extremophiles survive in conditions of crushing pressure, near-freezing temperatures, and complete darkness. They derive energy not from sunlight, as most life on Earth does, but from chemical reactions involving hydrogen and sulfur compounds seeping from the ocean floor. The discovery of these organisms has profound implications for the search for extraterrestrial life, suggesting that life could exist on other planets or moons where conditions were previously deemed too harsh — such as beneath the icy surface of Jupiter's moon Europa.`,
     question: "According to the passage, extremophiles differ from most life on Earth in that they:",
     choices: [
-      "A) can survive in sunlight.",
+      "A) obtain energy from chemical reactions rather than sunlight.",
       "B) require oxygen to survive.",
-      "C) obtain energy from chemical reactions rather than sunlight.",
+      "C) can survive in sunlight.",
       "D) live in warm, shallow waters."
     ],
-    correctAnswer: 2,
-    explanation: "The passage states they 'derive energy not from sunlight... but from chemical reactions,' which is what sets them apart (C)."
+    correctAnswer: 0,
+    explanation: "The passage states they 'derive energy not from sunlight... but from chemical reactions,' which is what sets them apart (A)."
   },
   {
     id: 19,
@@ -305,13 +305,13 @@ const questions = [
     question: "As used in the passage, 'disinvestment' most nearly means:",
     choices: [
       "A) excessive government spending",
-      "B) the withdrawal or withholding of financial resources",
+      "B) foreign investment in domestic markets",
       "C) private charitable donations",
-      "D) foreign investment in domestic markets"
+      "D) the withdrawal or withholding of financial resources"
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     vocabWords: [{"word":"disinvestment","definition":"the withdrawal or withholding of financial resources"},{"word":"disparities","definition":"great differences or inequalities"}],
-    explanation: "'Disinvestment' refers to the withdrawal of investment. In context, redlined neighborhoods were denied financial services, meaning resources were withheld (B)."
+    explanation: "'Disinvestment' refers to the withdrawal of investment. In context, redlined neighborhoods were denied financial services, meaning resources were withheld (D)."
   },
   {
     id: 21,
@@ -321,13 +321,13 @@ const questions = [
     question: "The passage presents bilingualism research as:",
     choices: [
       "A) conclusive and universally accepted.",
-      "B) promising but subject to valid methodological concerns.",
+      "B) relevant only to elderly populations.",
       "C) entirely discredited by recent findings.",
-      "D) relevant only to elderly populations."
+      "D) promising but subject to valid methodological concerns."
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     vocabWords: [{"word":"cognitive flexibility","definition":"the mental ability to switch between thinking about different concepts"},{"word":"dementia","definition":"a chronic condition of deteriorating mental processes"}],
-    explanation: "The passage describes cognitive benefits ('promising') but notes 'methodological limitations' from critics, making B the most accurate characterization."
+    explanation: "The passage describes cognitive benefits ('promising') but notes 'methodological limitations' from critics, making D the most accurate characterization."
   },
   {
     id: 22,
@@ -337,12 +337,12 @@ const questions = [
     question: "According to the passage, executive function involves the ability to:",
     choices: [
       "A) speak multiple languages fluently.",
-      "B) memorize large amounts of vocabulary.",
-      "C) plan, focus, and manage multiple tasks.",
+      "B) plan, focus, and manage multiple tasks.",
+      "C) memorize large amounts of vocabulary.",
       "D) resolve interpersonal conflicts."
     ],
-    correctAnswer: 2,
-    explanation: "The passage defines executive function as 'the brain's ability to plan, focus, and juggle multiple tasks' (C)."
+    correctAnswer: 1,
+    explanation: "The passage defines executive function as 'the brain's ability to plan, focus, and juggle multiple tasks' (B)."
   },
   {
     id: 23,
@@ -351,14 +351,14 @@ const questions = [
     passage: `In recent years, the concept of \"food deserts\" — urban areas where residents lack access to affordable, nutritious food — has gained widespread attention. However, some researchers argue that the term oversimplifies the problem. Access to a grocery store does not guarantee healthy eating; factors such as food literacy, cooking skills, time constraints, and cultural preferences also play significant roles. Moreover, studies that introduced new supermarkets into food deserts found little change in residents' dietary habits. This has led some scholars to prefer the term \"food apartheid,\" which emphasizes the systemic racism and economic inequality that shape food access rather than simply the geographic availability of stores.`,
     question: "The passage suggests that introducing supermarkets to food deserts:",
     choices: [
-      "A) completely solves the problem of unhealthy eating in those areas.",
-      "B) has been shown to have limited impact on residents' actual diets.",
+      "A) has been shown to have limited impact on residents' actual diets.",
+      "B) completely solves the problem of unhealthy eating in those areas.",
       "C) is too expensive to be a practical solution.",
       "D) is opposed by most food policy researchers."
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     vocabWords: [{"word":"food literacy","definition":"the understanding of the impact of food choices on health and environment"}],
-    explanation: "The passage states that studies 'found little change in residents' dietary habits' when new supermarkets were introduced (B)."
+    explanation: "The passage states that studies 'found little change in residents' dietary habits' when new supermarkets were introduced (A)."
   },
   {
     id: 24,
@@ -368,13 +368,13 @@ const questions = [
     question: "The term 'food apartheid' is preferred by some scholars because it:",
     choices: [
       "A) sounds more alarming and attracts media attention.",
-      "B) highlights systemic social factors rather than just physical proximity to stores.",
-      "C) is a more scientifically precise measurement of food access.",
+      "B) is a more scientifically precise measurement of food access.",
+      "C) highlights systemic social factors rather than just physical proximity to stores.",
       "D) was coined by residents of affected communities."
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     vocabWords: [{"word":"apartheid","definition":"a system of institutionalized racial segregation and discrimination"}],
-    explanation: "The passage says 'food apartheid' emphasizes 'systemic racism and economic inequality' rather than 'geographic availability,' making B correct."
+    explanation: "The passage says 'food apartheid' emphasizes 'systemic racism and economic inequality' rather than 'geographic availability,' making C correct."
   },
   {
     id: 25,
@@ -400,12 +400,12 @@ const questions = [
     question: "The passage indicates that algorithmic bias in healthcare AI could result from:",
     choices: [
       "A) AI systems being too expensive for widespread use.",
-      "B) training data that does not adequately represent all patient populations.",
+      "B) patients not trusting computer-generated diagnoses.",
       "C) radiologists refusing to adopt new technology.",
-      "D) patients not trusting computer-generated diagnoses."
+      "D) training data that does not adequately represent all patient populations."
     ],
-    correctAnswer: 1,
-    explanation: "The passage states bias occurs 'if AI systems are trained on data that underrepresents certain populations' (B)."
+    correctAnswer: 3,
+    explanation: "The passage states bias occurs 'if AI systems are trained on data that underrepresents certain populations' (D)."
   },
   {
     id: 27,
@@ -415,13 +415,13 @@ const questions = [
     question: "The author uses the example of kintsugi to:",
     choices: [
       "A) argue that Japanese art is superior to Western art.",
-      "B) provide a concrete illustration of wabi-sabi philosophy.",
-      "C) explain the technical process of repairing broken pottery.",
+      "B) explain the technical process of repairing broken pottery.",
+      "C) provide a concrete illustration of wabi-sabi philosophy.",
       "D) criticize Western obsession with material possessions."
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     vocabWords: [{"word":"wabi-sabi","definition":"a Japanese aesthetic centered on acceptance of imperfection and transience"},{"word":"kintsugi","definition":"the Japanese art of repairing broken pottery with gold"}],
-    explanation: "Kintsugi is presented as an example ('exemplifies') that makes the abstract concept of wabi-sabi concrete and understandable (B)."
+    explanation: "Kintsugi is presented as an example ('exemplifies') that makes the abstract concept of wabi-sabi concrete and understandable (C)."
   },
   {
     id: 28,
@@ -432,12 +432,12 @@ const questions = [
     choices: [
       "A) all cultures share the same definition of beauty.",
       "B) Western and Japanese aesthetics are fundamentally incompatible.",
-      "C) ideas about beauty are shaped by culture and can change over time.",
-      "D) wabi-sabi will eventually replace Western aesthetic standards."
+      "C) wabi-sabi will eventually replace Western aesthetic standards.",
+      "D) ideas about beauty are shaped by culture and can change over time."
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     vocabWords: [{"word":"aesthetic","definition":"concerned with beauty or the appreciation of beauty"},{"word":"transient","definition":"lasting only for a short time; not permanent"}],
-    explanation: "The final sentence says aesthetic values are 'culturally constructed and constantly evolving,' meaning they are shaped by culture and changeable (C)."
+    explanation: "The final sentence says aesthetic values are 'culturally constructed and constantly evolving,' meaning they are shaped by culture and changeable (D)."
   },
   {
     id: 29,
@@ -481,12 +481,12 @@ const questions = [
     question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
     choices: [
       "A) dates",
-      "B) dated",
-      "C) dating",
+      "B) dating",
+      "C) dated",
       "D) date"
     ],
-    correctAnswer: 1,
-    explanation: "The relative clause 'which ______ from the late Bronze Age' needs a past tense verb to match the past tense narrative. 'Dated' (B) is correct."
+    correctAnswer: 2,
+    explanation: "The relative clause 'which ______ from the late Bronze Age' needs a past tense verb to match the past tense narrative. 'Dated' (C) is correct."
   },
   {
     id: 32,
@@ -495,13 +495,13 @@ const questions = [
     passage: `The city council approved a new ordinance requiring all commercial buildings to install solar panels by 2030. _______ the mayor praised the initiative as a bold step toward carbon neutrality, several business owners expressed concern about the financial burden.`,
     question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
     choices: [
-      "A) While",
+      "A) Unless",
       "B) Since",
       "C) Because",
-      "D) Unless"
+      "D) While"
     ],
-    correctAnswer: 0,
-    explanation: "'While' (A) correctly establishes a contrast between the mayor's praise and the business owners' concerns. 'Since' and 'Because' imply causation, and 'Unless' implies a condition — none of which fits the contrast here."
+    correctAnswer: 3,
+    explanation: "'While' (D) correctly establishes a contrast between the mayor's praise and the business owners' concerns. 'Since' and 'Because' imply causation, and 'Unless' implies a condition — none of which fits the contrast here."
   },
   {
     id: 33,
@@ -510,14 +510,14 @@ const questions = [
     passage: `Renowned for _______ innovative use of color and light, the Impressionist painters of the late 19th century challenged the academic traditions that had dominated European art for centuries.`,
     question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
     choices: [
-      "A) they're",
+      "A) their",
       "B) there",
-      "C) their",
+      "C) they're",
       "D) its"
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     vocabWords: [{"word":"Impressionist","definition":"relating to a 19th-century art movement emphasizing light and color"}],
-    explanation: "'Their' (C) is the correct possessive pronoun referring to 'the Impressionist painters' (plural). 'They're' means 'they are,' 'there' is a location word, and 'its' is singular."
+    explanation: "'Their' (A) is the correct possessive pronoun referring to 'the Impressionist painters' (plural). 'They're' means 'they are,' 'there' is a location word, and 'its' is singular."
   },
   {
     id: 34,
@@ -541,13 +541,13 @@ const questions = [
     passage: `Neither the professor nor her graduate students _______ able to replicate the results of the controversial study, casting doubt on the original researchers' methodology.`,
     question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
     choices: [
-      "A) was",
-      "B) were",
+      "A) were",
+      "B) was",
       "C) is",
       "D) has been"
     ],
-    correctAnswer: 1,
-    explanation: "With 'neither...nor,' the verb agrees with the nearer subject. 'Her graduate students' is plural and nearest, so 'were' (B) is correct. The past tense also matches the context."
+    correctAnswer: 0,
+    explanation: "With 'neither...nor,' the verb agrees with the nearer subject. 'Her graduate students' is plural and nearest, so 'were' (A) is correct. The past tense also matches the context."
   },
   {
     id: 36,
@@ -571,13 +571,13 @@ const questions = [
     passage: `By the time the emergency responders arrived at the _______ the floodwaters had already receded, leaving behind a thick layer of mud and debris.`,
     question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
     choices: [
-      "A) scene:",
+      "A) scene,",
       "B) scene;",
-      "C) scene,",
+      "C) scene:",
       "D) scene"
     ],
-    correctAnswer: 2,
-    explanation: "A comma (C) is needed after 'scene' to complete the introductory clause 'By the time the emergency responders arrived at the scene.' A colon or semicolon would be incorrect here."
+    correctAnswer: 0,
+    explanation: "A comma (A) is needed after 'scene' to complete the introductory clause 'By the time the emergency responders arrived at the scene.' A colon or semicolon would be incorrect here."
   },
   {
     id: 38,
@@ -586,14 +586,14 @@ const questions = [
     passage: `The committee's report recommended that the school district _______ its curriculum to include more hands-on learning experiences and project-based assessments.`,
     question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
     choices: [
-      "A) will revise",
-      "B) revise",
+      "A) revise",
+      "B) will revise",
       "C) revises",
       "D) would have revised"
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     vocabWords: [{"word":"subjunctive","definition":"a verb mood used to express wishes, demands, or hypothetical situations"}],
-    explanation: "After 'recommended that,' the subjunctive mood requires the base form of the verb. 'Revise' (B) is the correct subjunctive form, regardless of the subject."
+    explanation: "After 'recommended that,' the subjunctive mood requires the base form of the verb. 'Revise' (A) is the correct subjunctive form, regardless of the subject."
   },
   {
     id: 39,
@@ -603,12 +603,12 @@ const questions = [
     question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
     choices: [
       "A) competition.",
-      "B) competition,",
+      "B) competition",
       "C) competition;",
-      "D) competition"
+      "D) competition,"
     ],
-    correctAnswer: 1,
-    explanation: "The phrase 'exhausted after 26 miles of grueling competition' is a parenthetical appositive set off by commas. The opening comma appears after 'runner,' so a closing comma (B) is needed after 'competition.'"
+    correctAnswer: 3,
+    explanation: "The phrase 'exhausted after 26 miles of grueling competition' is a parenthetical appositive set off by commas. The opening comma appears after 'runner,' so a closing comma (D) is needed after 'competition.'"
   },
   {
     id: 40,
@@ -618,12 +618,12 @@ const questions = [
     question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
     choices: [
       "A) museums",
-      "B) museum's",
-      "C) museums'",
+      "B) museums'",
+      "C) museum's",
       "D) museums's"
     ],
-    correctAnswer: 1,
-    explanation: "The singular possessive 'museum's' (B) is correct because the passage refers to one museum's collection. 'Museums' is plural without possession, 'museums'' is plural possessive, and 'museums's' is nonstandard."
+    correctAnswer: 2,
+    explanation: "The singular possessive 'museum's' (C) is correct because the passage refers to one museum's collection. 'Museums' is plural without possession, 'museums'' is plural possessive, and 'museums's' is nonstandard."
   },
 
   // ========== TRANSITIONS ==========
@@ -635,13 +635,13 @@ const questions = [
     question: "Which choice completes the text with the most logical transition?",
     choices: [
       "A) For example,",
-      "B) However,",
+      "B) In other words,",
       "C) Similarly,",
-      "D) In other words,"
+      "D) However,"
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     vocabWords: [{"word":"coral bleaching","definition":"the whitening of coral due to stress from temperature changes"}],
-    explanation: "'However' (B) signals a contrast between the ecological importance of reefs and their vulnerability. The first sentence highlights their value; the second introduces a threat."
+    explanation: "'However' (D) signals a contrast between the ecological importance of reefs and their vulnerability. The first sentence highlights their value; the second introduces a threat."
   },
   {
     id: 42,
@@ -697,12 +697,12 @@ const questions = [
     question: "Which choice completes the text with the most logical transition?",
     choices: [
       "A) Moreover,",
-      "B) Therefore,",
+      "B) Yet",
       "C) Accordingly,",
-      "D) Yet"
+      "D) Therefore,"
     ],
-    correctAnswer: 3,
-    explanation: "'Yet' (D) introduces a contrast — while many embrace remote work, some companies have moved in the opposite direction. 'Moreover' would add to the point; 'Therefore' and 'Accordingly' imply consequence."
+    correctAnswer: 1,
+    explanation: "'Yet' (B) introduces a contrast — while many embrace remote work, some companies have moved in the opposite direction. 'Moreover' would add to the point; 'Therefore' and 'Accordingly' imply consequence."
   },
 
   // ========== RHETORICAL SYNTHESIS ==========
@@ -730,11 +730,11 @@ const questions = [
     choices: [
       "A) The study lasted five years and included 3,000 patients who were examined for various health outcomes.",
       "B) Walking is a form of exercise that many people can easily incorporate into their daily routine without special equipment.",
-      "C) A five-year study of 3,000 patients found that daily 30-minute walks reduced cardiovascular disease risk by 35%, leading researchers to recommend physicians prescribe walking as a preventive measure.",
-      "D) The researchers controlled for diet, smoking, and genetic factors, which are all important variables in cardiovascular health research."
+      "C) The researchers controlled for diet, smoking, and genetic factors, which are all important variables in cardiovascular health research.",
+      "D) A five-year study of 3,000 patients found that daily 30-minute walks reduced cardiovascular disease risk by 35%, leading researchers to recommend physicians prescribe walking as a preventive measure."
     ],
-    correctAnswer: 2,
-    explanation: "Choice C combines the key finding (35% reduction from walking) with the practical implication (recommending physicians prescribe walking), which matches the researcher's stated goal."
+    correctAnswer: 3,
+    explanation: "Choice D combines the key finding (35% reduction from walking) with the practical implication (recommending physicians prescribe walking), which matches the researcher's stated goal."
   },
   {
     id: 48,
@@ -744,12 +744,12 @@ const questions = [
     question: "Which choice most effectively uses information from the notes to accomplish the student's goal?",
     choices: [
       "A) Solar panels are becoming cheaper, with costs dropping 89% since 2010, making solar energy more accessible to homeowners.",
-      "B) While solar panels offer emission-free energy at rapidly declining costs, their dependence on weather conditions and the high cost of energy storage present significant challenges.",
-      "C) Solar energy is one of many forms of renewable energy that are growing in popularity around the world.",
+      "B) Solar energy is one of many forms of renewable energy that are growing in popularity around the world.",
+      "C) While solar panels offer emission-free energy at rapidly declining costs, their dependence on weather conditions and the high cost of energy storage present significant challenges.",
       "D) Energy storage technology needs to improve before solar power can fully replace fossil fuels."
     ],
-    correctAnswer: 1,
-    explanation: "Choice B directly contrasts the advantages (emission-free, declining costs) with the disadvantages (weather dependence, storage costs), matching the student's goal of comparing both sides."
+    correctAnswer: 2,
+    explanation: "Choice C directly contrasts the advantages (emission-free, declining costs) with the disadvantages (weather dependence, storage costs), matching the student's goal of comparing both sides."
   },
 
   // ========== COMMAND OF EVIDENCE (Quantitative / Data-Based) ==========
@@ -777,13 +777,13 @@ const questions = [
     question: "Which choice best describes data from the passage that supports the claim that language policy affects the survival of minority languages?",
     choices: [
       "A) Approximately 7,000 languages are currently spoken worldwide, with 40% endangered.",
-      "B) 90% of the world's languages are spoken by fewer than 100,000 people.",
-      "C) Minority languages disappear at 2 per month in monolingual policy regions versus 0.5 per month in multilingual policy regions.",
+      "B) Minority languages disappear at 2 per month in monolingual policy regions versus 0.5 per month in multilingual policy regions.",
+      "C) 90% of the world's languages are spoken by fewer than 100,000 people.",
       "D) Language extinction is a global phenomenon affecting all regions equally."
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     vocabWords: [{"word":"endangered","definition":"at serious risk of extinction or disappearing"}],
-    explanation: "Choice C directly compares language disappearance rates under different policies (2/month vs. 0.5/month), directly supporting the claim that policy affects language survival."
+    explanation: "Choice B directly compares language disappearance rates under different policies (2/month vs. 0.5/month), directly supporting the claim that policy affects language survival."
   },
   {
     id: 51,
@@ -793,12 +793,12 @@ const questions = [
     question: "Based on the passage, which of the following conclusions is best supported by the data?",
     choices: [
       "A) Fiction is more effective than nonfiction for improving reading scores.",
-      "B) The amount of time spent reading matters more than the type of material read.",
-      "C) Only students who read for 20 or more minutes daily see any improvement.",
+      "B) Only students who read for 20 or more minutes daily see any improvement.",
+      "C) The amount of time spent reading matters more than the type of material read.",
       "D) Graphic novels are an underutilized resource in schools."
     ],
-    correctAnswer: 1,
-    explanation: "The passage states the type of material 'did not significantly affect the results' but that reading duration did (20+ min = 15 points, 5-19 min = 7 points), supporting B."
+    correctAnswer: 2,
+    explanation: "The passage states the type of material 'did not significantly affect the results' but that reading duration did (20+ min = 15 points, 5-19 min = 7 points), supporting C."
   },
 
   // ========== CROSS-TEXT / PAIRED PASSAGES ==========
@@ -827,12 +827,12 @@ const questions = [
     choices: [
       "A) Whether creativity can be scientifically measured.",
       "B) Whether genetics plays any role in creative ability.",
-      "C) Whether the fundamental capacity for creativity can be substantially developed.",
-      "D) Whether brain imaging is a reliable research tool."
+      "C) Whether brain imaging is a reliable research tool.",
+      "D) Whether the fundamental capacity for creativity can be substantially developed."
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     vocabWords: [{"word":"divergent","definition":"tending to develop in different directions; differing from each other"}],
-    explanation: "Vasquez says creative capacity is 'determined at birth'; Liu shows training can 'significantly increase creative output' with measurable brain changes. They disagree on whether creativity can be substantially developed (C)."
+    explanation: "Vasquez says creative capacity is 'determined at birth'; Liu shows training can 'significantly increase creative output' with measurable brain changes. They disagree on whether creativity can be substantially developed (D)."
   },
   {
     id: 54,
@@ -858,14 +858,14 @@ const questions = [
     passage: `The morning light crept through the shutters like an unwanted guest. Elena stared at the empty chair across the breakfast table, its cushion still bearing the impression of someone who had sat there for thirty years. She poured two cups of coffee out of habit, then stood motionless, watching the steam rise from the second cup until it went cold.`,
     question: "What can most reasonably be inferred about Elena's situation?",
     choices: [
-      "A) She is angry at someone who has left her.",
-      "B) She is grieving the recent loss or departure of a longtime companion.",
+      "A) She is grieving the recent loss or departure of a longtime companion.",
+      "B) She is angry at someone who has left her.",
       "C) She is expecting a visitor who is running late.",
       "D) She dislikes mornings and prefers to sleep in."
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     vocabWords: [{"word":"poignant","definition":"evoking a keen sense of sadness or regret"}],
-    explanation: "The empty chair with a 30-year impression, the habitual second cup of coffee, and watching it go cold all suggest she is grieving someone who is no longer there (B). The tone is melancholic, not angry."
+    explanation: "The empty chair with a 30-year impression, the habitual second cup of coffee, and watching it go cold all suggest she is grieving someone who is no longer there (A). The tone is melancholic, not angry."
   },
   {
     id: 56,
@@ -874,14 +874,14 @@ const questions = [
     passage: `The governor's speech was a masterwork of political calculation. She praised the opposition's dedication to public service in one breath and questioned their competence in the next. She invoked the struggles of working families while standing in a ballroom that cost $500 a plate to enter. Every word was chosen not for its truth but for its effect, each sentence a carefully constructed bridge between what the audience wanted to hear and what the governor wanted them to believe.`,
     question: "The author's tone toward the governor is best described as:",
     choices: [
-      "A) admiring and supportive.",
+      "A) critical and ironic.",
       "B) indifferent and detached.",
-      "C) critical and ironic.",
+      "C) admiring and supportive.",
       "D) confused and uncertain."
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     vocabWords: [{"word":"irreverent","definition":"showing a lack of respect for things normally treated with seriousness"}],
-    explanation: "The author highlights contradictions (praising then questioning opponents, invoking working families in a $500/plate ballroom) and describes words chosen 'not for truth but for effect' — clearly critical and ironic (C)."
+    explanation: "The author highlights contradictions (praising then questioning opponents, invoking working families in a $500/plate ballroom) and describes words chosen 'not for truth but for effect' — clearly critical and ironic (A)."
   },
   {
     id: 57,
@@ -891,13 +891,13 @@ const questions = [
     question: "The quote 'the sound of a paradigm cracking' most nearly suggests that:",
     choices: [
       "A) the conference room had poor acoustics.",
-      "B) Dr. Tanaka's findings challenged the fundamental assumptions of the established scientific framework.",
-      "C) the senior researchers were hostile to new ideas from younger scientists.",
+      "B) the senior researchers were hostile to new ideas from younger scientists.",
+      "C) Dr. Tanaka's findings challenged the fundamental assumptions of the established scientific framework.",
       "D) the prevailing models had always been considered unreliable."
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     vocabWords: [{"word":"paradigm","definition":"a typical example, pattern, or model of something; a worldview"}],
-    explanation: "A 'paradigm cracking' metaphorically refers to the established scientific framework being fundamentally challenged. The silence and discomfort confirm the findings disrupted existing models (B)."
+    explanation: "A 'paradigm cracking' metaphorically refers to the established scientific framework being fundamentally challenged. The silence and discomfort confirm the findings disrupted existing models (C)."
   },
   {
     id: 58,
@@ -907,13 +907,13 @@ const questions = [
     question: "The experiment most directly supports which of the following claims?",
     choices: [
       "A) Expensive wines are produced using objectively superior methods.",
-      "B) People cannot distinguish between cheap and expensive wines.",
-      "C) Price expectations can alter the actual subjective experience of taste.",
+      "B) Price expectations can alter the actual subjective experience of taste.",
+      "C) People cannot distinguish between cheap and expensive wines.",
       "D) Brain scans are unreliable measures of sensory experience."
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     vocabWords: [{"word":"orbitofrontal cortex","definition":"a brain region involved in decision-making and reward processing"}],
-    explanation: "The brain scans showed real differences in pleasure response based solely on price expectation, and taste ratings differed too. This shows price expectations changed the actual subjective experience (C), not just the report."
+    explanation: "The brain scans showed real differences in pleasure response based solely on price expectation, and taste ratings differed too. This shows price expectations changed the actual subjective experience (B), not just the report."
   },
   {
     id: 59,
@@ -923,13 +923,13 @@ const questions = [
     question: "The author most likely includes specific quotes from the report in order to:",
     choices: [
       "A) praise the company's transparent communication with stakeholders.",
-      "B) highlight how corporate language can obscure negative realities.",
+      "B) demonstrate the CEO's enthusiasm for the company's future.",
       "C) explain the business reasons behind the company's decisions.",
-      "D) demonstrate the CEO's enthusiasm for the company's future."
+      "D) highlight how corporate language can obscure negative realities."
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     vocabWords: [{"word":"euphemism","definition":"a mild or indirect word substituted for one considered too harsh"}],
-    explanation: "By juxtaposing euphemistic language ('strategic realignment,' 'optimization') with what was conspicuously absent ('job loss,' 'unemployment'), the author exposes how corporate language disguises harsh realities (B)."
+    explanation: "By juxtaposing euphemistic language ('strategic realignment,' 'optimization') with what was conspicuously absent ('job loss,' 'unemployment'), the author exposes how corporate language disguises harsh realities (D)."
   },
   {
     id: 60,
@@ -939,13 +939,13 @@ const questions = [
     question: "The phrase 'progress that erases history' primarily conveys:",
     choices: [
       "A) support for modernizing the town's infrastructure.",
-      "B) the tension between economic development and cultural preservation.",
-      "C) a belief that all new construction is harmful.",
+      "B) a belief that all new construction is harmful.",
+      "C) the tension between economic development and cultural preservation.",
       "D) indifference toward the community's concerns."
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     vocabWords: [{"word":"polarization","definition":"division into two sharply contrasting groups or opinions"}],
-    explanation: "The phrase acknowledges the project as 'progress' (economic benefit) while condemning it for 'erasing history' (cultural loss), perfectly capturing the tension between development and preservation (B)."
+    explanation: "The phrase acknowledges the project as 'progress' (economic benefit) while condemning it for 'erasing history' (cultural loss), perfectly capturing the tension between development and preservation (C)."
   },
 
   // ========== HARD QUESTIONS ==========
@@ -956,14 +956,14 @@ const questions = [
     passage: `Economist Thomas Sowell has argued that cultural values, not systemic barriers, primarily explain disparities in economic outcomes among different groups. He points to immigrant communities that arrived with little wealth yet achieved economic success within a generation, suggesting that habits of thrift, education, and entrepreneurship were decisive. Sociologist William Julius Wilson, however, contends that structural factors — deindustrialization, residential segregation, and the disappearance of living-wage jobs from inner cities — created concentrated poverty that no amount of individual effort could overcome. Wilson does not deny the importance of cultural values but argues they are themselves shaped by structural conditions.`,
     question: "Wilson's position differs from Sowell's most fundamentally in that Wilson:",
     choices: [
-      "A) denies that cultural values play any role in economic outcomes.",
+      "A) views cultural values as effects of structural conditions rather than independent causes.",
       "B) believes immigrant success stories are fabricated or exaggerated.",
-      "C) views cultural values as effects of structural conditions rather than independent causes.",
+      "C) denies that cultural values play any role in economic outcomes.",
       "D) argues that all groups face identical structural barriers."
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     vocabWords: [{"word":"deindustrialization","definition":"the decline of industrial activity in a region or economy"},{"word":"systemic","definition":"relating to or affecting an entire system rather than individual parts"}],
-    explanation: "Wilson 'does not deny the importance of cultural values but argues they are themselves shaped by structural conditions.' This means he sees culture as an effect, not an independent cause — making C correct. A is wrong because Wilson doesn't deny culture's role entirely."
+    explanation: "Wilson 'does not deny the importance of cultural values but argues they are themselves shaped by structural conditions.' This means he sees culture as an effect, not an independent cause — making A correct. A is wrong because Wilson doesn't deny culture's role entirely."
   },
   {
     id: 62,
@@ -972,14 +972,14 @@ const questions = [
     passage: `The secretary of the interior announced that the department would \"streamline permitting processes to unlock America's energy potential.\" Environmental groups noted that the previous year's streamlined permits had resulted in a 340% increase in drilling approvals on public lands, while the average environmental review period dropped from 18 months to 45 days. The department's press release emphasized that the new policy would \"balance energy independence with environmental stewardship,\" though the release did not mention any new environmental protections.`,
     question: "The author's inclusion of specific statistics most likely serves to:",
     choices: [
-      "A) support the department's claim that the policy balances energy and environmental concerns.",
-      "B) suggest that the department's language understates the policy's actual environmental impact.",
+      "A) suggest that the department's language understates the policy's actual environmental impact.",
+      "B) support the department's claim that the policy balances energy and environmental concerns.",
       "C) demonstrate that drilling on public lands is necessary for energy independence.",
       "D) argue that environmental review processes were previously too slow."
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     vocabWords: [{"word":"stewardship","definition":"the responsible management and care of something entrusted to one's care"}],
-    explanation: "The statistics (340% more drilling, reviews cut from 18 months to 45 days) paired with the note that no new environmental protections were mentioned creates an implicit contrast with the department's claim of 'balance' — suggesting the language understates the impact (B)."
+    explanation: "The statistics (340% more drilling, reviews cut from 18 months to 45 days) paired with the note that no new environmental protections were mentioned creates an implicit contrast with the department's claim of 'balance' — suggesting the language understates the impact (A)."
   },
   {
     id: 63,
@@ -988,13 +988,13 @@ const questions = [
     passage: `The orchestra's conductor, who had studied under three of the most celebrated maestros in _______ known for blending traditional interpretive approaches with bold, unconventional tempos that divided audiences and critics alike.`,
     question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
     choices: [
-      "A) Europe, was",
+      "A) Europe. Was",
       "B) Europe was",
       "C) Europe; was",
-      "D) Europe. Was"
+      "D) Europe, was"
     ],
-    correctAnswer: 0,
-    explanation: "The clause 'who had studied under three of the most celebrated maestros in Europe' is a nonrestrictive relative clause that interrupts the main sentence. It must be closed with a comma before the main verb 'was.' Choice A correctly provides this comma."
+    correctAnswer: 3,
+    explanation: "The clause 'who had studied under three of the most celebrated maestros in Europe' is a nonrestrictive relative clause that interrupts the main sentence. It must be closed with a comma before the main verb 'was.' Choice D correctly provides this comma."
   },
   {
     id: 64,
@@ -1004,13 +1004,13 @@ const questions = [
     question: "Taken together, the two studies most strongly suggest that:",
     choices: [
       "A) nature documentaries are more effective than direct nature exposure at changing behavior.",
-      "B) lasting behavioral change requires direct sensory experience rather than mediated representation.",
-      "C) people who watch nature documentaries are less generous than those who walk in forests.",
+      "B) people who watch nature documentaries are less generous than those who walk in forests.",
+      "C) lasting behavioral change requires direct sensory experience rather than mediated representation.",
       "D) the control groups in both studies were not properly constructed."
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     vocabWords: [{"word":"pro-environmental","definition":"supporting or promoting the protection of the natural environment"}],
-    explanation: "Documentaries caused a short-term effect that vanished; direct forest exposure caused a smaller but persistent effect. The key distinction is mediated vs. direct experience, and only direct experience produced lasting change (B). A is wrong because documentaries had a larger initial but non-lasting effect."
+    explanation: "Documentaries caused a short-term effect that vanished; direct forest exposure caused a smaller but persistent effect. The key distinction is mediated vs. direct experience, and only direct experience produced lasting change (C). A is wrong because documentaries had a larger initial but non-lasting effect."
   },
   {
     id: 65,
@@ -1020,13 +1020,13 @@ const questions = [
     question: "Which choice completes the text with the most logical transition?",
     choices: [
       "A) In support of this theory,",
-      "B) As a result,",
+      "B) However,",
       "C) In addition,",
-      "D) However,"
+      "D) As a result,"
     ],
-    correctAnswer: 3,
+    correctAnswer: 1,
     vocabWords: [{"word":"megafauna","definition":"large animals, especially those of a particular region or period"},{"word":"isotope","definition":"variants of a chemical element with different numbers of neutrons"}],
-    explanation: "'However' (D) is correct because the isotope findings contradict the climate change theory — if food sources were stable, climate wasn't destroying their habitat. This is tricky because students might think 'In addition' works, but the second sentence actively undermines the first."
+    explanation: "'However' (B) is correct because the isotope findings contradict the climate change theory — if food sources were stable, climate wasn't destroying their habitat. This is tricky because students might think 'In addition' works, but the second sentence actively undermines the first."
   },
   {
     id: 66,
@@ -1036,13 +1036,13 @@ const questions = [
     question: "Appiah's critique of Singer is best characterized as arguing that Singer's position is:",
     choices: [
       "A) logically flawed because distance is morally relevant.",
-      "B) theoretically sound but psychologically unrealistic and therefore impractical.",
+      "B) morally wrong because local obligations should always take priority.",
       "C) based on incorrect factual claims about global poverty.",
-      "D) morally wrong because local obligations should always take priority."
+      "D) theoretically sound but psychologically unrealistic and therefore impractical."
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     vocabWords: [{"word":"self-defeating","definition":"acting in a way that prevents achievement of one's own goal"}],
-    explanation: "Appiah calls Singer's argument 'logically compelling' (not flawed) but says it 'asks humans to act against their deepest psychological constitution, making it self-defeating in practice.' This is a critique of practicality, not logic — making B correct. A is wrong because Appiah concedes the logic."
+    explanation: "Appiah calls Singer's argument 'logically compelling' (not flawed) but says it 'asks humans to act against their deepest psychological constitution, making it self-defeating in practice.' This is a critique of practicality, not logic — making D correct. A is wrong because Appiah concedes the logic."
   },
   {
     id: 67,
@@ -1067,14 +1067,14 @@ const questions = [
     passage: `The discovery that octopuses can edit their own RNA — altering the genetic instructions after they have been copied from DNA — _______ conventional understanding of how organisms adapt to their environments.`,
     question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
     choices: [
-      "A) challenge",
-      "B) challenges",
+      "A) challenges",
+      "B) challenge",
       "C) have challenged",
       "D) are challenging"
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     vocabWords: [{"word":"RNA","definition":"ribonucleic acid, a molecule essential for gene expression and protein synthesis"}],
-    explanation: "The subject is 'The discovery' (singular), not 'octopuses.' The long interrupting clause between dashes makes it easy to lose track of the subject. 'Challenges' (B) is the singular present tense verb that agrees with 'discovery.'"
+    explanation: "The subject is 'The discovery' (singular), not 'octopuses.' The long interrupting clause between dashes makes it easy to lose track of the subject. 'Challenges' (A) is the singular present tense verb that agrees with 'discovery.'"
   },
   {
     id: 69,
@@ -1084,13 +1084,13 @@ const questions = [
     question: "The 2023 reanalysis most directly undermines the original interpretation by suggesting that:",
     choices: [
       "A) judges are never affected by fatigue when making decisions.",
-      "B) the correlation between timing and parole rates was largely explained by a confounding variable.",
-      "C) attorneys should not be allowed to choose hearing times.",
+      "B) attorneys should not be allowed to choose hearing times.",
+      "C) the correlation between timing and parole rates was largely explained by a confounding variable.",
       "D) food breaks have no effect on judicial decision-making."
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     vocabWords: [{"word":"confounding variable","definition":"an unmeasured variable that influences both the independent and dependent variables, creating a false association"}],
-    explanation: "The reanalysis found that case strength (a confounding variable), not fatigue, explained most of the timing effect. The effect was 'reduced by 80%' when controlling for this variable — making B correct. A is too absolute (the effect was reduced, not eliminated)."
+    explanation: "The reanalysis found that case strength (a confounding variable), not fatigue, explained most of the timing effect. The effect was 'reduced by 80%' when controlling for this variable — making C correct. A is too absolute (the effect was reduced, not eliminated)."
   },
   {
     id: 70,
@@ -1115,13 +1115,13 @@ const questions = [
     question: "The randomized controlled trial is significant in this context because it:",
     choices: [
       "A) proves that music education has no academic value whatsoever.",
-      "B) confirms that parental income is the sole determinant of academic success.",
-      "C) helps isolate whether music itself drives the effect by eliminating selection bias.",
+      "B) helps isolate whether music itself drives the effect by eliminating selection bias.",
+      "C) confirms that parental income is the sole determinant of academic success.",
       "D) demonstrates that the original study had too few participants."
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     vocabWords: [{"word":"longitudinal","definition":"a study that follows the same subjects over an extended period"},{"word":"selection bias","definition":"error introduced when study participants are not representative of the intended population"}],
-    explanation: "The original study's flaw was selection bias (parents who choose music lessons differ from those who don't). The RCT randomly assigns students, eliminating this bias. The near-zero result suggests the original effect was due to family characteristics, not music itself (C). A is too absolute."
+    explanation: "The original study's flaw was selection bias (parents who choose music lessons differ from those who don't). The RCT randomly assigns students, eliminating this bias. The near-zero result suggests the original effect was due to family characteristics, not music itself (B). A is too absolute."
   },
   {
     id: 72,
@@ -1131,12 +1131,12 @@ const questions = [
     question: "The passage most strongly implies that:",
     choices: [
       "A) the minority report was more accurate than the majority report.",
-      "B) the chairman's description of the report as 'comprehensive' may have been overstated.",
-      "C) media coverage of the crisis was deliberately biased against the minority.",
+      "B) media coverage of the crisis was deliberately biased against the minority.",
+      "C) the chairman's description of the report as 'comprehensive' may have been overstated.",
       "D) academic scholars should not rely on government reports for research."
     ],
-    correctAnswer: 1,
-    explanation: "The chairman called it 'comprehensive,' but 4 of 10 members dissented saying evidence was ignored, and scholars note 'neither report alone provided a complete picture.' This implies the majority report was not as comprehensive as claimed (B). A goes too far — the passage doesn't say which was more accurate. C is unsupported."
+    correctAnswer: 2,
+    explanation: "The chairman called it 'comprehensive,' but 4 of 10 members dissented saying evidence was ignored, and scholars note 'neither report alone provided a complete picture.' This implies the majority report was not as comprehensive as claimed (C). A goes too far — the passage doesn't say which was more accurate. C is unsupported."
   },
   {
     id: 73,
@@ -1146,12 +1146,12 @@ const questions = [
     question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
     choices: [
       "A) have been",
-      "B) has been",
-      "C) are",
+      "B) are",
+      "C) has been",
       "D) were"
     ],
-    correctAnswer: 1,
-    explanation: "The subject is 'The team' (singular), not 'biologists' or 'volunteers.' The phrase 'along with several volunteers' is a parenthetical addition and does not make the subject plural. 'Has been' (B) agrees with the singular subject. 'Since March' requires present perfect continuous tense."
+    correctAnswer: 2,
+    explanation: "The subject is 'The team' (singular), not 'biologists' or 'volunteers.' The phrase 'along with several volunteers' is a parenthetical addition and does not make the subject plural. 'Has been' (C) agrees with the singular subject. 'Since March' requires present perfect continuous tense."
   },
   {
     id: 74,
@@ -1176,13 +1176,13 @@ const questions = [
     question: "Graeber's response to Harari reframes the central question from one about:",
     choices: [
       "A) whether shared fictions exist to one about whether they are beneficial.",
-      "B) the mechanism enabling cooperation to the choices societies made about how to use it.",
-      "C) prehistoric societies to modern nation-states.",
+      "B) prehistoric societies to modern nation-states.",
+      "C) the mechanism enabling cooperation to the choices societies made about how to use it.",
       "D) biology to economics as the primary driver of human behavior."
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     vocabWords: [{"word":"shared fictions","definition":"collectively held beliefs or constructs that enable social coordination (e.g., money, nations, laws)"}],
-    explanation: "Harari asks how cooperation became possible (mechanism). Graeber shifts to why some societies used cooperation for domination while others prevented it (choices about usage). This is a reframing from mechanism to choice (B)."
+    explanation: "Harari asks how cooperation became possible (mechanism). Graeber shifts to why some societies used cooperation for domination while others prevented it (choices about usage). This is a reframing from mechanism to choice (C)."
   },
 ]
 
