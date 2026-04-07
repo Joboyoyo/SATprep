@@ -3484,6 +3484,489 @@ const questions = [
     correctAnswer: 2,
     explanation: "Warner says the format 'harms development.' Perelman says it should be 'outgrown, not a permanent destination.' Both agree it shouldn't be the endpoint — they differ on whether it's useful as a temporary tool (C). A contradicts Warner. B contradicts Perelman."
   },
+
+  // ========== VOCABULARY IN CONTEXT: 226-255 ==========
+
+  {
+    id: 226,
+    category: "Craft and Structure",
+    difficulty: "Easy",
+    passage: `The ambassador's remarks were deliberately ambiguous, allowing each side of the dispute to interpret her words as supportive of their position. This calculated vagueness kept negotiations alive but frustrated journalists seeking a definitive statement.`,
+    question: "As used in the passage, 'ambiguous' most nearly means:",
+    choices: [
+      "A) hostile",
+      "B) poorly translated",
+      "C) lengthy and detailed",
+      "D) open to multiple interpretations"
+    ],
+    correctAnswer: 3,
+    vocabWords: [{"word":"ambiguous","definition":"open to more than one interpretation; not having one clear meaning"}],
+    explanation: "The passage says each side could 'interpret her words as supportive' — meaning the words had multiple possible meanings. 'Open to multiple interpretations' (D) matches this context."
+  },
+  {
+    id: 227,
+    category: "Craft and Structure",
+    difficulty: "Medium",
+    passage: `The company's quarterly earnings report painted a sanguine picture of its financial health, projecting 15% revenue growth and expanded market share. However, independent analysts noted that the report omitted several unfavorable indicators, including rising debt levels and declining customer retention rates.`,
+    question: "As used in the passage, 'sanguine' most nearly means:",
+    choices: [
+      "A) optimistic",
+      "B) pessimistic",
+      "C) bloody",
+      "D) detailed"
+    ],
+    correctAnswer: 0,
+    vocabWords: [{"word":"sanguine","definition":"optimistic or positive, especially in a difficult situation"}],
+    explanation: "The report projected growth and expanded market share (positive things), and analysts criticized it for omitting negatives. 'Sanguine' here means optimistic (A). While 'sanguine' can mean 'bloody' in medical contexts, the financial context makes 'optimistic' the clear meaning."
+  },
+  {
+    id: 228,
+    category: "Craft and Structure",
+    difficulty: "Hard",
+    passage: `The critic dismissed the novel as merely derivative, arguing that its plot, characters, and themes were transparently borrowed from earlier, more accomplished works. The author countered that all literature is in dialogue with what came before, and that originality lies not in avoiding influence but in synthesizing it into something new.`,
+    question: "As used in the passage, 'derivative' most nearly means:",
+    choices: [
+      "A) unoriginal and imitative of other works",
+      "B) mathematically complex",
+      "C) controversial and provocative",
+      "D) difficult to understand"
+    ],
+    correctAnswer: 0,
+    vocabWords: [{"word":"derivative","definition":"imitative of the work of another person; not original"},{"word":"synthesizing","definition":"combining different elements into a coherent whole"}],
+    explanation: "The critic says plot, characters, and themes were 'borrowed from earlier works' — the novel copies others. 'Unoriginal and imitative' (A) captures this meaning. In math, 'derivative' has a different technical meaning."
+  },
+  {
+    id: 229,
+    category: "Craft and Structure",
+    difficulty: "Easy",
+    passage: `After the earthquake destroyed most of the city's infrastructure, international relief organizations mobilized rapidly, sending medical teams, clean water, and temporary shelters within 48 hours. The speed of the response was widely lauded by humanitarian observers.`,
+    question: "As used in the passage, 'lauded' most nearly means:",
+    choices: [
+      "A) criticized",
+      "B) ignored",
+      "C) questioned",
+      "D) praised"
+    ],
+    correctAnswer: 3,
+    vocabWords: [{"word":"lauded","definition":"praised highly; celebrated"},{"word":"mobilized","definition":"organized and prepared for action or use"}],
+    explanation: "The relief organizations responded quickly and effectively. 'Lauded' means praised — the observers reacted positively to the fast response (D)."
+  },
+  {
+    id: 230,
+    category: "Craft and Structure",
+    difficulty: "Hard",
+    passage: `The philosopher's argument was ostensibly about free will, but her real target was the deterministic assumptions embedded in modern neuroscience. By framing her critique as a defense of human agency, she made her challenge to scientific orthodoxy more palatable to a general audience.`,
+    question: "As used in the passage, 'ostensibly' most nearly means:",
+    choices: [
+      "A) obviously and transparently",
+      "B) passionately and forcefully",
+      "C) apparently but not actually",
+      "D) briefly and superficially"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"ostensibly","definition":"apparently or seemingly, but perhaps not actually"},{"word":"palatable","definition":"acceptable or agreeable to the mind or feelings"},{"word":"deterministic","definition":"the belief that all events are determined by prior causes, leaving no room for free will"}],
+    explanation: "The passage says the argument was 'ostensibly about free will' but her 'real target' was something else. 'Ostensibly' means on the surface but not in reality — 'apparently but not actually' (B)."
+  },
+  {
+    id: 231,
+    category: "Craft and Structure",
+    difficulty: "Medium",
+    passage: `The governor's proposal to consolidate twelve state agencies into four was met with fierce resistance from bureaucrats whose positions would be eliminated. Critics of the plan called it reckless, while supporters praised its efficiency. The governor remained intransigent, refusing to modify the proposal despite weeks of protest.`,
+    question: "As used in the passage, 'intransigent' most nearly means:",
+    choices: [
+      "A) confused and uncertain",
+      "B) willing to compromise",
+      "C) secretly planning to resign",
+      "D) stubbornly refusing to change one's position"
+    ],
+    correctAnswer: 3,
+    vocabWords: [{"word":"intransigent","definition":"unwilling or refusing to change one's views or to agree; uncompromising"},{"word":"consolidate","definition":"combine multiple entities into a single more effective or coherent one"}],
+    explanation: "The governor 'refused to modify the proposal despite weeks of protest' — she wouldn't budge. 'Stubbornly refusing to change' (D) matches this inflexibility. B is the opposite."
+  },
+  {
+    id: 232,
+    category: "Craft and Structure",
+    difficulty: "Easy",
+    passage: `The investigation revealed that the company had systematically concealed evidence of product defects from regulators, going so far as to alter test results and destroy unfavorable reports. The CEO resigned amid calls for criminal prosecution.`,
+    question: "As used in the passage, 'concealed' most nearly means:",
+    choices: [
+      "A) accidentally lost",
+      "B) deliberately hidden",
+      "C) publicly displayed",
+      "D) carefully analyzed"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"concealed","definition":"kept secret; hidden from view or knowledge"}],
+    explanation: "The company 'altered test results and destroyed reports' to hide defects — deliberate, active hiding. 'Deliberately hidden' (B) captures this intentional deception."
+  },
+  {
+    id: 233,
+    category: "Craft and Structure",
+    difficulty: "Hard",
+    passage: `The architectural firm's proposal was laudably ambitious in scope but woefully deficient in practical detail. While the soaring glass atrium and cantilevered observation deck captured the committee's imagination, the absence of cost estimates, structural calculations, or a realistic construction timeline rendered the proposal untenable.`,
+    question: "As used in the passage, 'untenable' most nearly means:",
+    choices: [
+      "A) aesthetically unappealing",
+      "B) physically dangerous to occupants",
+      "C) impossible to defend or maintain as viable",
+      "D) environmentally unsustainable"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"untenable","definition":"not able to be maintained or defended against criticism"},{"word":"cantilevered","definition":"a structure fixed at only one end, projecting outward without external support"},{"word":"deficient","definition":"not having enough of a specified quality; inadequate"}],
+    explanation: "The proposal lacked cost estimates, structural calculations, and a timeline — making it impossible to actually pursue. 'Impossible to defend or maintain as viable' (C) captures why the missing details killed the proposal."
+  },
+  {
+    id: 234,
+    category: "Craft and Structure",
+    difficulty: "Medium",
+    passage: `The senator's speech was a masterclass in equivocation. When asked whether she supported the bill, she praised its \"noble intentions\" while expressing \"serious reservations\" about its implementation, leaving both supporters and opponents convinced she was on their side.`,
+    question: "As used in the passage, 'equivocation' most nearly means:",
+    choices: [
+      "A) the use of deliberately vague language to avoid commitment",
+      "B) passionate advocacy",
+      "C) mathematical precision",
+      "D) outright dishonesty"
+    ],
+    correctAnswer: 0,
+    vocabWords: [{"word":"equivocation","definition":"the use of ambiguous language to conceal the truth or avoid committing to a position"}],
+    explanation: "The senator praised 'noble intentions' while expressing 'serious reservations' — neither supporting nor opposing. Both sides thought she agreed with them. This is deliberate vagueness to avoid commitment (A). D is too strong — she didn't lie, she just avoided a clear position."
+  },
+  {
+    id: 235,
+    category: "Craft and Structure",
+    difficulty: "Easy",
+    passage: `The drought had been so prolonged that the reservoir had shrunk to just 15% of its capacity, exposing a lakebed that hadn't been visible in over forty years. Local farmers faced the prospect of a devastating crop failure.`,
+    question: "As used in the passage, 'prolonged' most nearly means:",
+    choices: [
+      "A) unexpected",
+      "B) extending over a long period",
+      "C) mild and manageable",
+      "D) caused by human activity"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"prolonged","definition":"continuing for a long time or longer than expected"}],
+    explanation: "The reservoir shrank to 15% and exposed a lakebed hidden for 40 years — indicating the drought lasted a very long time. 'Extending over a long period' (B) matches."
+  },
+  {
+    id: 236,
+    category: "Craft and Structure",
+    difficulty: "Hard",
+    passage: `The scientist's hypothesis was elegant in its parsimony: rather than invoking multiple independent mechanisms to explain the observed phenomena, she proposed a single underlying process that accounted for all of them. Her colleagues, accustomed to more elaborate theoretical frameworks, initially found the simplicity of her model suspect.`,
+    question: "As used in the passage, 'parsimony' most nearly means:",
+    choices: [
+      "A) intellectual simplicity that explains the most with the least",
+      "B) financial frugality",
+      "C) emotional restraint",
+      "D) mathematical rigor"
+    ],
+    correctAnswer: 0,
+    vocabWords: [{"word":"parsimony","definition":"in science, the principle that the simplest explanation is preferable; in general use, extreme unwillingness to spend money"},{"word":"elegant","definition":"(in science) pleasingly ingenious and simple"}],
+    explanation: "The hypothesis used 'a single underlying process' instead of 'multiple independent mechanisms.' Colleagues found the 'simplicity suspect.' In scientific context, parsimony means explaining the most with the fewest assumptions (A). While it can mean stinginess in everyday use, the scientific meaning applies here."
+  },
+  {
+    id: 237,
+    category: "Craft and Structure",
+    difficulty: "Medium",
+    passage: `The documentary filmmaker was known for her tenacity, spending years embedded in communities others considered too dangerous or remote to access. Her latest project required three years living among subsistence fishermen on a volcanic island in Indonesia, enduring monsoons, malaria, and the constant threat of eruption.`,
+    question: "As used in the passage, 'tenacity' most nearly means:",
+    choices: [
+      "A) recklessness and disregard for safety",
+      "B) technical filmmaking skill",
+      "C) financial resources and institutional backing",
+      "D) persistent determination despite difficulties"
+    ],
+    correctAnswer: 3,
+    vocabWords: [{"word":"tenacity","definition":"the quality of being very determined; persistence"},{"word":"subsistence","definition":"producing just enough to sustain oneself, with nothing extra"}],
+    explanation: "The filmmaker spent years in dangerous and remote places, enduring monsoons, malaria, and volcanic threats — she persisted through extreme difficulty. 'Persistent determination despite difficulties' (D) captures this quality. A (recklessness) implies carelessness, which isn't the passage's tone."
+  },
+  {
+    id: 238,
+    category: "Craft and Structure",
+    difficulty: "Easy",
+    passage: `The new employee's performance during her first month was exemplary. She completed every assignment ahead of schedule, volunteered for additional projects, and received praise from three different department heads.`,
+    question: "As used in the passage, 'exemplary' most nearly means:",
+    choices: [
+      "A) average and unremarkable",
+      "B) controversial and divisive",
+      "C) worthy of imitation; excellent",
+      "D) unpredictable"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"exemplary","definition":"serving as a desirable model; very good"}],
+    explanation: "She completed work early, volunteered extra, and was praised by three department heads — all positive indicators. 'Worthy of imitation; excellent' (C) matches this outstanding performance."
+  },
+  {
+    id: 239,
+    category: "Craft and Structure",
+    difficulty: "Hard",
+    passage: `The court's ruling was deliberately circumscribed, applying only to the specific facts of the case and explicitly declining to establish a broader legal principle. Legal scholars noted that this narrow approach, while frustrating for those seeking definitive guidance, allowed the court to avoid the contentious political questions lurking behind the legal ones.`,
+    question: "As used in the passage, 'circumscribed' most nearly means:",
+    choices: [
+      "A) narrowly limited in scope",
+      "B) circular in reasoning",
+      "C) written in complex legal language",
+      "D) unanimously agreed upon"
+    ],
+    correctAnswer: 0,
+    vocabWords: [{"word":"circumscribed","definition":"restricted in scope or area; limited"},{"word":"contentious","definition":"causing or likely to cause disagreement or argument"}],
+    explanation: "The ruling applied 'only to the specific facts' and 'declined to establish a broader principle.' This describes something narrowly limited (A). The ruling drew a tight boundary around itself."
+  },
+  {
+    id: 240,
+    category: "Craft and Structure",
+    difficulty: "Medium",
+    passage: `The professor's lectures were notoriously abstruse, filled with references to obscure philosophers and dense theoretical frameworks that left most undergraduates bewildered. Graduate students, by contrast, found the intellectual depth exhilarating.`,
+    question: "As used in the passage, 'abstruse' most nearly means:",
+    choices: [
+      "A) boring and repetitive",
+      "B) entertaining and engaging",
+      "C) offensive and inappropriate",
+      "D) difficult to understand; highly complex"
+    ],
+    correctAnswer: 3,
+    vocabWords: [{"word":"abstruse","definition":"difficult to understand; obscure"},{"word":"bewildered","definition":"perplexed and confused"}],
+    explanation: "The lectures were full of 'obscure philosophers and dense theoretical frameworks' that left undergrads 'bewildered.' This indicates extreme difficulty — 'difficult to understand; highly complex' (D)."
+  },
+  {
+    id: 241,
+    category: "Craft and Structure",
+    difficulty: "Easy",
+    passage: `The charity's annual gala raised an unprecedented $4.2 million, shattering the previous record of $2.8 million and exceeding the organizers' most optimistic projections by nearly 40%.`,
+    question: "As used in the passage, 'unprecedented' most nearly means:",
+    choices: [
+      "A) controversial",
+      "B) disappointing",
+      "C) never before achieved",
+      "D) carefully planned"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"unprecedented","definition":"never done or known before; without previous example"}],
+    explanation: "The amount 'shattered the previous record' and exceeded projections — it had never been done before. 'Never before achieved' (C) fits this context."
+  },
+  {
+    id: 242,
+    category: "Craft and Structure",
+    difficulty: "Hard",
+    passage: `The politician's memoir was remarkably candid about his early career failures, describing in unflinching detail the corruption scandal that nearly ended his career and the personal weaknesses that contributed to it. Reviewers noted that such forthright self-examination is rare in political autobiography, where self-serving revisionism is the norm.`,
+    question: "As used in the passage, 'candid' most nearly means:",
+    choices: [
+      "A) openly honest, even about uncomfortable truths",
+      "B) carefully sanitized to protect reputation",
+      "C) secretly ghostwritten",
+      "D) written in a casual, informal style"
+    ],
+    correctAnswer: 0,
+    vocabWords: [{"word":"candid","definition":"truthful and straightforward; frank"},{"word":"forthright","definition":"direct and outspoken"},{"word":"revisionism","definition":"the reinterpretation of established views, often to serve current interests"}],
+    explanation: "The memoir described 'corruption scandal' and 'personal weaknesses' in 'unflinching detail' — the author didn't hide uncomfortable truths. 'Openly honest, even about uncomfortable truths' (A) matches. B is the opposite."
+  },
+  {
+    id: 243,
+    category: "Craft and Structure",
+    difficulty: "Medium",
+    passage: `The cease-fire was tenuous at best. Both sides had agreed to stop fighting, but neither had withdrawn troops from contested positions, and sporadic gunfire could still be heard along the border. Diplomats warned that any provocation, however minor, could reignite the conflict.`,
+    question: "As used in the passage, 'tenuous' most nearly means:",
+    choices: [
+      "A) permanent and lasting",
+      "B) fragile and easily broken",
+      "C) secretly negotiated",
+      "D) militarily enforced"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"tenuous","definition":"very weak or slight; insubstantial"},{"word":"sporadic","definition":"occurring at irregular intervals; not continuous"}],
+    explanation: "Troops haven't withdrawn, gunfire continues, and any minor provocation could restart the conflict — the cease-fire is barely holding. 'Fragile and easily broken' (B) captures this instability."
+  },
+  {
+    id: 244,
+    category: "Craft and Structure",
+    difficulty: "Easy",
+    passage: `The software update was supposed to enhance performance, but instead it introduced several critical bugs that rendered the application virtually unusable. The company issued a public apology and promised to revert to the previous version within 24 hours.`,
+    question: "As used in the passage, 'rendered' most nearly means:",
+    choices: [
+      "A) drew or depicted visually",
+      "B) translated into another language",
+      "C) surrendered or gave up",
+      "D) caused to become"
+    ],
+    correctAnswer: 3,
+    vocabWords: [{"word":"rendered","definition":"caused to be or become; made"},{"word":"revert","definition":"return to a previous state or condition"}],
+    explanation: "The bugs 'rendered the application unusable' — they caused it to become unusable. 'Caused to become' (D) matches this meaning. 'Render' has many meanings (draw, surrender, translate) but here it means 'made.'"
+  },
+  {
+    id: 245,
+    category: "Craft and Structure",
+    difficulty: "Hard",
+    passage: `The sociologist's analysis of urban poverty was rigorously empirical, drawing on census data, longitudinal surveys, and ethnographic fieldwork conducted over fifteen years. She was careful to distinguish between correlation and causation, and her conclusions were notably circumspect — hedged with qualifications that acknowledged the limits of her data.`,
+    question: "As used in the passage, 'circumspect' most nearly means:",
+    choices: [
+      "A) careless and hasty",
+      "B) deliberately provocative",
+      "C) cautious and unwilling to take risks in statements",
+      "D) written for a popular rather than academic audience"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"circumspect","definition":"wary and unwilling to take risks; careful to consider all circumstances"},{"word":"empirical","definition":"based on observation or experience rather than theory"},{"word":"ethnographic","definition":"relating to the study of peoples and cultures through direct observation"}],
+    explanation: "Her conclusions were 'hedged with qualifications' acknowledging data limits — she was careful not to overclaim. 'Cautious and unwilling to take risks in statements' (C) matches this carefulness. A is the opposite."
+  },
+  {
+    id: 246,
+    category: "Craft and Structure",
+    difficulty: "Medium",
+    passage: `The new trade agreement was hailed by its architects as mutually beneficial, but critics argued it was fundamentally asymmetric: wealthy nations gained access to developing countries' markets while offering little in return, perpetuating the very inequalities the agreement claimed to address.`,
+    question: "As used in the passage, 'asymmetric' most nearly means:",
+    choices: [
+      "A) temporary and subject to revision",
+      "B) mathematically complex",
+      "C) secretly negotiated without public input",
+      "D) unequal in benefit to each side"
+    ],
+    correctAnswer: 3,
+    vocabWords: [{"word":"asymmetric","definition":"having parts that are not equal or equivalent; unbalanced"},{"word":"perpetuating","definition":"causing something to continue indefinitely"}],
+    explanation: "Wealthy nations gained market access while offering 'little in return' — the benefits were unequal. 'Unequal in benefit to each side' (D) captures this imbalance."
+  },
+  {
+    id: 247,
+    category: "Craft and Structure",
+    difficulty: "Easy",
+    passage: `The rescue team's efforts were hampered by heavy rain, mudslides, and roads blocked by fallen trees. What should have been a four-hour operation stretched into three days as conditions continued to deteriorate.`,
+    question: "As used in the passage, 'hampered' most nearly means:",
+    choices: [
+      "A) assisted and supported",
+      "B) made more exciting",
+      "C) hindered or made difficult",
+      "D) completely prevented"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"hampered","definition":"prevented from moving or acting freely; hindered"},{"word":"deteriorate","definition":"become progressively worse"}],
+    explanation: "Rain, mudslides, and blocked roads turned a 4-hour operation into 3 days — these factors made the work harder but didn't stop it entirely. 'Hindered or made difficult' (C) is correct. D (completely prevented) is too strong — they did finish."
+  },
+  {
+    id: 248,
+    category: "Craft and Structure",
+    difficulty: "Hard",
+    passage: `The diplomat's language was carefully calibrated to signal strength without provocation. She referred to the contested territory as \"a matter of vital national interest\" — language strong enough to demonstrate resolve but sufficiently restrained to avoid triggering a military response from the opposing government.`,
+    question: "As used in the passage, 'calibrated' most nearly means:",
+    choices: [
+      "A) translated from one language to another",
+      "B) spoken loudly and clearly for the audience",
+      "C) precisely adjusted to achieve a specific effect",
+      "D) rehearsed many times before delivery"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"calibrated","definition":"carefully adjusted or fine-tuned to produce a precise result"},{"word":"provocation","definition":"action or speech that intentionally angers or incites"}],
+    explanation: "Her language was strong enough to show resolve but restrained enough to avoid military response — precisely tuned for a specific diplomatic effect. 'Precisely adjusted to achieve a specific effect' (C) captures this careful balancing act."
+  },
+  {
+    id: 249,
+    category: "Craft and Structure",
+    difficulty: "Medium",
+    passage: `The discovery of penicillin is often attributed to serendipity — Alexander Fleming noticed mold killing bacteria on a petri dish he had accidentally left uncovered. However, historians of science emphasize that Fleming's training in bacteriology enabled him to recognize the significance of what an untrained observer would have dismissed as a ruined experiment.`,
+    question: "As used in the passage, 'serendipity' most nearly means:",
+    choices: [
+      "A) a fortunate accident or unexpected discovery",
+      "B) careful experimental design",
+      "C) deliberate scientific fraud",
+      "D) collaboration between researchers"
+    ],
+    correctAnswer: 0,
+    vocabWords: [{"word":"serendipity","definition":"the occurrence of events by chance in a happy or beneficial way"},{"word":"bacteriology","definition":"the branch of biology dealing with bacteria"}],
+    explanation: "Fleming 'accidentally left' a dish uncovered and noticed mold killing bacteria — an unplanned, lucky observation. 'A fortunate accident or unexpected discovery' (A) matches this meaning."
+  },
+  {
+    id: 250,
+    category: "Craft and Structure",
+    difficulty: "Easy",
+    passage: `The author's debut novel garnered widespread critical acclaim, earning comparisons to the works of Toni Morrison and James Baldwin. Within a year, it had been translated into twenty-three languages and adapted into an award-winning film.`,
+    question: "As used in the passage, 'garnered' most nearly means:",
+    choices: [
+      "A) avoided",
+      "B) received or collected",
+      "C) rejected",
+      "D) purchased"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"garnered","definition":"gathered or collected; acquired"},{"word":"acclaim","definition":"enthusiastic and public praise"}],
+    explanation: "The novel earned comparisons to major authors and was widely translated — it collected praise. 'Received or collected' (B) matches the meaning of gaining acclaim."
+  },
+  {
+    id: 251,
+    category: "Craft and Structure",
+    difficulty: "Hard",
+    passage: `The philosopher argued that moral progress is not linear but dialectical: each advance in ethical understanding generates its own contradictions, which must then be resolved through further moral reasoning. Slavery's abolition, for example, exposed new forms of racial injustice that the abolitionist framework had not anticipated, necessitating entirely new moral vocabularies.`,
+    question: "As used in the passage, 'dialectical' most nearly means:",
+    choices: [
+      "A) proceeding through the tension between opposing ideas",
+      "B) related to regional dialects of a language",
+      "C) moving in a straight line from worse to better",
+      "D) determined entirely by economic forces"
+    ],
+    correctAnswer: 0,
+    vocabWords: [{"word":"dialectical","definition":"relating to a process of change through the conflict of opposing forces or ideas"},{"word":"abolitionist","definition":"a person who favors the abolition of a practice, especially slavery"}],
+    explanation: "The passage describes advances that 'generate contradictions' requiring 'further reasoning' — change happens through tension between opposing ideas. 'Proceeding through the tension between opposing ideas' (A) captures this process. C is explicitly contradicted ('not linear')."
+  },
+  {
+    id: 252,
+    category: "Craft and Structure",
+    difficulty: "Medium",
+    passage: `The company's CEO was known for her mercurial temperament: effusively praising employees one moment and sharply criticizing them the next. Staff members learned to gauge her mood before entering her office, and meetings were often tense, unpredictable affairs.`,
+    question: "As used in the passage, 'mercurial' most nearly means:",
+    choices: [
+      "A) related to the planet Mercury",
+      "B) calm and consistent",
+      "C) subject to sudden, unpredictable changes",
+      "D) deliberately cruel"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"mercurial","definition":"subject to sudden or unpredictable changes of mood or mind"},{"word":"effusively","definition":"in an unrestrained or excessively demonstrative manner"}],
+    explanation: "She praised one moment and criticized the next; staff tried to gauge her mood, and meetings were 'unpredictable.' 'Subject to sudden, unpredictable changes' (C) matches this volatility. B is the opposite."
+  },
+  {
+    id: 253,
+    category: "Craft and Structure",
+    difficulty: "Easy",
+    passage: `The witness's testimony was corroborated by security camera footage, phone records, and DNA evidence found at the scene. The prosecution argued that this convergence of evidence left no reasonable doubt of the defendant's guilt.`,
+    question: "As used in the passage, 'corroborated' most nearly means:",
+    choices: [
+      "A) contradicted by other evidence",
+      "B) confirmed or supported by additional evidence",
+      "C) recorded on audio equipment",
+      "D) dismissed by the judge"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"corroborated","definition":"confirmed or supported by other evidence or information"},{"word":"convergence","definition":"the coming together of different elements toward a single point"}],
+    explanation: "Camera footage, phone records, and DNA all supported the testimony — multiple sources confirmed it. 'Confirmed or supported by additional evidence' (B) matches."
+  },
+  {
+    id: 254,
+    category: "Craft and Structure",
+    difficulty: "Hard",
+    passage: `The anthropologist cautioned against interpreting ancient burial practices through a contemporary Western lens, noting that what appears to modern observers as a rudimentary ritual may in fact represent a sophisticated cosmological system whose underlying logic is simply unfamiliar. The tendency to conflate unfamiliarity with primitiveness, she argued, reveals more about the observer's assumptions than about the observed culture.`,
+    question: "As used in the passage, 'rudimentary' most nearly means:",
+    choices: [
+      "A) rude or offensive",
+      "B) basic and undeveloped",
+      "C) religious in nature",
+      "D) historically significant"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"rudimentary","definition":"involving or limited to basic principles; at an early stage of development"},{"word":"cosmological","definition":"relating to the origin and structure of the universe"},{"word":"conflate","definition":"combine two or more ideas into one, often erroneously"}],
+    explanation: "The anthropologist warns against seeing practices as 'rudimentary' when they may actually be 'sophisticated.' In this context, 'rudimentary' means basic/undeveloped (B) — the very label she's arguing against."
+  },
+  {
+    id: 255,
+    category: "Craft and Structure",
+    difficulty: "Medium",
+    passage: `The treaty's language was intentionally nebulous on the question of enforcement, allowing each signatory nation to interpret its obligations according to its own legal traditions. Advocates of stronger language warned that this vagueness would render the agreement toothless in practice.`,
+    question: "As used in the passage, 'nebulous' most nearly means:",
+    choices: [
+      "A) scientifically precise",
+      "B) vague and lacking clear definition",
+      "C) aggressively worded",
+      "D) translated into multiple languages"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"nebulous","definition":"vague, unclear, or ill-defined"},{"word":"signatory","definition":"a person or country that has signed an agreement"}],
+    explanation: "The language was 'intentionally' vague, letting each nation interpret freely, and critics called the agreement 'toothless.' 'Vague and lacking clear definition' (B) matches. The passage even uses 'vagueness' as a synonym."
+  },
 ]
 
 export default questions
