@@ -553,7 +553,7 @@ const questions = [
     id: 36,
     category: "Standard English Conventions",
     difficulty: "Medium",
-    passage: `The novelist's latest _______ which spans three generations of an immigrant family, has been praised by critics for its nuanced portrayal of cultural identity and the immigrant experience in America.`,
+    passage: `The novelist's latest _______ spans three generations of an immigrant family, has been praised by critics for its nuanced portrayal of cultural identity and the immigrant experience in America.`,
     question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
     choices: [
       "A) work, which",
