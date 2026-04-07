@@ -75,7 +75,7 @@ const questions = [
     ],
     correctAnswer: 2,
     vocabWords: [{"word":"meta-analysis","definition":"a statistical method that combines results from multiple studies"},{"word":"proponents","definition":"people who advocate for or support something"}],
-    explanation: "The passage presents pro-homework and anti-homework views, then cites Cooper's research which supports homework for older but not younger students — partially supporting each side (A)."
+    explanation: "The passage presents pro-homework and anti-homework views, then cites Cooper's research which supports homework for older but not younger students — partially supporting each side (C)."
   },
   {
     id: 6,
@@ -107,7 +107,7 @@ const questions = [
     ],
     correctAnswer: 1,
     vocabWords: [{"word":"desalination","definition":"the process of removing salt from seawater to make it drinkable"},{"word":"infrastructure","definition":"the basic physical systems of a society (roads, bridges, pipes, etc.)"}],
-    explanation: "The author says fixing leaks 'could dramatically improve water availability at a fraction of the cost,' clearly supporting this approach as practical (D)."
+    explanation: "The author says fixing leaks 'could dramatically improve water availability at a fraction of the cost,' clearly supporting this approach as practical (B)."
   },
   {
     id: 8,
@@ -155,7 +155,7 @@ const questions = [
     ],
     correctAnswer: 2,
     vocabWords: [{"word":"repository","definition":"a place where things are stored or deposited"}],
-    explanation: "A 'repository' is a place where things are stored or deposited. In context, the library stored scrolls containing knowledge (D)."
+    explanation: "A 'repository' is a place where things are stored or deposited. In context, the library stored scrolls containing knowledge (C)."
   },
   {
     id: 11,
@@ -186,7 +186,7 @@ const questions = [
       "D) Studies show that EQ scores are strongly correlated with existing personality assessments and do not predict outcomes beyond what IQ already predicts."
     ],
     correctAnswer: 3,
-    explanation: "If EQ overlaps with personality and doesn't predict beyond IQ, it undermines Goleman's claim that EQ is distinctly more important than IQ (A)."
+    explanation: "If EQ overlaps with personality and doesn't predict beyond IQ, it undermines Goleman's claim that EQ is distinctly more important than IQ (D)."
   },
   {
     id: 13,
@@ -202,7 +202,7 @@ const questions = [
     ],
     correctAnswer: 2,
     vocabWords: [{"word":"radioactivity","definition":"the emission of ionizing radiation by unstable atomic nuclei"},{"word":"pitchblende","definition":"a mineral that is the main ore of uranium"}],
-    explanation: "Curie hypothesized radioactivity was 'an atomic property rather than a chemical one,' which was a fundamental shift in understanding (A)."
+    explanation: "Curie hypothesized radioactivity was 'an atomic property rather than a chemical one,' which was a fundamental shift in understanding (C)."
   },
   {
     id: 14,
@@ -218,7 +218,7 @@ const questions = [
     ],
     correctAnswer: 1,
     vocabWords: [{"word":"painstaking","definition":"done with or employing great care and thoroughness"}],
-    explanation: "The clause adds poignancy by noting that the very phenomenon Curie studied ultimately harmed her health — ironic given her groundbreaking success (D)."
+    explanation: "The clause adds poignancy by noting that the very phenomenon Curie studied ultimately harmed her health — ironic given her groundbreaking success (B)."
   },
   {
     id: 15,
@@ -233,7 +233,7 @@ const questions = [
       "D) more accurate news reporting."
     ],
     correctAnswer: 2,
-    explanation: "The passage explicitly states the echo chamber effect 'can deepen political polarization,' which means deeper political divisions (A)."
+    explanation: "The passage explicitly states the echo chamber effect 'can deepen political polarization,' which means deeper political divisions (C)."
   },
   {
     id: 16,
@@ -248,7 +248,7 @@ const questions = [
       "D) what their content distribution systems prioritize."
     ],
     correctAnswer: 3,
-    explanation: "The key contrast is that social media algorithms 'prioritize engagement over accuracy' unlike traditional outlets, a difference in content distribution priorities (C)."
+    explanation: "The key contrast is that social media algorithms 'prioritize engagement over accuracy' unlike traditional outlets, a difference in content distribution priorities (D)."
   },
   {
     id: 17,
@@ -264,7 +264,7 @@ const questions = [
     ],
     correctAnswer: 0,
     vocabWords: [{"word":"extremophiles","definition":"organisms that thrive in physically or chemically extreme conditions"},{"word":"extraterrestrial","definition":"of or from outside the earth or its atmosphere"}],
-    explanation: "Europa is mentioned as an example of a place where life 'could exist' given what we've learned from deep-sea extremophiles (D)."
+    explanation: "Europa is mentioned as an example of a place where life 'could exist' given what we've learned from deep-sea extremophiles (A)."
   },
   {
     id: 18,
@@ -342,7 +342,7 @@ const questions = [
       "D) resolve interpersonal conflicts."
     ],
     correctAnswer: 2,
-    explanation: "The passage defines executive function as 'the brain's ability to plan, focus, and juggle multiple tasks' (B)."
+    explanation: "The passage defines executive function as 'the brain's ability to plan, focus, and juggle multiple tasks' (C)."
   },
   {
     id: 23,
@@ -358,7 +358,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"food literacy","definition":"the understanding of the impact of food choices on health and environment"}],
-    explanation: "The passage states that studies 'found little change in residents' dietary habits' when new supermarkets were introduced (A)."
+    explanation: "The passage states that studies 'found little change in residents' dietary habits' when new supermarkets were introduced (D)."
   },
   {
     id: 24,
@@ -374,7 +374,7 @@ const questions = [
     ],
     correctAnswer: 0,
     vocabWords: [{"word":"apartheid","definition":"a system of institutionalized racial segregation and discrimination"}],
-    explanation: "The passage says 'food apartheid' emphasizes 'systemic racism and economic inequality' rather than 'geographic availability,' making C correct."
+    explanation: "The passage says 'food apartheid' emphasizes 'systemic racism and economic inequality' rather than 'geographic availability,' making A correct."
   },
   {
     id: 25,
@@ -421,7 +421,7 @@ const questions = [
     ],
     correctAnswer: 1,
     vocabWords: [{"word":"wabi-sabi","definition":"a Japanese aesthetic centered on acceptance of imperfection and transience"},{"word":"kintsugi","definition":"the Japanese art of repairing broken pottery with gold"}],
-    explanation: "Kintsugi is presented as an example ('exemplifies') that makes the abstract concept of wabi-sabi concrete and understandable (C)."
+    explanation: "Kintsugi is presented as an example ('exemplifies') that makes the abstract concept of wabi-sabi concrete and understandable (B)."
   },
   {
     id: 28,
@@ -453,7 +453,7 @@ const questions = [
     ],
     correctAnswer: 2,
     vocabWords: [{"word":"cardiovascular","definition":"relating to the heart and blood vessels"}],
-    explanation: "The economic figure adds another dimension to the impact of sleep deprivation, quantifying the societal cost beyond health effects (B)."
+    explanation: "The economic figure adds another dimension to the impact of sleep deprivation, quantifying the societal cost beyond health effects (C)."
   },
   {
     id: 30,
@@ -469,7 +469,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"chronic","definition":"persisting for a long time or constantly recurring"}],
-    explanation: "The final sentence identifies 'cultural attitudes that celebrate overwork and view sleep as laziness' as a persisting barrier (C)."
+    explanation: "The final sentence identifies 'cultural attitudes that celebrate overwork and view sleep as laziness' as a persisting barrier (D)."
   },
 
   // ========== STANDARD ENGLISH CONVENTIONS (Grammar, Punctuation, Verb Forms) ==========
@@ -486,7 +486,7 @@ const questions = [
       "D) dated"
     ],
     correctAnswer: 3,
-    explanation: "The relative clause 'which ______ from the late Bronze Age' needs a past tense verb to match the past tense narrative. 'Dated' (C) is correct."
+    explanation: "The relative clause 'which ______ from the late Bronze Age' needs a past tense verb to match the past tense narrative. 'Dated' (D) is correct."
   },
   {
     id: 32,
@@ -501,7 +501,7 @@ const questions = [
       "D) Since"
     ],
     correctAnswer: 1,
-    explanation: "'While' (D) correctly establishes a contrast between the mayor's praise and the business owners' concerns. 'Since' and 'Because' imply causation, and 'Unless' implies a condition — none of which fits the contrast here."
+    explanation: "'While' (B) correctly establishes a contrast between the mayor's praise and the business owners' concerns. 'Since' and 'Because' imply causation, and 'Unless' implies a condition — none of which fits the contrast here."
   },
   {
     id: 33,
@@ -517,7 +517,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"Impressionist","definition":"relating to a 19th-century art movement emphasizing light and color"}],
-    explanation: "'Their' (A) is the correct possessive pronoun referring to 'the Impressionist painters' (plural). 'They're' means 'they are,' 'there' is a location word, and 'its' is singular."
+    explanation: "'Their' (D) is the correct possessive pronoun referring to 'the Impressionist painters' (plural). 'They're' means 'they are,' 'there' is a location word, and 'its' is singular."
   },
   {
     id: 34,
@@ -532,7 +532,7 @@ const questions = [
       "D) journal"
     ],
     correctAnswer: 2,
-    explanation: "Two independent clauses joined by a coordinating conjunction ('and') require a comma before the conjunction. 'Journal, and' (A) is correct."
+    explanation: "Two independent clauses joined by a coordinating conjunction ('and') require a comma before the conjunction. 'Journal, and' (C) is correct."
   },
   {
     id: 35,
@@ -562,7 +562,7 @@ const questions = [
       "D) work; which"
     ],
     correctAnswer: 0,
-    explanation: "A nonrestrictive (nonessential) relative clause must be set off by commas. 'Work, which' (B) correctly uses a comma before the relative clause. A semicolon cannot introduce a dependent clause."
+    explanation: "A nonrestrictive (nonessential) relative clause must be set off by commas. 'Work, which' (A) correctly uses a comma before the relative clause. A semicolon cannot introduce a dependent clause."
   },
   {
     id: 37,
@@ -593,7 +593,7 @@ const questions = [
     ],
     correctAnswer: 1,
     vocabWords: [{"word":"subjunctive","definition":"a verb mood used to express wishes, demands, or hypothetical situations"}],
-    explanation: "After 'recommended that,' the subjunctive mood requires the base form of the verb. 'Revise' (A) is the correct subjunctive form, regardless of the subject."
+    explanation: "After 'recommended that,' the subjunctive mood requires the base form of the verb. 'Revise' (B) is the correct subjunctive form, regardless of the subject."
   },
   {
     id: 39,
@@ -623,7 +623,7 @@ const questions = [
       "D) museums's"
     ],
     correctAnswer: 1,
-    explanation: "The singular possessive 'museum's' (C) is correct because the passage refers to one museum's collection. 'Museums' is plural without possession, 'museums'' is plural possessive, and 'museums's' is nonstandard."
+    explanation: "The singular possessive 'museum's' (B) is correct because the passage refers to one museum's collection. 'Museums' is plural without possession, 'museums'' is plural possessive, and 'museums's' is nonstandard."
   },
 
   // ========== TRANSITIONS ==========
@@ -641,7 +641,7 @@ const questions = [
     ],
     correctAnswer: 0,
     vocabWords: [{"word":"coral bleaching","definition":"the whitening of coral due to stress from temperature changes"}],
-    explanation: "'However' (D) signals a contrast between the ecological importance of reefs and their vulnerability. The first sentence highlights their value; the second introduces a threat."
+    explanation: "'However' (A) signals a contrast between the ecological importance of reefs and their vulnerability. The first sentence highlights their value; the second introduces a threat."
   },
   {
     id: 42,
@@ -672,7 +672,7 @@ const questions = [
     ],
     correctAnswer: 0,
     vocabWords: [{"word":"supernovae","definition":"massive explosions of dying stars (plural of supernova)"}],
-    explanation: "'On the contrary' (C) signals that the observations directly contradicted the initial belief — the expansion was accelerating, not slowing."
+    explanation: "'On the contrary' (A) signals that the observations directly contradicted the initial belief — the expansion was accelerating, not slowing."
   },
   {
     id: 44,
@@ -687,7 +687,7 @@ const questions = [
       "D) As a result,"
     ],
     correctAnswer: 3,
-    explanation: "'As a result' (B) shows that the ridership increase was a direct consequence of the city's investment in transit. The second sentence describes the outcome of the first."
+    explanation: "'As a result' (D) shows that the ridership increase was a direct consequence of the city's investment in transit. The second sentence describes the outcome of the first."
   },
   {
     id: 45,
@@ -702,7 +702,7 @@ const questions = [
       "D) Therefore,"
     ],
     correctAnswer: 2,
-    explanation: "'Yet' (B) introduces a contrast — while many embrace remote work, some companies have moved in the opposite direction. 'Moreover' would add to the point; 'Therefore' and 'Accordingly' imply consequence."
+    explanation: "'Yet' (C) introduces a contrast — while many embrace remote work, some companies have moved in the opposite direction. 'Moreover' would add to the point; 'Therefore' and 'Accordingly' imply consequence."
   },
 
   // ========== RHETORICAL SYNTHESIS ==========
@@ -832,7 +832,7 @@ const questions = [
     ],
     correctAnswer: 1,
     vocabWords: [{"word":"divergent","definition":"tending to develop in different directions; differing from each other"}],
-    explanation: "Vasquez says creative capacity is 'determined at birth'; Liu shows training can 'significantly increase creative output' with measurable brain changes. They disagree on whether creativity can be substantially developed (D)."
+    explanation: "Vasquez says creative capacity is 'determined at birth'; Liu shows training can 'significantly increase creative output' with measurable brain changes. They disagree on whether creativity can be substantially developed (B)."
   },
   {
     id: 54,
@@ -847,7 +847,7 @@ const questions = [
       "D) Text 2 discusses an entirely unrelated topic."
     ],
     correctAnswer: 0,
-    explanation: "Kim advocates for mixed-use zoning's benefits, while Torres identifies a real consequence (displacement/gentrification) that Kim's argument overlooks. Text 2 complicates but doesn't entirely refute Text 1 (B)."
+    explanation: "Kim advocates for mixed-use zoning's benefits, while Torres identifies a real consequence (displacement/gentrification) that Kim's argument overlooks. Text 2 complicates but doesn't entirely refute Text 1 (A)."
   },
 
   // ========== INFERENCE & LITERARY ANALYSIS ==========
@@ -881,7 +881,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"irreverent","definition":"showing a lack of respect for things normally treated with seriousness"}],
-    explanation: "The author highlights contradictions (praising then questioning opponents, invoking working families in a $500/plate ballroom) and describes words chosen 'not for truth but for effect' — clearly critical and ironic (A)."
+    explanation: "The author highlights contradictions (praising then questioning opponents, invoking working families in a $500/plate ballroom) and describes words chosen 'not for truth but for effect' — clearly critical and ironic (D)."
   },
   {
     id: 57,
@@ -897,7 +897,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"paradigm","definition":"a typical example, pattern, or model of something; a worldview"}],
-    explanation: "A 'paradigm cracking' metaphorically refers to the established scientific framework being fundamentally challenged. The silence and discomfort confirm the findings disrupted existing models (C)."
+    explanation: "A 'paradigm cracking' metaphorically refers to the established scientific framework being fundamentally challenged. The silence and discomfort confirm the findings disrupted existing models (D)."
   },
   {
     id: 58,
@@ -929,7 +929,7 @@ const questions = [
     ],
     correctAnswer: 2,
     vocabWords: [{"word":"euphemism","definition":"a mild or indirect word substituted for one considered too harsh"}],
-    explanation: "By juxtaposing euphemistic language ('strategic realignment,' 'optimization') with what was conspicuously absent ('job loss,' 'unemployment'), the author exposes how corporate language disguises harsh realities (D)."
+    explanation: "By juxtaposing euphemistic language ('strategic realignment,' 'optimization') with what was conspicuously absent ('job loss,' 'unemployment'), the author exposes how corporate language disguises harsh realities (C)."
   },
   {
     id: 60,
@@ -945,7 +945,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"polarization","definition":"division into two sharply contrasting groups or opinions"}],
-    explanation: "The phrase acknowledges the project as 'progress' (economic benefit) while condemning it for 'erasing history' (cultural loss), perfectly capturing the tension between development and preservation (C)."
+    explanation: "The phrase acknowledges the project as 'progress' (economic benefit) while condemning it for 'erasing history' (cultural loss), perfectly capturing the tension between development and preservation (D)."
   },
 
   // ========== HARD QUESTIONS ==========
@@ -979,7 +979,7 @@ const questions = [
     ],
     correctAnswer: 1,
     vocabWords: [{"word":"stewardship","definition":"the responsible management and care of something entrusted to one's care"}],
-    explanation: "The statistics (340% more drilling, reviews cut from 18 months to 45 days) paired with the note that no new environmental protections were mentioned creates an implicit contrast with the department's claim of 'balance' — suggesting the language understates the impact (A)."
+    explanation: "The statistics (340% more drilling, reviews cut from 18 months to 45 days) paired with the note that no new environmental protections were mentioned creates an implicit contrast with the department's claim of 'balance' — suggesting the language understates the impact (B)."
   },
   {
     id: 63,
@@ -1010,7 +1010,7 @@ const questions = [
     ],
     correctAnswer: 0,
     vocabWords: [{"word":"pro-environmental","definition":"supporting or promoting the protection of the natural environment"}],
-    explanation: "Documentaries caused a short-term effect that vanished; direct forest exposure caused a smaller but persistent effect. The key distinction is mediated vs. direct experience, and only direct experience produced lasting change (C). A is wrong because documentaries had a larger initial but non-lasting effect."
+    explanation: "Documentaries caused a short-term effect that vanished; direct forest exposure caused a smaller but persistent effect. The key distinction is mediated vs. direct experience, and only direct experience produced lasting change (C). B is wrong because documentaries had a larger initial but non-lasting effect."
   },
   {
     id: 65,
@@ -1026,7 +1026,7 @@ const questions = [
     ],
     correctAnswer: 2,
     vocabWords: [{"word":"megafauna","definition":"large animals, especially those of a particular region or period"},{"word":"isotope","definition":"variants of a chemical element with different numbers of neutrons"}],
-    explanation: "'However' (B) is correct because the isotope findings contradict the climate change theory — if food sources were stable, climate wasn't destroying their habitat. This is tricky because students might think 'In addition' works, but the second sentence actively undermines the first."
+    explanation: "'However' (C) is correct because the isotope findings contradict the climate change theory — if food sources were stable, climate wasn't destroying their habitat. This is tricky because students might think 'In addition' works, but the second sentence actively undermines the first."
   },
   {
     id: 66,
@@ -1042,7 +1042,7 @@ const questions = [
     ],
     correctAnswer: 1,
     vocabWords: [{"word":"self-defeating","definition":"acting in a way that prevents achievement of one's own goal"}],
-    explanation: "Appiah calls Singer's argument 'logically compelling' (not flawed) but says it 'asks humans to act against their deepest psychological constitution, making it self-defeating in practice.' This is a critique of practicality, not logic — making D correct. A is wrong because Appiah concedes the logic."
+    explanation: "Appiah calls Singer's argument 'logically compelling' (not flawed) but says it 'asks humans to act against their deepest psychological constitution, making it self-defeating in practice.' This is a critique of practicality, not logic — making B correct. A is wrong because Appiah concedes the logic."
   },
   {
     id: 67,
@@ -1058,7 +1058,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"juxtaposition","definition":"the act of placing two things side by side for comparison or contrast"}],
-    explanation: "The passage places private knowledge (cardiac events found in 2019) next to public claims ('no clinically significant adverse events') — a clear discrepancy between what was known and what was reported (B)."
+    explanation: "The passage places private knowledge (cardiac events found in 2019) next to public claims ('no clinically significant adverse events') — a clear discrepancy between what was known and what was reported (D)."
   },
   {
     id: 68,
@@ -1074,7 +1074,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"RNA","definition":"ribonucleic acid, a molecule essential for gene expression and protein synthesis"}],
-    explanation: "The subject is 'The discovery' (singular), not 'octopuses.' The long interrupting clause between dashes makes it easy to lose track of the subject. 'Challenges' (A) is the singular present tense verb that agrees with 'discovery.'"
+    explanation: "The subject is 'The discovery' (singular), not 'octopuses.' The long interrupting clause between dashes makes it easy to lose track of the subject. 'Challenges' (D) is the singular present tense verb that agrees with 'discovery.'"
   },
   {
     id: 69,
@@ -1090,7 +1090,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"confounding variable","definition":"an unmeasured variable that influences both the independent and dependent variables, creating a false association"}],
-    explanation: "The reanalysis found that case strength (a confounding variable), not fatigue, explained most of the timing effect. The effect was 'reduced by 80%' when controlling for this variable — making C correct. A is too absolute (the effect was reduced, not eliminated)."
+    explanation: "The reanalysis found that case strength (a confounding variable), not fatigue, explained most of the timing effect. The effect was 'reduced by 80%' when controlling for this variable — making D correct. A is too absolute (the effect was reduced, not eliminated)."
   },
   {
     id: 70,
@@ -1105,7 +1105,7 @@ const questions = [
       "D) values older literary works over contemporary ones."
     ],
     correctAnswer: 0,
-    explanation: "hooks says Bloom 'privileged perspectives that reflected his own identity while marginalizing others' when declaring works 'universal.' This means his 'universality' actually masks a particular perspective presented as default (B). A is wrong because hooks doesn't discuss craft, and C is the opposite of her argument."
+    explanation: "hooks says Bloom 'privileged perspectives that reflected his own identity while marginalizing others' when declaring works 'universal.' This means his 'universality' actually masks a particular perspective presented as default (B). B is wrong because hooks doesn't discuss craft, and C is the opposite of her argument."
   },
   {
     id: 71,
@@ -1151,7 +1151,7 @@ const questions = [
       "D) were"
     ],
     correctAnswer: 1,
-    explanation: "The subject is 'The team' (singular), not 'biologists' or 'volunteers.' The phrase 'along with several volunteers' is a parenthetical addition and does not make the subject plural. 'Has been' (C) agrees with the singular subject. 'Since March' requires present perfect continuous tense."
+    explanation: "The subject is 'The team' (singular), not 'biologists' or 'volunteers.' The phrase 'along with several volunteers' is a parenthetical addition and does not make the subject plural. 'Has been' (B) agrees with the singular subject. 'Since March' requires present perfect continuous tense."
   },
   {
     id: 74,
@@ -1201,7 +1201,7 @@ const questions = [
       "D) Paradoxically,"
     ],
     correctAnswer: 3,
-    explanation: "'Paradoxically' (A) signals an unexpected contrast — devastation leads to fertility. 'Similarly' implies sameness, 'For this reason' implies cause from the same direction, and 'In other words' implies rephrasing."
+    explanation: "'Paradoxically' (D) signals an unexpected contrast — devastation leads to fertility. 'Similarly' implies sameness, 'For this reason' implies cause from the same direction, and 'In other words' implies rephrasing."
   },
   {
     id: 77,
@@ -1216,7 +1216,7 @@ const questions = [
       "D) Instead,"
     ],
     correctAnswer: 0,
-    explanation: "The second sentence adds information about temporary exhibitions alongside the permanent collection. 'In addition' (C) correctly signals this additive relationship."
+    explanation: "The second sentence adds information about temporary exhibitions alongside the permanent collection. 'In addition' (A) correctly signals this additive relationship."
   },
   {
     id: 78,
@@ -1232,7 +1232,7 @@ const questions = [
     ],
     correctAnswer: 0,
     vocabWords: [{"word":"championed","definition":"supported or fought publicly for a cause or principle"}],
-    explanation: "'Nonetheless' (D) introduces a contradiction between the CEO's public statements and the company's actual behavior. 'In fact' could work to intensify, but here the second sentence contradicts rather than intensifies. 'Accordingly' and 'Specifically' imply alignment."
+    explanation: "'Nonetheless' (A) introduces a contradiction between the CEO's public statements and the company's actual behavior. 'In fact' could work to intensify, but here the second sentence contradicts rather than intensifies. 'Accordingly' and 'Specifically' imply alignment."
   },
   {
     id: 79,
@@ -1247,7 +1247,7 @@ const questions = [
       "D) For example,"
     ],
     correctAnswer: 1,
-    explanation: "'Initially' (A) signals that the skepticism was a first reaction that eventually changed. 'As a result' would mean the skepticism was caused by his discovery (partially true but the word 'initially' better captures the temporal nuance). 'In contrast' doesn't fit because the skepticism isn't being contrasted with anything."
+    explanation: "'Initially' (B) signals that the skepticism was a first reaction that eventually changed. 'As a result' would mean the skepticism was caused by his discovery (partially true but the word 'initially' better captures the temporal nuance). 'In contrast' doesn't fit because the skepticism isn't being contrasted with anything."
   },
   {
     id: 80,
@@ -1263,7 +1263,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"loss-averse","definition":"tending to prefer avoiding losses over acquiring equivalent gains"},{"word":"asymmetry","definition":"lack of equality or equivalence between parts"}],
-    explanation: "'That said' (B) acknowledges the evolutionary argument just made while pivoting to a counterpoint about modern contexts. 'Furthermore' would add to the same point, 'In other words' rephrases, and 'Consequently' implies direct causation."
+    explanation: "'That said' (D) acknowledges the evolutionary argument just made while pivoting to a counterpoint about modern contexts. 'Furthermore' would add to the same point, 'In other words' rephrases, and 'Consequently' implies direct causation."
   },
 
   // --- Standard English Conventions (need more) ---
@@ -1280,7 +1280,7 @@ const questions = [
       "D) has been"
     ],
     correctAnswer: 0,
-    explanation: "'The students' is a plural subject requiring a plural verb. 'Are' (C) is the correct plural present tense form. 'Is' and 'was' are singular, 'has been' is singular."
+    explanation: "'The students' is a plural subject requiring a plural verb. 'Are' (A) is the correct plural present tense form. 'Is' and 'was' are singular, 'has been' is singular."
   },
   {
     id: 82,
@@ -1295,7 +1295,7 @@ const questions = [
       "D) complex. Which"
     ],
     correctAnswer: 1,
-    explanation: "The relative clause 'which was designed...' is nonrestrictive (extra info, not essential to identify the complex). Nonrestrictive clauses must be set off with a comma. 'Complex, which' (A) is correct."
+    explanation: "The relative clause 'which was designed...' is nonrestrictive (extra info, not essential to identify the complex). Nonrestrictive clauses must be set off with a comma. 'Complex, which' (B) is correct."
   },
   {
     id: 83,
@@ -1311,7 +1311,7 @@ const questions = [
     ],
     correctAnswer: 1,
     vocabWords: [{"word":"trajectory","definition":"the path followed by a moving object through space"}],
-    explanation: "The subject is 'The data' (singular in this usage, referring to a body of information, not the Latin plural). The interrupting phrase 'combined with observations...' does not change the subject. 'Suggests' (D) agrees with the singular subject."
+    explanation: "The subject is 'The data' (singular in this usage, referring to a body of information, not the Latin plural). The interrupting phrase 'combined with observations...' does not change the subject. 'Suggests' (A) agrees with the singular subject."
   },
   {
     id: 84,
@@ -1326,7 +1326,7 @@ const questions = [
       "D) proposal,"
     ],
     correctAnswer: 3,
-    explanation: "'After reviewing the proposal' is an introductory prepositional phrase. It should be followed by a comma before the main clause begins. 'Proposal,' (C) is correct."
+    explanation: "'After reviewing the proposal' is an introductory prepositional phrase. It should be followed by a comma before the main clause begins. 'Proposal,' (D) is correct."
   },
   {
     id: 85,
@@ -1373,7 +1373,7 @@ const questions = [
       "D) argue that all schools should require music education."
     ],
     correctAnswer: 0,
-    explanation: "The tears show emotional impact, and the very next sentence describes the vote reversal. The author connects the emotional reaction to the decision change, illustrating how the concert influenced the outcome (C)."
+    explanation: "The tears show emotional impact, and the very next sentence describes the vote reversal. The author connects the emotional reaction to the decision change, illustrating how the concert influenced the outcome (A)."
   },
   {
     id: 88,
@@ -1404,7 +1404,7 @@ const questions = [
     ],
     correctAnswer: 1,
     vocabWords: [{"word":"draconian","definition":"excessively harsh or severe"},{"word":"reductive","definition":"tending to present something in an oversimplified form"}],
-    explanation: "The passage contrasts a 47-page nuanced proposal with one-word reactions ('draconian,' 'amnesty') and the senator's frustration about 'bumper sticker' thinking. This gap between complexity and oversimplification is the structural point (C)."
+    explanation: "The passage contrasts a 47-page nuanced proposal with one-word reactions ('draconian,' 'amnesty') and the senator's frustration about 'bumper sticker' thinking. This gap between complexity and oversimplification is the structural point (B)."
   },
   {
     id: 90,
@@ -1437,7 +1437,7 @@ const questions = [
       "D) The critical factor is whether the music contains words, not whether music is present."
     ],
     correctAnswer: 3,
-    explanation: "Instrumental music (79%) was statistically similar to silence (82%), but lyrical music (68%) was significantly worse. The distinguishing factor is lyrics vs. no lyrics, not music vs. silence (A)."
+    explanation: "Instrumental music (79%) was statistically similar to silence (82%), but lyrical music (68%) was significantly worse. The distinguishing factor is lyrics vs. no lyrics, not music vs. silence (D)."
   },
   {
     id: 92,
@@ -1452,7 +1452,7 @@ const questions = [
       "D) suggests that children in Salt Lake City are inherently more talented."
     ],
     correctAnswer: 2,
-    explanation: "'Otherwise identical' means the children were similar in all relevant characteristics except geography. This language signals that the researcher controlled for other variables to isolate the geographic effect (D)."
+    explanation: "'Otherwise identical' means the children were similar in all relevant characteristics except geography. This language signals that the researcher controlled for other variables to isolate the geographic effect (C)."
   },
   {
     id: 93,
@@ -1467,7 +1467,7 @@ const questions = [
       "D) the direction relative to the Sun."
     ],
     correctAnswer: 2,
-    explanation: "The passage explicitly states that 'the duration of the waggle indicating the distance.' Direction is communicated by the angle, not the duration. The correct answer is (D)."
+    explanation: "The passage explicitly states that 'the duration of the waggle indicating the distance.' Direction is communicated by the angle, not the duration. The correct answer is (C)."
   },
 
   // --- Expression of Ideas ---
@@ -1484,7 +1484,7 @@ const questions = [
       "D) The cost of solar panels has decreased significantly over the past decade, making solar energy more affordable for homeowners."
     ],
     correctAnswer: 2,
-    explanation: "The student wants to emphasize speed of change. Only B highlights the dramatic growth (0.1% to 6%) with a time frame (2010-2024) and connects it to cost reduction, conveying rapid transformation (D)."
+    explanation: "The student wants to emphasize speed of change. Only B highlights the dramatic growth (0.1% to 6%) with a time frame (2010-2024) and connects it to cost reduction, conveying rapid transformation (C)."
   },
   {
     id: 95,
@@ -1499,7 +1499,7 @@ const questions = [
       "D) Kahneman's research methodology is fundamentally flawed."
     ],
     correctAnswer: 1,
-    explanation: "Damasio's core argument is that emotions are 'necessary inputs' to reason, and patients without emotional input make 'catastrophically poor decisions.' He would counter Kahneman's suggestion to override emotions by arguing this would impair decisions (D)."
+    explanation: "Damasio's core argument is that emotions are 'necessary inputs' to reason, and patients without emotional input make 'catastrophically poor decisions.' He would counter Kahneman's suggestion to override emotions by arguing this would impair decisions (B)."
   },
   {
     id: 96,
@@ -1532,7 +1532,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"wryly","definition":"in a way that expresses dry, often ironic humor"}],
-    explanation: "The passage sets up a factual-sounding list, then delivers a punchline implying the village has a major problem (likely alcoholism). This deadpan delivery of a dark observation is wryly humorous (B)."
+    explanation: "The passage sets up a factual-sounding list, then delivers a punchline implying the village has a major problem (likely alcoholism). This deadpan delivery of a dark observation is wryly humorous (D)."
   },
   {
     id: 98,
@@ -1548,7 +1548,7 @@ const questions = [
     ],
     correctAnswer: 0,
     vocabWords: [{"word":"placebo","definition":"a treatment with no therapeutic effect, used as a control in testing new drugs"}],
-    explanation: "The examples escalate: color → size → form (capsule vs tablet) → injection → surgery. Each step is more invasive/dramatic, and each produces a stronger effect. This escalating pattern is the structural principle (B)."
+    explanation: "The examples escalate: color → size → form (capsule vs tablet) → injection → surgery. Each step is more invasive/dramatic, and each produces a stronger effect. This escalating pattern is the structural principle (A)."
   },
   {
     id: 99,
@@ -1579,7 +1579,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"veil of ignorance","definition":"a thought experiment where decision-makers don't know their own position in society"},{"word":"redistribution","definition":"the transfer of income or wealth from some individuals to others through social mechanisms"}],
-    explanation: "Rawls focuses on outcomes (protect the vulnerable, design fair results). Nozick focuses on process (respect how things were acquired). Their core disagreement is outcomes vs. process (C)."
+    explanation: "Rawls focuses on outcomes (protect the vulnerable, design fair results). Nozick focuses on process (respect how things were acquired). Their core disagreement is outcomes vs. process (D)."
   },
 
   // ========== BATCH 101-125 ==========
@@ -1629,7 +1629,7 @@ const questions = [
       "D) Previously,"
     ],
     correctAnswer: 0,
-    explanation: "'In either case' (B) correctly links both seasonal fur colors (white or brown) to the same functional benefit (camouflage). The sentence explains that regardless of season, the color change serves the same purpose."
+    explanation: "'In either case' (A) correctly links both seasonal fur colors (white or brown) to the same functional benefit (camouflage). The sentence explains that regardless of season, the color change serves the same purpose."
   },
   {
     id: 104,
@@ -1644,7 +1644,7 @@ const questions = [
       "D) Newspaper closures are a major trend in the American media landscape and affect many communities."
     ],
     correctAnswer: 0,
-    explanation: "The student wants to connect decline to a civic consequence. Only C links the closures (decline) directly to voter turnout (civic consequence) and draws the broader implication about democracy (C)."
+    explanation: "The student wants to connect decline to a civic consequence. Only C links the closures (decline) directly to voter turnout (civic consequence) and draws the broader implication about democracy (A)."
   },
   {
     id: 105,
@@ -1659,7 +1659,7 @@ const questions = [
       "D) honesty;"
     ],
     correctAnswer: 0,
-    explanation: "The clause 'whose works explore...honesty' is a nonrestrictive relative clause that interrupts the main sentence. It opened with a comma after 'Morrison,' so it must close with a comma: 'honesty,' (C)."
+    explanation: "The clause 'whose works explore...honesty' is a nonrestrictive relative clause that interrupts the main sentence. It opened with a comma after 'Morrison,' so it must close with a comma: 'honesty,' (A)."
   },
   {
     id: 106,
@@ -1705,7 +1705,7 @@ const questions = [
       "D) taking turns incubating the egg with females."
     ],
     correctAnswer: 0,
-    explanation: "The passage explicitly states males 'huddle together in groups...rotating positions so that each penguin eventually reaches the warm center' (C). The other choices are not mentioned."
+    explanation: "The passage explicitly states males 'huddle together in groups...rotating positions so that each penguin eventually reaches the warm center' (A). The other choices are not mentioned."
   },
   {
     id: 109,
@@ -1720,7 +1720,7 @@ const questions = [
       "D) Correspondingly,"
     ],
     correctAnswer: 3,
-    explanation: "'Correspondingly' (B) signals that the transit increase is a logically related outcome of the traffic decrease — both are effects of the same policy. 'Despite this' and 'Nevertheless' imply contradiction, which doesn't fit."
+    explanation: "'Correspondingly' (D) signals that the transit increase is a logically related outcome of the traffic decrease — both are effects of the same policy. 'Despite this' and 'Nevertheless' imply contradiction, which doesn't fit."
   },
   {
     id: 110,
@@ -1735,7 +1735,7 @@ const questions = [
       "D) decades."
     ],
     correctAnswer: 1,
-    explanation: "The clause 'which the library acquired...decades' is a nonrestrictive relative clause. It must be closed with a comma to complete the pair that began after 'manuscripts.' 'Decades,' (A) is correct."
+    explanation: "The clause 'which the library acquired...decades' is a nonrestrictive relative clause. It must be closed with a comma to complete the pair that began after 'manuscripts.' 'Decades,' (B) is correct."
   },
   {
     id: 111,
@@ -1766,7 +1766,7 @@ const questions = [
     ],
     correctAnswer: 0,
     vocabWords: [{"word":"misinformation effect","definition":"the tendency for post-event information to alter memories of the original event"}],
-    explanation: "The word choice ('smashed' vs 'contacted') changed both speed estimates and false memory of broken glass. This shows language distorts estimates and memories (A). A is too absolute, B misses the point, D is unsupported."
+    explanation: "The word choice ('smashed' vs 'contacted') changed both speed estimates and false memory of broken glass. This shows language distorts estimates and memories (A). B is too absolute, B misses the point, D is unsupported."
   },
   {
     id: 113,
@@ -1872,7 +1872,7 @@ const questions = [
       "D) library:"
     ],
     correctAnswer: 0,
-    explanation: "The clause 'who designed the new city library' is a restrictive (essential) relative clause — it identifies which architect. Restrictive clauses should NOT have commas. 'Library' (C) without punctuation is correct."
+    explanation: "The clause 'who designed the new city library' is a restrictive (essential) relative clause — it identifies which architect. Restrictive clauses should NOT have commas. 'Library' (A) without punctuation is correct."
   },
   {
     id: 120,
@@ -1887,7 +1887,7 @@ const questions = [
       "D) The study proves that sleep directly causes changes in GPA."
     ],
     correctAnswer: 0,
-    explanation: "Both too little (<6h) and too much (>9h) sleep correlated with lower GPAs compared to 7-8h. This U-shaped pattern shows an optimal range with penalties in both directions (A). A is contradicted by the >9h finding. D confuses correlation with causation."
+    explanation: "Both too little (<6h) and too much (>9h) sleep correlated with lower GPAs compared to 7-8h. This U-shaped pattern shows an optimal range with penalties in both directions (A). B is contradicted by the >9h finding. D confuses correlation with causation."
   },
   {
     id: 121,
@@ -1902,7 +1902,7 @@ const questions = [
       "D) highlight the irony of the board claiming credit after repeatedly blocking the project."
     ],
     correctAnswer: 3,
-    explanation: "The board denied funding 7-1 three times, then congratulated her after she succeeded anyway. The juxtaposition of obstruction and congratulation creates dramatic irony (C). D is too extreme, A misreads the tone, B is unsupported."
+    explanation: "The board denied funding 7-1 three times, then congratulated her after she succeeded anyway. The juxtaposition of obstruction and congratulation creates dramatic irony (C). A is too extreme, A misreads the tone, B is unsupported."
   },
   {
     id: 122,
@@ -1917,7 +1917,7 @@ const questions = [
       "D) Meanwhile,"
     ],
     correctAnswer: 2,
-    explanation: "'As a result' (B) shows the causal relationship: the extreme metabolism (cause) requires massive food intake (effect). The nectar consumption is a direct consequence of the high metabolic rate."
+    explanation: "'As a result' (C) shows the causal relationship: the extreme metabolism (cause) requires massive food intake (effect). The nectar consumption is a direct consequence of the high metabolic rate."
   },
   {
     id: 123,
@@ -1932,7 +1932,7 @@ const questions = [
       "D) compelling"
     ],
     correctAnswer: 2,
-    explanation: "The subject is 'The discovery' (singular). The clause between dashes is a parenthetical. 'Has compelled' (D) agrees with the singular subject and uses present perfect tense correctly."
+    explanation: "The subject is 'The discovery' (singular). The clause between dashes is a parenthetical. 'Has compelled' (C) agrees with the singular subject and uses present perfect tense correctly."
   },
   {
     id: 124,
@@ -1962,7 +1962,7 @@ const questions = [
       "D) Text 2 offers a fundamentally different interpretation of the same historical process discussed in Text 1."
     ],
     correctAnswer: 3,
-    explanation: "Both texts discuss the American frontier. Turner sees it as democratic triumph; Limerick sees it as conquest and exclusion. Same topic, fundamentally different interpretation (B)."
+    explanation: "Both texts discuss the American frontier. Turner sees it as democratic triumph; Limerick sees it as conquest and exclusion. Same topic, fundamentally different interpretation (D)."
   },
 
   // ========== BATCH 126-150 ==========
@@ -1980,7 +1980,7 @@ const questions = [
       "D) regulatory investigations are a normal part of nonprofit operations."
     ],
     correctAnswer: 0,
-    explanation: "Glossy photos and success stories dominate the report while damaging facts are hidden in a footnote. This structural choice suggests the report was designed to highlight positives and hide negatives (C). A is too extreme."
+    explanation: "Glossy photos and success stories dominate the report while damaging facts are hidden in a footnote. This structural choice suggests the report was designed to highlight positives and hide negatives (C). B is too extreme."
   },
   {
     id: 127,
@@ -1995,7 +1995,7 @@ const questions = [
       "D) four blocks is too small an area to measure crime accurately."
     ],
     correctAnswer: 2,
-    explanation: "The effect was 'concentrated within a two-block radius' and 'diminished to statistical insignificance beyond four blocks.' This means the benefit is localized, not citywide (B). A contradicts the data, C is wrong (9% reduction in property crime was found)."
+    explanation: "The effect was 'concentrated within a two-block radius' and 'diminished to statistical insignificance beyond four blocks.' This means the benefit is localized, not citywide (B). A contradicts the data, B is wrong (9% reduction in property crime was found)."
   },
   {
     id: 128,
@@ -2025,7 +2025,7 @@ const questions = [
       "D) have contained"
     ],
     correctAnswer: 1,
-    explanation: "'The archaeological site' is a singular subject requiring a singular verb. 'Contains' (C) is correct. 'Contain' is plural, 'containing' creates a fragment, 'have contained' is plural."
+    explanation: "'The archaeological site' is a singular subject requiring a singular verb. 'Contains' (B) is correct. 'Contain' is plural, 'containing' creates a fragment, 'have contained' is plural."
   },
   {
     id: 130,
@@ -2056,7 +2056,7 @@ const questions = [
       "D) The cosmic microwave background is important evidence supporting the Big Bang theory of the universe's origin."
     ],
     correctAnswer: 0,
-    explanation: "The student wants to emphasize the accidental nature. C highlights the troubleshooting process (noise, pigeon droppings) and uses 'stumbled upon' and 'entirely by accident' to frame the discovery as unintentional (C)."
+    explanation: "The student wants to emphasize the accidental nature. C highlights the troubleshooting process (noise, pigeon droppings) and uses 'stumbled upon' and 'entirely by accident' to frame the discovery as unintentional (A)."
   },
   {
     id: 132,
@@ -2072,7 +2072,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"paradigm shift","definition":"a fundamental change in approach or underlying assumptions"}],
-    explanation: "The chair uses inflated corporate language ('synergy,' 'paradigm shift'). The intern's blunt observation that only the coffee machine moved deflates this language, revealing the gap between rhetoric and reality (B)."
+    explanation: "The chair uses inflated corporate language ('synergy,' 'paradigm shift'). The intern's blunt observation that only the coffee machine moved deflates this language, revealing the gap between rhetoric and reality (D)."
   },
   {
     id: 133,
@@ -2087,7 +2087,7 @@ const questions = [
       "D) takes,"
     ],
     correctAnswer: 3,
-    explanation: "'Known for her innovative use...takes' is a participial phrase set off by commas. The opening comma appears after 'filmmaker,' so a closing comma is needed after 'takes' (A) to complete the pair."
+    explanation: "'Known for her innovative use...takes' is a participial phrase set off by commas. The opening comma appears after 'filmmaker,' so a closing comma is needed after 'takes' (D) to complete the pair."
   },
   {
     id: 134,
@@ -2132,7 +2132,7 @@ const questions = [
       "D) relies exclusively on anecdotal evidence rather than empirical research."
     ],
     correctAnswer: 0,
-    explanation: "Odgers argues that 'focusing on phones distracts from more significant factors: economic inequality, academic pressure, and reduced access to mental health care.' She thinks the phone focus diverts attention from structural causes (C). A is wrong — she doesn't say social media has zero effects."
+    explanation: "Odgers argues that 'focusing on phones distracts from more significant factors: economic inequality, academic pressure, and reduced access to mental health care.' She thinks the phone focus diverts attention from structural causes (C). B is wrong — she doesn't say social media has zero effects."
   },
   {
     id: 137,
@@ -2162,7 +2162,7 @@ const questions = [
       "D) there"
     ],
     correctAnswer: 1,
-    explanation: "'Each department head' is singular but gender-neutral. In modern Standard English, 'their' (C) is the accepted singular gender-neutral pronoun. 'His or her' (A) is grammatically traditional but the SAT now accepts 'their.' 'Its' refers to non-human entities, 'there' is a location word."
+    explanation: "'Each department head' is singular but gender-neutral. In modern Standard English, 'their' (B) is the accepted singular gender-neutral pronoun. 'His or her' (A) is grammatically traditional but the SAT now accepts 'their.' 'Its' refers to non-human entities, 'there' is a location word."
   },
   {
     id: 139,
@@ -2177,7 +2177,7 @@ const questions = [
       "D) appeared more structurally developed than models predicted for their age."
     ],
     correctAnswer: 3,
-    explanation: "The galaxies were 'unexpectedly massive and well-organized' with structures that models said 'should take at least a billion years to form,' but they existed just 300 million years after the Big Bang. They were more developed than expected for their age (B)."
+    explanation: "The galaxies were 'unexpectedly massive and well-organized' with structures that models said 'should take at least a billion years to form,' but they existed just 300 million years after the Big Bang. They were more developed than expected for their age (D)."
   },
   {
     id: 140,
@@ -2192,7 +2192,7 @@ const questions = [
       "D) In other words,"
     ],
     correctAnswer: 1,
-    explanation: "'Indeed' (D) intensifies the previous claim about safety by providing the specific supporting fact (zero fatalities). The second sentence reinforces rather than contradicts the first."
+    explanation: "'Indeed' (B) intensifies the previous claim about safety by providing the specific supporting fact (zero fatalities). The second sentence reinforces rather than contradicts the first."
   },
   {
     id: 141,
@@ -2208,7 +2208,7 @@ const questions = [
     ],
     correctAnswer: 1,
     vocabWords: [{"word":"sardonic","definition":"grimly mocking or cynical"}],
-    explanation: "The passage pairs lofty language ('bring treasures to the public') with cynical reality ('sell $40 coffee mugs'), creating a sardonic/skeptical tone that questions the museum's true motives (C)."
+    explanation: "The passage pairs lofty language ('bring treasures to the public') with cynical reality ('sell $40 coffee mugs'), creating a sardonic/skeptical tone that questions the museum's true motives (B)."
   },
   {
     id: 142,
@@ -2223,7 +2223,7 @@ const questions = [
       "D) were"
     ],
     correctAnswer: 3,
-    explanation: "With 'neither...nor,' the verb agrees with the nearer subject. 'Board members' is plural and nearest, so 'were' (B) is correct."
+    explanation: "With 'neither...nor,' the verb agrees with the nearer subject. 'Board members' is plural and nearest, so 'were' (D) is correct."
   },
   {
     id: 143,
@@ -2238,7 +2238,7 @@ const questions = [
       "D) governments have already passed laws requiring automation."
     ],
     correctAnswer: 1,
-    explanation: "Acemoglu says market incentives 'overwhelmingly favor automation because replacing workers reduces costs, while augmenting them creates diffuse, harder-to-capture benefits.' The incentive structure, not technical difficulty, drives the imbalance (C)."
+    explanation: "Acemoglu says market incentives 'overwhelmingly favor automation because replacing workers reduces costs, while augmenting them creates diffuse, harder-to-capture benefits.' The incentive structure, not technical difficulty, drives the imbalance (B)."
   },
   {
     id: 144,
@@ -2268,7 +2268,7 @@ const questions = [
       "D) the scientific validity of the drug safety study."
     ],
     correctAnswer: 0,
-    explanation: "The briefcase contains industry-funded research, a campaign check, and a pre-written bill — revealing motives of money and influence. 'I care about patients' is ironic against this backdrop (C)."
+    explanation: "The briefcase contains industry-funded research, a campaign check, and a pre-written bill — revealing motives of money and influence. 'I care about patients' is ironic against this backdrop (A)."
   },
   {
     id: 146,
@@ -2313,7 +2313,7 @@ const questions = [
       "D) socioeconomic factors have no influence on school performance."
     ],
     correctAnswer: 1,
-    explanation: "The study found 'no statistically significant differences' after controlling for socioeconomics. This doesn't prove zero effect (A is too absolute), but it does show uniforms alone didn't produce measurable improvement (C)."
+    explanation: "The study found 'no statistically significant differences' after controlling for socioeconomics. This doesn't prove zero effect (A is too absolute), but it does show uniforms alone didn't produce measurable improvement (B)."
   },
   {
     id: 149,
@@ -2329,7 +2329,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"protectionist","definition":"relating to the use of tariffs or quotas to shield domestic industries from foreign competition"}],
-    explanation: "The 'ladder' metaphor means: climb up using protectionism, then remove the ladder (prohibit protectionism) for others. This directly conveys hypocrisy — using one strategy yourself while forbidding others from doing the same (B)."
+    explanation: "The 'ladder' metaphor means: climb up using protectionism, then remove the ladder (prohibit protectionism) for others. This directly conveys hypocrisy — using one strategy yourself while forbidding others from doing the same (D)."
   },
   {
     id: 150,
@@ -2344,7 +2344,7 @@ const questions = [
       "D) In the original Dunning-Kruger study, participants who scored in the bottom quartile on logic tests believed they performed at the 62nd percentile — a dramatic overestimation rooted in the same lack of skill that caused their poor performance."
     ],
     correctAnswer: 3,
-    explanation: "The student wants the core finding with a clear example. C gives the specific data (bottom quartile, 62nd percentile estimate) and connects it to the mechanism (lack of skill causes both poor performance and poor self-assessment) (C)."
+    explanation: "The student wants the core finding with a clear example. C gives the specific data (bottom quartile, 62nd percentile estimate) and connects it to the mechanism (lack of skill causes both poor performance and poor self-assessment) (D)."
   },
 
   // ========== BATCH 151-175 ==========
@@ -2393,7 +2393,7 @@ const questions = [
       "D) For this reason,"
     ],
     correctAnswer: 1,
-    explanation: "The city expected to meet demand, but the data revealed most stations were barely used while a few were overcrowded. This unexpected mismatch is best signaled by 'Unexpectedly' (C)."
+    explanation: "The city expected to meet demand, but the data revealed most stations were barely used while a few were overcrowded. This unexpected mismatch is best signaled by 'Unexpectedly' (B)."
   },
   {
     id: 154,
@@ -2408,7 +2408,7 @@ const questions = [
       "D) spill."
     ],
     correctAnswer: 0,
-    explanation: "'Who broke the story about the chemical spill' is a restrictive relative clause identifying which journalist. Restrictive clauses do not take commas. 'Spill' (B) without punctuation is correct."
+    explanation: "'Who broke the story about the chemical spill' is a restrictive relative clause identifying which journalist. Restrictive clauses do not take commas. 'Spill' (A) without punctuation is correct."
   },
   {
     id: 155,
@@ -2423,7 +2423,7 @@ const questions = [
       "D) Posner's examples of sympathetic defendants are statistically rare."
     ],
     correctAnswer: 0,
-    explanation: "Nussbaum believes ignoring emotions 'fails to fully reckon with what justice requires.' She would counter that Posner's consistency comes at the cost of ignoring genuine harm — consistent, but consistently missing what matters (C)."
+    explanation: "Nussbaum believes ignoring emotions 'fails to fully reckon with what justice requires.' She would counter that Posner's consistency comes at the cost of ignoring genuine harm — consistent, but consistently missing what matters (A)."
   },
   {
     id: 156,
@@ -2439,7 +2439,7 @@ const questions = [
     ],
     correctAnswer: 0,
     vocabWords: [{"word":"self-aggrandizing","definition":"promoting oneself as being powerful or important"}],
-    explanation: "300 pages on heroics vs. 2 on casualties, titled 'Regrettable Necessities' (a euphemism), suggests the memoir minimizes harm while maximizing self-glory (C)."
+    explanation: "300 pages on heroics vs. 2 on casualties, titled 'Regrettable Necessities' (a euphemism), suggests the memoir minimizes harm while maximizing self-glory (A)."
   },
   {
     id: 157,
@@ -2469,7 +2469,7 @@ const questions = [
       "D) In reality,"
     ],
     correctAnswer: 3,
-    explanation: "'In reality' (C) signals that the common assumption is wrong, and the truth is different. The studies contradict the few-seconds myth."
+    explanation: "'In reality' (D) signals that the common assumption is wrong, and the truth is different. The studies contradict the few-seconds myth."
   },
   {
     id: 159,
@@ -2559,7 +2559,7 @@ const questions = [
       "D) On the other hand,"
     ],
     correctAnswer: 2,
-    explanation: "'Importantly' (B) signals that the following information — the theory's application beyond islands to land habitats — adds significant practical value. It's an extension of the theory's importance, not a contrast or counterexample."
+    explanation: "'Importantly' (C) signals that the following information — the theory's application beyond islands to land habitats — adds significant practical value. It's an extension of the theory's importance, not a contrast or counterexample."
   },
   {
     id: 165,
@@ -2574,7 +2574,7 @@ const questions = [
       "D) external rewards can actually damage long-term motivation by replacing internal drive with dependency on payment."
     ],
     correctAnswer: 3,
-    explanation: "After payments stopped, the paid group performed WORSE than the never-paid group — the reward didn't just stop helping, it actively damaged motivation. This demonstrates that external rewards can undermine intrinsic motivation (B)."
+    explanation: "After payments stopped, the paid group performed WORSE than the never-paid group — the reward didn't just stop helping, it actively damaged motivation. This demonstrates that external rewards can undermine intrinsic motivation (D)."
   },
   {
     id: 166,
@@ -2589,7 +2589,7 @@ const questions = [
       "D) produce,"
     ],
     correctAnswer: 3,
-    explanation: "'Which took five years to produce' is a nonrestrictive clause that must close with a comma. The opening comma appears after 'documentary,' so the closing comma goes after 'produce' (A)."
+    explanation: "'Which took five years to produce' is a nonrestrictive clause that must close with a comma. The opening comma appears after 'documentary,' so the closing comma goes after 'produce' (D)."
   },
   {
     id: 167,
@@ -2619,7 +2619,7 @@ const questions = [
       "D) The glymphatic system is a recently discovered brain-cleaning mechanism that operates during sleep."
     ],
     correctAnswer: 2,
-    explanation: "The student wants to counter the idea that sleep is unproductive. B directly addresses this by saying 'far from being idle' and listing three active processes the brain performs during sleep (B)."
+    explanation: "The student wants to counter the idea that sleep is unproductive. B directly addresses this by saying 'far from being idle' and listing three active processes the brain performs during sleep (C)."
   },
   {
     id: 169,
@@ -2649,7 +2649,7 @@ const questions = [
       "D) are"
     ],
     correctAnswer: 1,
-    explanation: "The subject is 'The phenomenon' (singular). The long parenthetical between dashes describes code-switching but doesn't change the singular subject. 'Has' (C) is the correct singular form."
+    explanation: "The subject is 'The phenomenon' (singular). The long parenthetical between dashes describes code-switching but doesn't change the singular subject. 'Has' (B) is the correct singular form."
   },
   {
     id: 171,
@@ -2664,7 +2664,7 @@ const questions = [
       "D) Investigating this disparity,"
     ],
     correctAnswer: 3,
-    explanation: "'Investigating this disparity' (B) signals that researchers looked into why the durability gap exists and found the answer (lime clasts). It logically connects the observation (gap) to the explanation (research findings)."
+    explanation: "'Investigating this disparity' (D) signals that researchers looked into why the durability gap exists and found the answer (lime clasts). It logically connects the observation (gap) to the explanation (research findings)."
   },
   {
     id: 172,
@@ -2773,7 +2773,7 @@ const questions = [
       "D) For instance,"
     ],
     correctAnswer: 2,
-    explanation: "'However' (B) introduces a limitation that contrasts with the impressive speed. Being fast sounds like a pure advantage, but the 30-second limit is a significant constraint."
+    explanation: "'However' (C) introduces a limitation that contrasts with the impressive speed. Being fast sounds like a pure advantage, but the 30-second limit is a significant constraint."
   },
   {
     id: 179,
@@ -2788,7 +2788,7 @@ const questions = [
       "D) are"
     ],
     correctAnswer: 2,
-    explanation: "The subject is 'paper' (singular). The nonrestrictive clause between commas doesn't change the subject. 'Has' (B) is the correct singular verb form."
+    explanation: "The subject is 'paper' (singular). The nonrestrictive clause between commas doesn't change the subject. 'Has' (C) is the correct singular verb form."
   },
   {
     id: 180,
@@ -2803,7 +2803,7 @@ const questions = [
       "D) Invasive species are organisms introduced to environments where they did not naturally evolve."
     ],
     correctAnswer: 2,
-    explanation: "The student wants to show an unintended consequence of a good intention. B tells the full story: good intention (control beetles), failure (couldn't reach them), and cascading consequences (population explosion, poisoning predators) (B)."
+    explanation: "The student wants to show an unintended consequence of a good intention. B tells the full story: good intention (control beetles), failure (couldn't reach them), and cascading consequences (population explosion, poisoning predators) (C)."
   },
   {
     id: 181,
@@ -2818,7 +2818,7 @@ const questions = [
       "D) compares the neighborhood favorably to other tourist destinations."
     ],
     correctAnswer: 2,
-    explanation: "The word 'character' shifts meaning: tourists came for cultural charm, but the actual people (the 'character') were displaced. This repetition exposes the contradiction between marketing and reality (B)."
+    explanation: "The word 'character' shifts meaning: tourists came for cultural charm, but the actual people (the 'character') were displaced. This repetition exposes the contradiction between marketing and reality (C)."
   },
   {
     id: 182,
@@ -2834,7 +2834,7 @@ const questions = [
     ],
     correctAnswer: 0,
     vocabWords: [{"word":"neoteny","definition":"the retention of juvenile features in the adult animal"},{"word":"regenerate","definition":"to regrow or restore lost or damaged tissue"}],
-    explanation: "The passage states scientists study axolotls 'hoping to understand the genetic mechanisms behind regeneration, with potential applications for human medicine' (C)."
+    explanation: "The passage states scientists study axolotls 'hoping to understand the genetic mechanisms behind regeneration, with potential applications for human medicine' (A)."
   },
   {
     id: 183,
@@ -2849,7 +2849,7 @@ const questions = [
       "D) Challenging this narrative,"
     ],
     correctAnswer: 3,
-    explanation: "Wootton proposes gradual accumulation vs. Kuhn's sudden revolutions — this is a direct challenge to Kuhn's model. 'Challenging this narrative' (C) signals this disagreement."
+    explanation: "Wootton proposes gradual accumulation vs. Kuhn's sudden revolutions — this is a direct challenge to Kuhn's model. 'Challenging this narrative' (D) signals this disagreement."
   },
   {
     id: 184,
@@ -2864,7 +2864,7 @@ const questions = [
       "D) countries."
     ],
     correctAnswer: 0,
-    explanation: "'Who were separated at birth and raised in different countries' is a nonrestrictive clause. It opened with a comma after 'twins,' so it must close with a comma: 'countries,' (B)."
+    explanation: "'Who were separated at birth and raised in different countries' is a nonrestrictive clause. It opened with a comma after 'twins,' so it must close with a comma: 'countries,' (A)."
   },
   {
     id: 185,
@@ -2909,7 +2909,7 @@ const questions = [
       "D) textbooks should contain no point of view at all."
     ],
     correctAnswer: 0,
-    explanation: "Zinn doesn't deny bias — he argues traditional textbooks are also biased (toward the powerful) but their bias is 'invisible' because it's normalized. He turns the charge of bias back on his critics (B). A is too extreme, C is not his claim."
+    explanation: "Zinn doesn't deny bias — he argues traditional textbooks are also biased (toward the powerful) but their bias is 'invisible' because it's normalized. He turns the charge of bias back on his critics (B). B is too extreme, C is not his claim."
   },
   {
     id: 188,
@@ -2939,7 +2939,7 @@ const questions = [
       "D) Despite strong evidence,"
     ],
     correctAnswer: 0,
-    explanation: "'To address this dynamic' (B) signals that Piketty's policy proposal (wealth tax) is his response to the problem he identified (r > g). It connects the diagnosis to the prescription."
+    explanation: "'To address this dynamic' (A) signals that Piketty's policy proposal (wealth tax) is his response to the problem he identified (r > g). It connects the diagnosis to the prescription."
   },
   {
     id: 190,
@@ -2954,7 +2954,7 @@ const questions = [
       "D) indicates that the subjects were lying about their experience."
     ],
     correctAnswer: 2,
-    explanation: "If taste regions showed no difference but pleasure regions did, the price changed enjoyment without changing taste perception. This separates expectation-driven pleasure from sensory experience (B)."
+    explanation: "If taste regions showed no difference but pleasure regions did, the price changed enjoyment without changing taste perception. This separates expectation-driven pleasure from sensory experience (C)."
   },
   {
     id: 191,
@@ -2984,7 +2984,7 @@ const questions = [
       "D) therefore"
     ],
     correctAnswer: 1,
-    explanation: "'Although' (A) correctly introduces a concessive clause — the budget was approved despite reservations. 'Despite' requires a noun/gerund, not a clause. 'Because' and 'therefore' imply the reservations caused the approval."
+    explanation: "'Although' (B) correctly introduces a concessive clause — the budget was approved despite reservations. 'Despite' requires a noun/gerund, not a clause. 'Because' and 'therefore' imply the reservations caused the approval."
   },
   {
     id: 193,
@@ -3014,7 +3014,7 @@ const questions = [
       "D) highlight how the money could have directly addressed the problem rather than being spent on process."
     ],
     correctAnswer: 3,
-    explanation: "The advocates contrast consultant spending (process) with housing units (direct solution). This highlights that the money went to overhead rather than the actual solution (C)."
+    explanation: "The advocates contrast consultant spending (process) with housing units (direct solution). This highlights that the money went to overhead rather than the actual solution (D)."
   },
   {
     id: 195,
@@ -3029,7 +3029,7 @@ const questions = [
       "D) their large body size relative to other microscopic animals."
     ],
     correctAnswer: 0,
-    explanation: "The passage states they 'achieve this by entering a state called cryptobiosis, in which they expel nearly all water from their bodies and suspend their metabolism' (D). No shell, size, or reproduction is mentioned."
+    explanation: "The passage states they 'achieve this by entering a state called cryptobiosis, in which they expel nearly all water from their bodies and suspend their metabolism' (A). No shell, size, or reproduction is mentioned."
   },
   {
     id: 196,
@@ -3044,7 +3044,7 @@ const questions = [
       "D) To confirm this,"
     ],
     correctAnswer: 1,
-    explanation: "Having 16 receptors would logically suggest seeing more colors. The finding that they don't is unexpected — 'Surprisingly' (C) signals this counterintuitive result."
+    explanation: "Having 16 receptors would logically suggest seeing more colors. The finding that they don't is unexpected — 'Surprisingly' (B) signals this counterintuitive result."
   },
   {
     id: 197,
@@ -3059,7 +3059,7 @@ const questions = [
       "D) are outraging"
     ],
     correctAnswer: 2,
-    explanation: "The subject is 'The discovery' (singular). The sentence describes a completed past event (officials resigned). 'Outraged' (B) is the correct singular past tense form. The dash-enclosed clause is parenthetical."
+    explanation: "The subject is 'The discovery' (singular). The sentence describes a completed past event (officials resigned). 'Outraged' (C) is the correct singular past tense form. The dash-enclosed clause is parenthetical."
   },
   {
     id: 198,
@@ -3074,7 +3074,7 @@ const questions = [
       "D) the ethical superiority of modern research methods."
     ],
     correctAnswer: 2,
-    explanation: "The new evidence shows Zimbardo coached cruelty and participants were acting. The passage concludes the experiment shows 'the power of authority figures to elicit compliance' — obedience to authority, not situational transformation (B)."
+    explanation: "The new evidence shows Zimbardo coached cruelty and participants were acting. The passage concludes the experiment shows 'the power of authority figures to elicit compliance' — obedience to authority, not situational transformation (C)."
   },
   {
     id: 199,
@@ -3089,7 +3089,7 @@ const questions = [
       "D) The water cycle is a process studied in earth science courses around the world."
     ],
     correctAnswer: 0,
-    explanation: "The student wants to explain why it's essential to life. C connects the mechanism (ocean evaporation → precipitation on land) to the consequence (without it, no freshwater for terrestrial life) (C)."
+    explanation: "The student wants to explain why it's essential to life. C connects the mechanism (ocean evaporation → precipitation on land) to the consequence (without it, no freshwater for terrestrial life) (A)."
   },
   {
     id: 200,
