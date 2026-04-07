@@ -3967,6 +3967,489 @@ const questions = [
     vocabWords: [{"word":"nebulous","definition":"vague, unclear, or ill-defined"},{"word":"signatory","definition":"a person or country that has signed an agreement"}],
     explanation: "The language was 'intentionally' vague, letting each nation interpret freely, and critics called the agreement 'toothless.' 'Vague and lacking clear definition' (B) matches. The passage even uses 'vagueness' as a synonym."
   },
+
+  // ========== FILL-IN VOCAB: 256-285 ==========
+
+  {
+    id: 256,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The philosopher's writing was deliberately _______, using accessible metaphors and everyday examples to make complex ideas understandable to readers without academic training.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) arcane",
+      "B) lucid",
+      "C) verbose",
+      "D) dogmatic"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"lucid","definition":"expressed clearly; easy to understand"},{"word":"arcane","definition":"understood by few; mysterious or secret"},{"word":"verbose","definition":"using more words than needed"},{"word":"dogmatic","definition":"asserting opinions as if they were facts; rigid in belief"}],
+    explanation: "The writing used 'accessible metaphors' and 'everyday examples' to make ideas 'understandable.' 'Lucid' (B) means clear and easy to understand. 'Arcane' means the opposite — obscure and secretive."
+  },
+  {
+    id: 257,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The CEO's decision to expand into three new markets simultaneously was widely viewed as _______: the company lacked the capital, workforce, and infrastructure to support even one new market, let alone three.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) prudent",
+      "B) audacious",
+      "C) feasible",
+      "D) quixotic"
+    ],
+    correctAnswer: 3,
+    vocabWords: [{"word":"quixotic","definition":"exceedingly idealistic; unrealistic and impractical"},{"word":"prudent","definition":"acting with or showing care and thought for the future"},{"word":"audacious","definition":"showing a willingness to take surprisingly bold risks"},{"word":"feasible","definition":"possible and practical to do easily"}],
+    explanation: "The company couldn't even support one market. Trying three is unrealistically ambitious. 'Quixotic' (D) means unrealistic and impractical — fitting perfectly. 'Audacious' (B) means bold but doesn't capture the impossibility. 'Prudent' (A) and 'feasible' (C) are the opposite."
+  },
+  {
+    id: 258,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The treaty negotiations collapsed because neither side was willing to _______: each delegation insisted on its original terms and refused to make even minor adjustments to accommodate the other's concerns.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) capitulate",
+      "B) compromise",
+      "C) pontificate",
+      "D) acquiesce"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"compromise","definition":"settle a dispute by mutual concession"},{"word":"capitulate","definition":"surrender or give in entirely"},{"word":"pontificate","definition":"express opinions in a pompous and dogmatic way"},{"word":"acquiesce","definition":"accept something reluctantly but without protest"}],
+    explanation: "Both sides refused to make 'even minor adjustments' — they wouldn't meet in the middle. 'Compromise' (B) means mutual concession. 'Capitulate' (A) means total surrender, which is too extreme. 'Acquiesce' (D) means passively accepting, not negotiating."
+  },
+  {
+    id: 259,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The critic's review was _______, dismissing the film's ambitious themes, innovative cinematography, and powerful performances in a single contemptuous paragraph that offered no substantive analysis.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) glib",
+      "B) meticulous",
+      "C) effusive",
+      "D) nuanced"
+    ],
+    correctAnswer: 0,
+    vocabWords: [{"word":"glib","definition":"fluent and voluble but insincere and shallow"},{"word":"meticulous","definition":"showing great attention to detail"},{"word":"effusive","definition":"expressing feelings of gratitude or pleasure in an unrestrained way"},{"word":"nuanced","definition":"characterized by subtle shades of meaning"}],
+    explanation: "The review dismissed everything in one 'contemptuous paragraph' with 'no substantive analysis' — it was shallow and superficial. 'Glib' (A) means fluent but lacking depth or sincerity. 'Meticulous' (B) and 'nuanced' (D) describe the opposite — careful, detailed analysis."
+  },
+  {
+    id: 260,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The politician's speeches were filled with _______ promises — sweeping commitments to eliminate poverty, cure disease, and achieve world peace — that audiences found inspiring but policy experts dismissed as impossible to fulfill.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) pragmatic",
+      "B) modest",
+      "C) grandiose",
+      "D) tentative"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"grandiose","definition":"impressive or magnificent in appearance or style, but sometimes exaggerated or pretentious"},{"word":"pragmatic","definition":"dealing with things sensibly and realistically"},{"word":"tentative","definition":"not certain or fixed; hesitant"}],
+    explanation: "The promises were 'sweeping' (eliminate poverty, cure disease, achieve world peace) and 'impossible to fulfill.' 'Grandiose' (C) means impressively large-scale but unrealistically ambitious. 'Pragmatic' (A) and 'modest' (B) are the opposite."
+  },
+  {
+    id: 261,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The historian argued that the revolution was not spontaneous but had been _______ for decades by intellectuals who published pamphlets, organized secret meetings, and cultivated networks of sympathizers within the military.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) fomented",
+      "B) suppressed",
+      "C) lamented",
+      "D) documented"
+    ],
+    correctAnswer: 0,
+    vocabWords: [{"word":"fomented","definition":"instigated or stirred up (trouble, rebellion, or unrest)"},{"word":"lamented","definition":"mourned; expressed sorrow or regret"}],
+    explanation: "Intellectuals published pamphlets, organized meetings, and built military networks — they were actively stirring up revolution. 'Fomented' (A) means deliberately incited. 'Suppressed' (B) means the opposite. 'Documented' (D) means recorded, not caused."
+  },
+  {
+    id: 262,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The author's tone throughout the essay was _______, treating the subject with a detached, almost clinical objectivity that avoided both enthusiasm and condemnation.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) polemical",
+      "B) dispassionate",
+      "C) sardonic",
+      "D) reverential"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"dispassionate","definition":"not influenced by strong emotion; rational and impartial"},{"word":"polemical","definition":"strongly critical or argumentative"},{"word":"sardonic","definition":"grimly mocking or cynical"},{"word":"reverential","definition":"showing deep respect"}],
+    explanation: "'Detached,' 'clinical objectivity,' avoiding both enthusiasm and condemnation — this describes emotional neutrality. 'Dispassionate' (B) means unemotional and impartial. 'Polemical' (A) means aggressively argumentative. 'Sardonic' (C) implies mockery."
+  },
+  {
+    id: 263,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The scientist's peers found her hypothesis _______: while it was internally consistent and elegantly constructed, it rested on assumptions that no existing experiment could verify or disprove.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) empirical",
+      "B) speculative",
+      "C) pedestrian",
+      "D) irrefutable"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"speculative","definition":"based on conjecture rather than knowledge; theoretical"},{"word":"empirical","definition":"based on observation or experience rather than theory"},{"word":"pedestrian","definition":"lacking imagination; dull"},{"word":"irrefutable","definition":"impossible to deny or disprove"}],
+    explanation: "The hypothesis was logical but couldn't be tested — it was beyond verification. 'Speculative' (B) means based on theory rather than evidence. 'Empirical' (A) means based on evidence — the opposite. 'Irrefutable' (D) is wrong because the hypothesis can't be proven either."
+  },
+  {
+    id: 264,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The governor's attempt to _______ the growing public anger over the water contamination crisis — by blaming federal regulators and firing two low-level employees — only intensified the outrage, as residents saw through the deflection.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) exacerbate",
+      "B) ameliorate",
+      "C) placate",
+      "D) scrutinize"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"placate","definition":"make someone less angry or hostile; appease"},{"word":"exacerbate","definition":"make a problem or situation worse"},{"word":"ameliorate","definition":"make something bad better; improve"},{"word":"scrutinize","definition":"examine or inspect closely and thoroughly"}],
+    explanation: "The governor tried to calm anger by blaming others and firing scapegoats — an attempt to appease. 'Placate' (C) means make less angry. 'Exacerbate' (A) means worsen, which describes the result, not the intent. 'Ameliorate' (B) means improve conditions, not manage emotions."
+  },
+  {
+    id: 265,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The journalist's investigation revealed a pattern of _______ behavior: the executive had systematically diverted company funds into personal accounts, forged signatures on financial documents, and created fictitious vendors to justify the transfers.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) philanthropic",
+      "B) inadvertent",
+      "C) fraudulent",
+      "D) erratic"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"fraudulent","definition":"obtained or achieved by deception; dishonest"},{"word":"philanthropic","definition":"seeking to promote the welfare of others; charitable"},{"word":"inadvertent","definition":"not resulting from or achieved through deliberate planning; unintentional"},{"word":"erratic","definition":"not even or regular in pattern; unpredictable"}],
+    explanation: "Diverting funds, forging signatures, creating fake vendors — this is deliberate, systematic deception. 'Fraudulent' (C) means achieved through dishonest means. 'Inadvertent' (B) means accidental — the opposite of this calculated scheme."
+  },
+  {
+    id: 266,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `Far from being _______, the poet's early work shows remarkable sophistication: even her teenage poems demonstrate a command of meter, an ear for assonance, and a thematic depth unusual for any age.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) precocious",
+      "B) jejune",
+      "C) prolific",
+      "D) derivative"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"jejune","definition":"naive, simplistic, or superficial; lacking maturity"},{"word":"precocious","definition":"showing abilities at an earlier age than usual"},{"word":"prolific","definition":"producing a large amount of something"},{"word":"derivative","definition":"imitative of someone else's work; unoriginal"}],
+    explanation: "'Far from being _______' contrasts with 'remarkable sophistication.' The blank needs a word meaning immature or simplistic. 'Jejune' (B) means naive and lacking maturity — the opposite of sophisticated. 'Precocious' (A) means advanced for one's age, which would contradict the 'far from' structure."
+  },
+  {
+    id: 267,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The defense attorney argued that her client's confession had been obtained under _______, noting that police had interrogated him for fourteen hours without food, water, or access to a lawyer.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) duress",
+      "B) scrutiny",
+      "C) clemency",
+      "D) volition"
+    ],
+    correctAnswer: 0,
+    vocabWords: [{"word":"duress","definition":"threats, violence, or other pressure used to force someone to do something against their will"},{"word":"scrutiny","definition":"critical observation or examination"},{"word":"clemency","definition":"mercy; leniency"},{"word":"volition","definition":"the faculty of using one's will; free choice"}],
+    explanation: "14 hours without food, water, or a lawyer — the confession was coerced through extreme pressure. 'Duress' (A) means forced through threats or pressure. 'Volition' (D) means free choice — the opposite."
+  },
+  {
+    id: 268,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The committee chair's _______ manner alienated potential allies: rather than building consensus through dialogue, she issued directives, dismissed objections, and treated disagreement as insubordination.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) conciliatory",
+      "B) imperious",
+      "C) diffident",
+      "D) gregarious"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"imperious","definition":"assuming power or authority without justification; arrogantly domineering"},{"word":"conciliatory","definition":"intended to placate or pacify; aimed at restoring goodwill"},{"word":"diffident","definition":"modest or shy because of a lack of self-confidence"},{"word":"gregarious","definition":"fond of company; sociable"}],
+    explanation: "She issued directives, dismissed objections, and treated disagreement as insubordination — domineering behavior. 'Imperious' (B) means arrogantly commanding. 'Conciliatory' (A) means peace-making — the opposite. 'Diffident' (C) means shy."
+  },
+  {
+    id: 269,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The village elders viewed the new highway with _______: while they recognized it would bring economic opportunity, they feared it would also bring crime, pollution, and the erosion of their traditional way of life.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) indifference",
+      "B) euphoria",
+      "C) ambivalence",
+      "D) hostility"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"ambivalence","definition":"the state of having mixed feelings or contradictory ideas about something"},{"word":"euphoria","definition":"a feeling of intense excitement and happiness"},{"word":"indifference","definition":"lack of interest or concern"}],
+    explanation: "They saw both benefit (economic opportunity) and threat (crime, pollution, cultural erosion) — mixed feelings. 'Ambivalence' (C) means having contradictory feelings about something. 'Indifference' (A) means not caring, 'hostility' (D) is purely negative."
+  },
+  {
+    id: 270,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The professor's reputation for _______ was well-earned: her lectures routinely ran thirty minutes over schedule as she explored tangential ideas, recounted personal anecdotes, and quoted at length from sources only marginally related to the topic.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) brevity",
+      "B) rigor",
+      "C) digression",
+      "D) eloquence"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"digression","definition":"a temporary departure from the main subject in speech or writing"},{"word":"brevity","definition":"concise and exact use of words; shortness of time"},{"word":"rigor","definition":"the quality of being extremely thorough and careful"},{"word":"eloquence","definition":"fluent or persuasive speaking or writing"}],
+    explanation: "Lectures ran long due to tangential ideas, anecdotes, and marginally related quotes — she constantly wandered from the topic. 'Digression' (C) means departing from the main subject. 'Brevity' (A) means the opposite — being concise."
+  },
+  {
+    id: 271,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The novelist's prose was _______, each sentence stripped to its essential elements with no wasted words — a style that reviewers compared to Hemingway's in its disciplined economy.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) ornate",
+      "B) terse",
+      "C) florid",
+      "D) prolix"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"terse","definition":"sparing in the use of words; abrupt but effective"},{"word":"ornate","definition":"made in an intricate shape or decorated with complex patterns; elaborately styled"},{"word":"florid","definition":"using an excessively elaborate style of language"},{"word":"prolix","definition":"using or containing too many words; tediously lengthy"}],
+    explanation: "'Stripped to its essential elements,' 'no wasted words,' 'disciplined economy' — this is writing at its most spare. 'Terse' (B) means using few words but effectively. 'Ornate' (A), 'florid' (C), and 'prolix' (D) all mean wordy or elaborate — the opposite."
+  },
+  {
+    id: 272,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The documentary was praised for its _______ treatment of the scandal, presenting testimony from accusers, defenders, and neutral observers without editorializing or signaling which perspective the filmmakers considered correct.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) partisan",
+      "B) perfunctory",
+      "C) evenhanded",
+      "D) inflammatory"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"evenhanded","definition":"fair and impartial in treatment or judgment"},{"word":"partisan","definition":"prejudiced in favor of a particular cause; biased"},{"word":"perfunctory","definition":"carried out with minimum effort; cursory"},{"word":"inflammatory","definition":"intended to arouse angry or violent feelings"}],
+    explanation: "The film presented all sides 'without editorializing or signaling which perspective the filmmakers considered correct' — fair to everyone. 'Evenhanded' (C) means impartial. 'Partisan' (A) means biased — the opposite."
+  },
+  {
+    id: 273,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The young diplomat's _______ at the negotiating table surprised seasoned observers: she navigated complex protocol, defused tense moments with well-timed humor, and secured concessions that her more experienced colleagues had failed to obtain.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) ineptitude",
+      "B) belligerence",
+      "C) apathy",
+      "D) aplomb"
+    ],
+    correctAnswer: 3,
+    vocabWords: [{"word":"aplomb","definition":"self-confidence or assurance, especially when in a demanding situation"},{"word":"ineptitude","definition":"lack of skill or ability"},{"word":"belligerence","definition":"aggressive or warlike behavior"},{"word":"apathy","definition":"lack of interest, enthusiasm, or concern"}],
+    explanation: "She navigated protocol, defused tension, and secured concessions — performing with poise and confidence. 'Aplomb' (D) means calm self-assurance under pressure. 'Ineptitude' (A) means incompetence — the opposite."
+  },
+  {
+    id: 274,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The author's latest novel has been criticized for its _______ characters: the hero is flawlessly virtuous, the villain is irredeemably evil, and no figure in between possesses the moral complexity that distinguishes great literature.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) compelling",
+      "B) enigmatic",
+      "C) one-dimensional",
+      "D) autonomous"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"one-dimensional","definition":"lacking depth or complexity; flat and uninteresting"},{"word":"enigmatic","definition":"difficult to interpret or understand; mysterious"},{"word":"autonomous","definition":"acting independently; self-governing"}],
+    explanation: "The hero is purely good, the villain purely evil, no one has 'moral complexity.' These are flat, simple characters. 'One-dimensional' (C) means lacking depth. 'Enigmatic' (B) means mysterious — which implies complexity, the opposite of the criticism."
+  },
+  {
+    id: 275,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The architect's design was _______ in its simplicity: a single unbroken curve of glass and steel that somehow managed to be both striking and unobtrusive, commanding attention without dominating the landscape.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) garish",
+      "B) elegant",
+      "C) austere",
+      "D) cumbersome"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"elegant","definition":"pleasingly graceful and stylish; (of a scientific theory) pleasingly ingenious and simple"},{"word":"garish","definition":"obtrusively bright and showy; tasteless"},{"word":"austere","definition":"severe or strict in manner or attitude; having no comforts"},{"word":"cumbersome","definition":"large or heavy and therefore difficult to carry or use"}],
+    explanation: "'Striking and unobtrusive,' 'commanding attention without dominating' — beauty through simplicity. 'Elegant' (B) means gracefully refined. 'Garish' (A) means tasteless and showy. 'Austere' (C) means severe, which misses the beauty."
+  },
+  {
+    id: 276,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The regime maintained its grip on power through a combination of censorship, propaganda, and the _______ of dissent: activists who spoke publicly against the government were routinely detained, their families threatened, and their professional reputations destroyed.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) tolerance",
+      "B) facilitation",
+      "C) suppression",
+      "D) documentation"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"suppression","definition":"the action of forcibly putting an end to something"}],
+    explanation: "Activists were detained, families threatened, reputations destroyed — the government was forcibly silencing opposition. 'Suppression' (C) means forcibly ending dissent. 'Tolerance' (A) and 'facilitation' (B) are the opposite."
+  },
+  {
+    id: 277,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `What began as a minor policy disagreement between two cabinet members _______ into a full-blown political crisis when leaked emails revealed that each had secretly lobbied foreign governments to undermine the other's initiatives.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) devolved",
+      "B) resolved",
+      "C) crystallized",
+      "D) subsided"
+    ],
+    correctAnswer: 0,
+    vocabWords: [{"word":"devolved","definition":"deteriorated; degenerated from a higher to a lower state"},{"word":"crystallized","definition":"became definite and clear"},{"word":"subsided","definition":"became less intense, violent, or severe"}],
+    explanation: "A 'minor disagreement' became a 'full-blown political crisis' — things got worse. 'Devolved' (A) means deteriorated from a higher to lower state. 'Resolved' (B) and 'subsided' (D) mean the opposite — things getting better."
+  },
+  {
+    id: 278,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The museum's decision to return the artifacts to their country of origin was neither _______ nor impulsive; it followed five years of consultation with historians, ethicists, legal scholars, and representatives of the communities from which the objects had been taken.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) deliberate",
+      "B) controversial",
+      "C) precipitous",
+      "D) laudable"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"precipitous","definition":"done suddenly and without careful consideration; hasty"},{"word":"deliberate","definition":"done consciously and intentionally"}],
+    explanation: "'Neither _______ nor impulsive' — the blank pairs with 'impulsive' (both meaning hasty). Five years of consultation shows careful thought. 'Precipitous' (C) means hasty/rash, forming a logical pair with 'impulsive.' 'Deliberate' (A) means careful — which would contradict 'neither.'"
+  },
+  {
+    id: 279,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The biographer resisted the temptation to _______ her subject, presenting the civil rights leader not as a flawless saint but as a complicated human being whose personal failings coexisted with extraordinary moral courage.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) vilify",
+      "B) hagiographize",
+      "C) scrutinize",
+      "D) marginalize"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"hagiographize","definition":"to portray someone as a saint; to idealize excessively"},{"word":"vilify","definition":"speak or write about in an abusively disparaging manner"},{"word":"scrutinize","definition":"examine or inspect closely"},{"word":"marginalize","definition":"treat as insignificant or peripheral"}],
+    explanation: "She presented the leader as 'complicated' with 'personal failings,' not 'a flawless saint.' The blank describes what she avoided — making him saintly. 'Hagiographize' (B) means to portray as a saint. 'Vilify' (A) means to attack — the opposite extreme."
+  },
+  {
+    id: 280,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The new regulation was designed to _______ the worst practices of the payday lending industry without eliminating access to short-term credit for borrowers who genuinely needed it — a delicate balance that satisfied neither consumer advocates nor industry lobbyists.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) perpetuate",
+      "B) curtail",
+      "C) incentivize",
+      "D) obfuscate"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"curtail","definition":"reduce in extent or quantity; impose a restriction on"},{"word":"perpetuate","definition":"make something continue indefinitely"},{"word":"obfuscate","definition":"render obscure, unclear, or unintelligible"}],
+    explanation: "The regulation targets 'the worst practices' while preserving access — it restricts without eliminating. 'Curtail' (B) means to reduce or restrict. 'Perpetuate' (A) means continue — the opposite intent."
+  },
+  {
+    id: 281,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The once-_______ neighborhood, where artists, musicians, and writers had lived and worked for decades, was rapidly transforming into a district of luxury condominiums and upscale boutiques that its original residents could no longer afford.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) affluent",
+      "B) bohemian",
+      "C) desolate",
+      "D) homogeneous"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"bohemian","definition":"socially unconventional, especially in an artistic way"},{"word":"affluent","definition":"having a great deal of money; wealthy"},{"word":"desolate","definition":"deserted and empty; bleak"},{"word":"homogeneous","definition":"of the same kind; alike"}],
+    explanation: "Artists, musicians, and writers — a creative, unconventional community displaced by luxury condos. 'Bohemian' (B) means artistically unconventional. 'Affluent' (A) describes what the neighborhood became, not what it was."
+  },
+  {
+    id: 282,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The editorial _______ the senator's voting record with devastating precision, documenting every instance in which her votes contradicted her public statements and revealing a pattern of saying one thing to constituents while doing another in the legislature.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) extolled",
+      "B) excoriated",
+      "C) summarized",
+      "D) fabricated"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"excoriated","definition":"criticized severely; censured"},{"word":"extolled","definition":"praised enthusiastically"},{"word":"fabricated","definition":"invented or made up, typically with intent to deceive"}],
+    explanation: "The editorial attacked 'with devastating precision,' documenting contradictions — this is harsh criticism. 'Excoriated' (B) means severely criticized. 'Extolled' (A) means praised — the opposite."
+  },
+  {
+    id: 283,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The researcher's findings were _______, overturning two decades of accepted theory and forcing the entire field to reconsider fundamental assumptions about how memory consolidation works during sleep.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) corroborative",
+      "B) incremental",
+      "C) paradigm-shifting",
+      "D) inconclusive"
+    ],
+    correctAnswer: 2,
+    vocabWords: [{"word":"paradigm-shifting","definition":"fundamentally changing the accepted framework of understanding"},{"word":"corroborative","definition":"confirming or supporting existing evidence"},{"word":"incremental","definition":"relating to or denoting a small increase or addition"},{"word":"inconclusive","definition":"not leading to a firm conclusion"}],
+    explanation: "The findings 'overturned two decades of theory' and forced the field to 'reconsider fundamental assumptions.' This is a fundamental change, not a small addition. 'Paradigm-shifting' (C) captures this revolutionary impact. 'Incremental' (B) means small and gradual — the opposite."
+  },
+  {
+    id: 284,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The diplomat was known for her ability to _______ tensions between hostile nations, finding common ground where others saw only irreconcilable differences and transforming adversaries into reluctant partners.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) exacerbate",
+      "B) mitigate",
+      "C) ignore",
+      "D) fabricate"
+    ],
+    correctAnswer: 1,
+    vocabWords: [{"word":"mitigate","definition":"make less severe, serious, or painful"},{"word":"exacerbate","definition":"make worse"}],
+    explanation: "She found 'common ground' and transformed 'adversaries into partners' — she reduced tensions. 'Mitigate' (B) means to make less severe. 'Exacerbate' (A) means worsen — the opposite."
+  },
+  {
+    id: 285,
+    category: "Words in Context",
+    difficulty: "Hard",
+    passage: `The court found that the company's marketing claims were not merely misleading but _______, based on data the company's own scientists had shown to be fabricated and conclusions that no reasonable expert in the field would endorse.`,
+    question: "Which choice completes the text with the most logical and precise word?",
+    choices: [
+      "A) specious",
+      "B) empirical",
+      "C) candid",
+      "D) benign"
+    ],
+    correctAnswer: 0,
+    vocabWords: [{"word":"specious","definition":"superficially plausible but actually wrong; misleading in appearance"},{"word":"empirical","definition":"based on observation rather than theory"},{"word":"candid","definition":"truthful and straightforward"},{"word":"benign","definition":"gentle and kindly; not harmful"}],
+    explanation: "The claims were based on 'fabricated data' and conclusions 'no reasonable expert would endorse' — they appeared plausible but were fundamentally false. 'Specious' (A) means seeming true but actually false. 'Empirical' (B) means based on real evidence — the opposite."
+  },
 ]
 
 export default questions
