@@ -5,7 +5,9 @@ import ReviewQueue from './components/ReviewQueue'
 import questions from './data/questions'
 import StatsPanel from './components/StatsPanel'
 import WordBank from './components/WordBank'
-import { addToReviewQueue, recordAnswer, getAnsweredIds, markAnswered, resetProgress, recordActivity, getStarred, getStats } from './utils/storage'
+import AchievementToast from './components/AchievementToast'
+import { addToReviewQueue, recordAnswer, getAnsweredIds, markAnswered, resetProgress, recordActivity, getStarred, getStats, getStreak, getWordBank, getDailyGoal, getTodayAnswerCount, getUnlockedAchievements, unlockAchievement } from './utils/storage'
+import { ACHIEVEMENTS, checkAchievements } from './utils/achievements'
 
 const CATEGORIES = ['All', ...new Set(questions.map(q => q.category))]
 const DIFFICULTIES = ['All Levels', 'Easy', 'Medium', 'Hard']
@@ -82,6 +84,33 @@ export default function App() {
   const [starredOnly, setStarredOnly] = useState(false)
   const [starredIds, setStarredIds] = useState(() => getStarred())
   const [showFilters, setShowFilters] = useState(false)
+  const [toastQueue, setToastQueue] = useState([])
+  const prevUnlocked = useRef(new Set(Object.keys(getUnlockedAchievements())))
+
+  const checkForNewAchievements = useCallback(() => {
+    const stats = getStats()
+    const streak = getStreak()
+    const wordBank = getWordBank()
+    const starred = getStarred()
+    const todayCount = getTodayAnswerCount()
+    const dailyGoal = getDailyGoal()
+    const earned = checkAchievements({ stats, streak, wordBank, starred, dailyGoalHit: todayCount >= dailyGoal })
+
+    const newlyEarned = []
+    earned.forEach(id => {
+      if (!prevUnlocked.current.has(id)) {
+        if (unlockAchievement(id)) {
+          const ach = ACHIEVEMENTS.find(a => a.id === id)
+          if (ach) newlyEarned.push(ach)
+        }
+        prevUnlocked.current.add(id)
+      }
+    })
+
+    if (newlyEarned.length > 0) {
+      setToastQueue(prev => [...prev, ...newlyEarned])
+    }
+  }, [])
 
   // Session state
   const [sessionMode, setSessionMode] = useState('free') // 'free' | 'weakness' | 'timed'
@@ -147,7 +176,9 @@ export default function App() {
     if (sessionMode !== 'free' && correct) {
       setSessionCorrect(c => c + 1)
     }
-  }, [currentQuestion, sessionMode])
+    // Check achievements after a short delay so stats are saved
+    setTimeout(checkForNewAchievements, 100)
+  }, [currentQuestion, sessionMode, checkForNewAchievements])
 
   const finishSession = useCallback(() => {
     // Compute per-category breakdown from sessionQueue + use results
@@ -411,6 +442,14 @@ export default function App() {
           <StatsPanel />
         )}
       </main>
+
+      {toastQueue.length > 0 && (
+        <AchievementToast
+          key={toastQueue[0].id}
+          achievement={toastQueue[0]}
+          onDone={() => setToastQueue(q => q.slice(1))}
+        />
+      )}
     </div>
   )
 }
