@@ -749,7 +749,7 @@ const questions = [
       "D) Energy storage technology needs to improve before solar power can fully replace fossil fuels."
     ],
     correctAnswer: 0,
-    explanation: "Ahoice C directly contrasts the advantages (emission-free, declining costs) with the disadvantages (weather dependence, storage costs), matching the student's goal of comparing both sides."
+    explanation: "Choice A directly contrasts the advantages (emission-free, declining costs) with the disadvantages (weather dependence, storage costs), matching the student's goal of comparing both sides."
   },
 
   // ========== COMMAND OF EVIDENCE (Quantitative / Data-Based) ==========
