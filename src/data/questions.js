@@ -17,7 +17,7 @@ const questions = [
   },
   {
     id: 2,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `The following is adapted from a study on urban ecology. Cities, often perceived as concrete jungles devoid of nature, are in fact teeming with biodiversity. Recent studies have shown that urban areas can support a surprising variety of species, from peregrine falcons nesting on skyscrapers to coyotes navigating suburban neighborhoods. However, this urban wildlife faces unique challenges, including habitat fragmentation, pollution, and the constant encroachment of human development. Researchers argue that understanding urban ecosystems is crucial not only for conservation but also for improving the quality of life for city dwellers themselves.`,
     question: "As used in the passage, 'encroachment' most nearly means:",
@@ -79,7 +79,7 @@ const questions = [
   },
   {
     id: 6,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `The debate over whether homework improves academic achievement has persisted for decades. Proponents argue that homework reinforces classroom learning and builds study habits. Critics, however, point to research showing that excessive homework can increase stress, reduce family time, and may not significantly boost performance, particularly for younger students. A 2006 meta-analysis by Harris Cooper found that homework had a positive effect on achievement for high school students but little to no impact for elementary school students. This nuanced finding suggests that a one-size-fits-all homework policy may be misguided.`,
     question: "The word 'nuanced' in the final sentence most nearly means:",
@@ -143,7 +143,7 @@ const questions = [
   },
   {
     id: 10,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `For centuries, the library of Alexandria was considered the greatest repository of knowledge in the ancient world. Founded in the 3rd century BCE, it attracted scholars from across the Mediterranean and housed hundreds of thousands of scrolls. Its destruction — the precise cause and timing of which remain debated — has come to symbolize the tragic loss of knowledge. Some historians attribute the destruction to Julius Caesar's fire in 48 BCE, while others point to later events, including the decree of Emperor Theodosius in 391 CE. What is clear is that no single catastrophic event destroyed the library; rather, it declined gradually over centuries of political turmoil and neglect.`,
     question: "The phrase 'repository of knowledge' most nearly means:",
@@ -299,7 +299,7 @@ const questions = [
   },
   {
     id: 20,
-    category: "Expression of Ideas",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `The practice of \"redlining\" — in which banks and insurance companies refused services to residents of predominantly Black neighborhoods — was officially outlawed by the Fair Housing Act of 1968. However, its effects persist today. Studies show that formerly redlined neighborhoods continue to have lower property values, fewer trees, higher temperatures, and worse health outcomes than nearby non-redlined areas. These disparities are not coincidental; decades of disinvestment created a cycle of poverty and environmental degradation that has proven extremely difficult to reverse. Understanding redlining's legacy is essential for addressing the racial wealth gap that remains one of America's most persistent inequalities.`,
     question: "As used in the passage, 'disinvestment' most nearly means:",
@@ -1377,7 +1377,7 @@ const questions = [
   },
   {
     id: 88,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `Scientists have long debated whether the giant squid is an active predator that hunts prey aggressively or a passive drifter that waits for food to come to it. Recent footage from deep-sea cameras shows giant squid pursuing and attacking prey with remarkable speed, effectively settling the debate.`,
     question: "As used in the passage, 'settling' most nearly means:",
@@ -1586,7 +1586,7 @@ const questions = [
 
   {
     id: 101,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `Geologists studying the Channeled Scablands of eastern Washington long struggled to explain the region's bizarre landscape — enormous dry waterfalls, deep coulees carved into basalt, and massive boulders deposited miles from any river. In the 1920s, J Harlen Bretz proposed that a catastrophic flood had sculpted the terrain, but his peers found the idea preposterous. Decades later, satellite imagery confirmed that a glacial lake had indeed burst its ice dam, releasing a wall of water that reshaped the landscape in days.`,
     question: "As used in the passage, 'preposterous' most nearly means:",
@@ -3489,7 +3489,7 @@ const questions = [
 
   {
     id: 226,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `The ambassador's remarks were deliberately ambiguous, allowing each side of the dispute to interpret her words as supportive of their position. This calculated vagueness kept negotiations alive but frustrated journalists seeking a definitive statement.`,
     question: "As used in the passage, 'ambiguous' most nearly means:",
@@ -3505,7 +3505,7 @@ const questions = [
   },
   {
     id: 227,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Medium",
     passage: `The company's quarterly earnings report painted a sanguine picture of its financial health, projecting 15% revenue growth and expanded market share. However, independent analysts noted that the report omitted several unfavorable indicators, including rising debt levels and declining customer retention rates.`,
     question: "As used in the passage, 'sanguine' most nearly means:",
@@ -3521,7 +3521,7 @@ const questions = [
   },
   {
     id: 228,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Hard",
     passage: `The critic dismissed the novel as merely derivative, arguing that its plot, characters, and themes were transparently borrowed from earlier, more accomplished works. The author countered that all literature is in dialogue with what came before, and that originality lies not in avoiding influence but in synthesizing it into something new.`,
     question: "As used in the passage, 'derivative' most nearly means:",
@@ -3537,7 +3537,7 @@ const questions = [
   },
   {
     id: 229,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `After the earthquake destroyed most of the city's infrastructure, international relief organizations mobilized rapidly, sending medical teams, clean water, and temporary shelters within 48 hours. The speed of the response was widely lauded by humanitarian observers.`,
     question: "As used in the passage, 'lauded' most nearly means:",
@@ -3553,7 +3553,7 @@ const questions = [
   },
   {
     id: 230,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Hard",
     passage: `The philosopher's argument was ostensibly about free will, but her real target was the deterministic assumptions embedded in modern neuroscience. By framing her critique as a defense of human agency, she made her challenge to scientific orthodoxy more palatable to a general audience.`,
     question: "As used in the passage, 'ostensibly' most nearly means:",
@@ -3569,7 +3569,7 @@ const questions = [
   },
   {
     id: 231,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Medium",
     passage: `The governor's proposal to consolidate twelve state agencies into four was met with fierce resistance from bureaucrats whose positions would be eliminated. Critics of the plan called it reckless, while supporters praised its efficiency. The governor remained intransigent, refusing to modify the proposal despite weeks of protest.`,
     question: "As used in the passage, 'intransigent' most nearly means:",
@@ -3585,7 +3585,7 @@ const questions = [
   },
   {
     id: 232,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `The investigation revealed that the company had systematically concealed evidence of product defects from regulators, going so far as to alter test results and destroy unfavorable reports. The CEO resigned amid calls for criminal prosecution.`,
     question: "As used in the passage, 'concealed' most nearly means:",
@@ -3601,7 +3601,7 @@ const questions = [
   },
   {
     id: 233,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Hard",
     passage: `The architectural firm's proposal was laudably ambitious in scope but woefully deficient in practical detail. While the soaring glass atrium and cantilevered observation deck captured the committee's imagination, the absence of cost estimates, structural calculations, or a realistic construction timeline rendered the proposal untenable.`,
     question: "As used in the passage, 'untenable' most nearly means:",
@@ -3617,7 +3617,7 @@ const questions = [
   },
   {
     id: 234,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Medium",
     passage: `The senator's speech was a masterclass in equivocation. When asked whether she supported the bill, she praised its \"noble intentions\" while expressing \"serious reservations\" about its implementation, leaving both supporters and opponents convinced she was on their side.`,
     question: "As used in the passage, 'equivocation' most nearly means:",
@@ -3633,7 +3633,7 @@ const questions = [
   },
   {
     id: 235,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `The drought had been so prolonged that the reservoir had shrunk to just 15% of its capacity, exposing a lakebed that hadn't been visible in over forty years. Local farmers faced the prospect of a devastating crop failure.`,
     question: "As used in the passage, 'prolonged' most nearly means:",
@@ -3649,7 +3649,7 @@ const questions = [
   },
   {
     id: 236,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Hard",
     passage: `The scientist's hypothesis was elegant in its parsimony: rather than invoking multiple independent mechanisms to explain the observed phenomena, she proposed a single underlying process that accounted for all of them. Her colleagues, accustomed to more elaborate theoretical frameworks, initially found the simplicity of her model suspect.`,
     question: "As used in the passage, 'parsimony' most nearly means:",
@@ -3665,7 +3665,7 @@ const questions = [
   },
   {
     id: 237,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Medium",
     passage: `The documentary filmmaker was known for her tenacity, spending years embedded in communities others considered too dangerous or remote to access. Her latest project required three years living among subsistence fishermen on a volcanic island in Indonesia, enduring monsoons, malaria, and the constant threat of eruption.`,
     question: "As used in the passage, 'tenacity' most nearly means:",
@@ -3681,7 +3681,7 @@ const questions = [
   },
   {
     id: 238,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `The new employee's performance during her first month was exemplary. She completed every assignment ahead of schedule, volunteered for additional projects, and received praise from three different department heads.`,
     question: "As used in the passage, 'exemplary' most nearly means:",
@@ -3697,7 +3697,7 @@ const questions = [
   },
   {
     id: 239,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Hard",
     passage: `The court's ruling was deliberately circumscribed, applying only to the specific facts of the case and explicitly declining to establish a broader legal principle. Legal scholars noted that this narrow approach, while frustrating for those seeking definitive guidance, allowed the court to avoid the contentious political questions lurking behind the legal ones.`,
     question: "As used in the passage, 'circumscribed' most nearly means:",
@@ -3713,7 +3713,7 @@ const questions = [
   },
   {
     id: 240,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Medium",
     passage: `The professor's lectures were notoriously abstruse, filled with references to obscure philosophers and dense theoretical frameworks that left most undergraduates bewildered. Graduate students, by contrast, found the intellectual depth exhilarating.`,
     question: "As used in the passage, 'abstruse' most nearly means:",
@@ -3729,7 +3729,7 @@ const questions = [
   },
   {
     id: 241,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `The charity's annual gala raised an unprecedented $4.2 million, shattering the previous record of $2.8 million and exceeding the organizers' most optimistic projections by nearly 40%.`,
     question: "As used in the passage, 'unprecedented' most nearly means:",
@@ -3745,7 +3745,7 @@ const questions = [
   },
   {
     id: 242,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Hard",
     passage: `The politician's memoir was remarkably candid about his early career failures, describing in unflinching detail the corruption scandal that nearly ended his career and the personal weaknesses that contributed to it. Reviewers noted that such forthright self-examination is rare in political autobiography, where self-serving revisionism is the norm.`,
     question: "As used in the passage, 'candid' most nearly means:",
@@ -3761,7 +3761,7 @@ const questions = [
   },
   {
     id: 243,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Medium",
     passage: `The cease-fire was tenuous at best. Both sides had agreed to stop fighting, but neither had withdrawn troops from contested positions, and sporadic gunfire could still be heard along the border. Diplomats warned that any provocation, however minor, could reignite the conflict.`,
     question: "As used in the passage, 'tenuous' most nearly means:",
@@ -3777,7 +3777,7 @@ const questions = [
   },
   {
     id: 244,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `The software update was supposed to enhance performance, but instead it introduced several critical bugs that rendered the application virtually unusable. The company issued a public apology and promised to revert to the previous version within 24 hours.`,
     question: "As used in the passage, 'rendered' most nearly means:",
@@ -3793,7 +3793,7 @@ const questions = [
   },
   {
     id: 245,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Hard",
     passage: `The sociologist's analysis of urban poverty was rigorously empirical, drawing on census data, longitudinal surveys, and ethnographic fieldwork conducted over fifteen years. She was careful to distinguish between correlation and causation, and her conclusions were notably circumspect — hedged with qualifications that acknowledged the limits of her data.`,
     question: "As used in the passage, 'circumspect' most nearly means:",
@@ -3809,7 +3809,7 @@ const questions = [
   },
   {
     id: 246,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Medium",
     passage: `The new trade agreement was hailed by its architects as mutually beneficial, but critics argued it was fundamentally asymmetric: wealthy nations gained access to developing countries' markets while offering little in return, perpetuating the very inequalities the agreement claimed to address.`,
     question: "As used in the passage, 'asymmetric' most nearly means:",
@@ -3825,7 +3825,7 @@ const questions = [
   },
   {
     id: 247,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `The rescue team's efforts were hampered by heavy rain, mudslides, and roads blocked by fallen trees. What should have been a four-hour operation stretched into three days as conditions continued to deteriorate.`,
     question: "As used in the passage, 'hampered' most nearly means:",
@@ -3841,7 +3841,7 @@ const questions = [
   },
   {
     id: 248,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Hard",
     passage: `The diplomat's language was carefully calibrated to signal strength without provocation. She referred to the contested territory as \"a matter of vital national interest\" — language strong enough to demonstrate resolve but sufficiently restrained to avoid triggering a military response from the opposing government.`,
     question: "As used in the passage, 'calibrated' most nearly means:",
@@ -3857,7 +3857,7 @@ const questions = [
   },
   {
     id: 249,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Medium",
     passage: `The discovery of penicillin is often attributed to serendipity — Alexander Fleming noticed mold killing bacteria on a petri dish he had accidentally left uncovered. However, historians of science emphasize that Fleming's training in bacteriology enabled him to recognize the significance of what an untrained observer would have dismissed as a ruined experiment.`,
     question: "As used in the passage, 'serendipity' most nearly means:",
@@ -3873,7 +3873,7 @@ const questions = [
   },
   {
     id: 250,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `The author's debut novel garnered widespread critical acclaim, earning comparisons to the works of Toni Morrison and James Baldwin. Within a year, it had been translated into twenty-three languages and adapted into an award-winning film.`,
     question: "As used in the passage, 'garnered' most nearly means:",
@@ -3889,7 +3889,7 @@ const questions = [
   },
   {
     id: 251,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Hard",
     passage: `The philosopher argued that moral progress is not linear but dialectical: each advance in ethical understanding generates its own contradictions, which must then be resolved through further moral reasoning. Slavery's abolition, for example, exposed new forms of racial injustice that the abolitionist framework had not anticipated, necessitating entirely new moral vocabularies.`,
     question: "As used in the passage, 'dialectical' most nearly means:",
@@ -3905,7 +3905,7 @@ const questions = [
   },
   {
     id: 252,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Medium",
     passage: `The company's CEO was known for her mercurial temperament: effusively praising employees one moment and sharply criticizing them the next. Staff members learned to gauge her mood before entering her office, and meetings were often tense, unpredictable affairs.`,
     question: "As used in the passage, 'mercurial' most nearly means:",
@@ -3921,7 +3921,7 @@ const questions = [
   },
   {
     id: 253,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Easy",
     passage: `The witness's testimony was corroborated by security camera footage, phone records, and DNA evidence found at the scene. The prosecution argued that this convergence of evidence left no reasonable doubt of the defendant's guilt.`,
     question: "As used in the passage, 'corroborated' most nearly means:",
@@ -3937,7 +3937,7 @@ const questions = [
   },
   {
     id: 254,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Hard",
     passage: `The anthropologist cautioned against interpreting ancient burial practices through a contemporary Western lens, noting that what appears to modern observers as a rudimentary ritual may in fact represent a sophisticated cosmological system whose underlying logic is simply unfamiliar. The tendency to conflate unfamiliarity with primitiveness, she argued, reveals more about the observer's assumptions than about the observed culture.`,
     question: "As used in the passage, 'rudimentary' most nearly means:",
@@ -3953,7 +3953,7 @@ const questions = [
   },
   {
     id: 255,
-    category: "Craft and Structure",
+    category: "Words in Context",
     difficulty: "Medium",
     passage: `The treaty's language was intentionally nebulous on the question of enforcement, allowing each signatory nation to interpret its obligations according to its own legal traditions. Advocates of stronger language warned that this vagueness would render the agreement toothless in practice.`,
     question: "As used in the passage, 'nebulous' most nearly means:",
