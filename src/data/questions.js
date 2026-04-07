@@ -44,7 +44,7 @@ const questions = [
       "D) criticize the safety standards of 19th-century railroad construction."
     ],
     correctAnswer: 2,
-    explanation: "The personality changes are presented as evidence that led to new understanding about the frontal lobes' role, supporting choice B."
+    explanation: "The personality changes are presented as evidence that led to new understanding about the frontal lobes' role, supporting choice C."
   },
   {
     id: 4,
@@ -719,7 +719,7 @@ const questions = [
       "D) Emerging from New Orleans in the early 1900s, jazz fused African and European musical traditions to become a defining form of African American cultural expression."
     ],
     correctAnswer: 3,
-    explanation: "Choice B mentions the geographic origin (New Orleans), the time period, the musical blend, and cultural significance — fulfilling both parts of the student's goal."
+    explanation: "Choice D mentions the geographic origin (New Orleans), the time period, the musical blend, and cultural significance — fulfilling both parts of the student's goal."
   },
   {
     id: 47,
@@ -734,7 +734,7 @@ const questions = [
       "D) The researchers controlled for diet, smoking, and genetic factors, which are all important variables in cardiovascular health research."
     ],
     correctAnswer: 2,
-    explanation: "Choice D combines the key finding (35% reduction from walking) with the practical implication (recommending physicians prescribe walking), which matches the researcher's stated goal."
+    explanation: "Choice C combines the key finding (35% reduction from walking) with the practical implication (recommending physicians prescribe walking), which matches the researcher's stated goal."
   },
   {
     id: 48,
@@ -749,7 +749,7 @@ const questions = [
       "D) Energy storage technology needs to improve before solar power can fully replace fossil fuels."
     ],
     correctAnswer: 0,
-    explanation: "Choice C directly contrasts the advantages (emission-free, declining costs) with the disadvantages (weather dependence, storage costs), matching the student's goal of comparing both sides."
+    explanation: "Ahoice C directly contrasts the advantages (emission-free, declining costs) with the disadvantages (weather dependence, storage costs), matching the student's goal of comparing both sides."
   },
 
   // ========== COMMAND OF EVIDENCE (Quantitative / Data-Based) ==========
@@ -783,7 +783,7 @@ const questions = [
     ],
     correctAnswer: 3,
     vocabWords: [{"word":"endangered","definition":"at serious risk of extinction or disappearing"}],
-    explanation: "Choice B directly compares language disappearance rates under different policies (2/month vs. 0.5/month), directly supporting the claim that policy affects language survival."
+    explanation: "Choice D directly compares language disappearance rates under different policies (2/month vs. 0.5/month), directly supporting the claim that policy affects language survival."
   },
   {
     id: 51,
@@ -994,7 +994,7 @@ const questions = [
       "D) Europe was"
     ],
     correctAnswer: 1,
-    explanation: "The clause 'who had studied under three of the most celebrated maestros in Europe' is a nonrestrictive relative clause that interrupts the main sentence. It must be closed with a comma before the main verb 'was.' Choice D correctly provides this comma."
+    explanation: "The clause 'who had studied under three of the most celebrated maestros in Europe' is a nonrestrictive relative clause that interrupts the main sentence. It must be closed with a comma before the main verb 'was.' Choice B correctly provides this comma."
   },
   {
     id: 64,
