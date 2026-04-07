@@ -3106,6 +3106,384 @@ const questions = [
     correctAnswer: 2,
     explanation: "If pet ownership itself were the cause, cat owners should benefit too. The absence of a cat-owner benefit supports the hypothesis that dog-specific activities (walking, social interaction) drive the effect (B). D is contradicted by the data."
   },
+
+  // ========== WRITING & LANGUAGE FOCUS: 201-225 ==========
+
+  {
+    id: 201,
+    category: "Standard English Conventions",
+    difficulty: "Easy",
+    passage: `The artist's latest exhibition, which features paintings inspired by her travels through Southeast Asia, _______ open to the public starting next Friday.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) are",
+      "B) will be",
+      "C) have been",
+      "D) were"
+    ],
+    correctAnswer: 1,
+    explanation: "The subject 'exhibition' is singular. The event is in the future ('starting next Friday'), requiring future tense. 'Will be' (B) is correct."
+  },
+  {
+    id: 202,
+    category: "Standard English Conventions",
+    difficulty: "Medium",
+    passage: `The report concluded that students who participated in the tutoring program improved their reading scores, developed stronger study habits, and _______ more confident in their academic abilities.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) they became",
+      "B) becoming",
+      "C) became",
+      "D) having become"
+    ],
+    correctAnswer: 2,
+    explanation: "The sentence uses a parallel series: 'improved...developed...and _______.' To maintain parallel structure, the blank needs a past tense verb without a subject: 'became' (C). 'They became' breaks the parallelism by adding a pronoun."
+  },
+  {
+    id: 203,
+    category: "Standard English Conventions",
+    difficulty: "Hard",
+    passage: `_______ by the unexpectedly large turnout, the organizers scrambled to set up additional seating in the auditorium's overflow area.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) Being overwhelmed",
+      "B) Overwhelmed",
+      "C) Having been overwhelmed and surprised",
+      "D) They were overwhelmed"
+    ],
+    correctAnswer: 1,
+    explanation: "'Overwhelmed' (B) correctly begins a participial phrase modifying 'the organizers.' 'Being overwhelmed' (A) is wordy. 'They were overwhelmed' (D) creates a comma splice — two independent clauses joined by only a comma."
+  },
+  {
+    id: 204,
+    category: "Expression of Ideas",
+    difficulty: "Medium",
+    passage: `The new highway bypass, according to transportation officials, will significantly and substantially reduce commuter travel times for drivers who currently use Route 9 during peak hours.`,
+    question: "Which choice most effectively eliminates the redundancy in the underlined portion?",
+    choices: [
+      "A) significantly and substantially reduce",
+      "B) significantly reduce",
+      "C) significantly and substantially reduce and lower",
+      "D) reduce in a significant and substantial way"
+    ],
+    correctAnswer: 1,
+    explanation: "'Significantly' and 'substantially' mean nearly the same thing — using both is redundant. 'Significantly reduce' (B) conveys the same meaning concisely. C and D add even more redundancy."
+  },
+  {
+    id: 205,
+    category: "Standard English Conventions",
+    difficulty: "Medium",
+    passage: `The museum's collection includes artifacts from ancient Rome, medieval Europe, and _______ the curator plans to expand the Asian art wing next year.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) Edo-period Japan,",
+      "B) Edo-period Japan;",
+      "C) Edo-period Japan",
+      "D) Edo-period Japan."
+    ],
+    correctAnswer: 1,
+    explanation: "Two independent clauses need more than a comma to join them. A semicolon (B) correctly separates the list from the new independent clause about the curator's plans. A comma (A) would create a comma splice."
+  },
+  {
+    id: 206,
+    category: "Expression of Ideas",
+    difficulty: "Easy",
+    passage: `The scientist, who was born in 1867 and who grew up in Warsaw and who later moved to Paris, discovered two new elements.`,
+    question: "Which choice most effectively improves the clarity and flow of the sentence?",
+    choices: [
+      "A) The scientist, who was born in 1867, grew up in Warsaw, and later moved to Paris, discovered two new elements.",
+      "B) Born in 1867, growing up in Warsaw, and then she moved to Paris, the scientist discovered two new elements.",
+      "C) The scientist was born in 1867 and grew up in Warsaw and moved to Paris and discovered two new elements.",
+      "D) The scientist, who was born in 1867 and who grew up in Warsaw and who later moved to Paris, discovered two new elements."
+    ],
+    correctAnswer: 0,
+    explanation: "Choice A eliminates the repetitive 'who' structure and uses a clean parallel series ('born...grew up...moved') within a single nonrestrictive clause (A). B has a dangling modifier. C chains too many 'ands.' D is the original wordy version."
+  },
+  {
+    id: 207,
+    category: "Standard English Conventions",
+    difficulty: "Hard",
+    passage: `The company announced that it would relocate its headquarters to Austin, a decision that _______ many employees who had purchased homes near the current office.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) would have upset",
+      "B) upsetting",
+      "C) upset",
+      "D) will have been upsetting"
+    ],
+    correctAnswer: 2,
+    explanation: "The relative clause 'that _______ many employees' needs a finite verb (not a participle). The narrative is in past tense ('announced'). 'Upset' (C) is the correct simple past form. 'Upsetting' (B) is a participle and creates a fragment."
+  },
+  {
+    id: 208,
+    category: "Expression of Ideas",
+    difficulty: "Medium",
+    passage: `The city's population grew by 12% over the last decade. This growth was driven primarily by an influx of young professionals. These young professionals were attracted by the city's thriving tech sector. The tech sector had expanded rapidly after several major companies opened regional offices there.`,
+    question: "Which choice most effectively combines the four sentences?",
+    choices: [
+      "A) The city's population grew by 12% over the last decade, driven primarily by young professionals attracted to a tech sector that had expanded rapidly after several major companies opened regional offices there.",
+      "B) The city's population grew, and young professionals came because of tech companies, and the tech sector expanded because of regional offices that major companies opened.",
+      "C) Growing by 12%, the city's population increased with young professionals who liked tech companies that had offices there in the region.",
+      "D) Because several major companies opened regional offices, the city's population grew by 12% over the last decade with young professionals."
+    ],
+    correctAnswer: 0,
+    explanation: "Choice A combines all four ideas into a single clear sentence with a logical causal chain (growth ← young professionals ← tech sector ← company offices) (A). B is choppy with too many 'ands.' C has a dangling modifier. D loses the intermediate causal steps."
+  },
+  {
+    id: 209,
+    category: "Standard English Conventions",
+    difficulty: "Easy",
+    passage: `The hikers reached the summit at dawn, _______ they were rewarded with a panoramic view of the valley below, still blanketed in morning fog.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) therefore",
+      "B) where",
+      "C) which",
+      "D) however"
+    ],
+    correctAnswer: 1,
+    explanation: "The sentence needs a relative adverb connecting the summit (a place) to what happened there (seeing the view). 'Where' (B) correctly links the location to the experience. 'Which' would need to refer to a thing, not a place."
+  },
+  {
+    id: 210,
+    category: "Expression of Ideas",
+    difficulty: "Hard",
+    passage: `Due to the fact that the bridge is currently undergoing structural repairs, commuters should plan to utilize alternative routes for the duration of the construction period.`,
+    question: "Which revision most effectively reduces wordiness while maintaining the original meaning?",
+    choices: [
+      "A) Due to the fact that the bridge is currently undergoing structural repairs, commuters should plan to utilize alternative routes for the duration of the construction period.",
+      "B) Because the bridge is being repaired, commuters should use alternative routes during construction.",
+      "C) The bridge undergoing repairs means commuters need to plan for using other routes during the duration of the time of construction.",
+      "D) Commuters, due to the bridge being under repair currently, should be planning to use routes that are alternative."
+    ],
+    correctAnswer: 1,
+    explanation: "'Due to the fact that' → 'Because.' 'Utilize' → 'use.' 'For the duration of the construction period' → 'during construction.' Choice B cuts the wordiness in half while preserving full meaning (B). A is the original. C and D are even wordier."
+  },
+  {
+    id: 211,
+    category: "Standard English Conventions",
+    difficulty: "Medium",
+    passage: `The research team tested three variables: temperature, humidity, and light exposure. _______ temperature had the strongest effect on plant growth rates.`,
+    question: "Which choice completes the text with the most logical transition?",
+    choices: [
+      "A) Of these,",
+      "B) Nevertheless,",
+      "C) In contrast,",
+      "D) Simultaneously,"
+    ],
+    correctAnswer: 0,
+    explanation: "'Of these' (A) refers back to the three variables and introduces which one was most significant. 'Nevertheless' implies contradiction, 'In contrast' needs two things to compare, 'Simultaneously' doesn't connect logically."
+  },
+  {
+    id: 212,
+    category: "Standard English Conventions",
+    difficulty: "Hard",
+    passage: `The novelist's prose style is characterized by long, winding sentences, abrupt shifts in perspective, and _______ that challenge readers to actively construct meaning rather than passively absorb it.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) she uses ambiguous narrative structures",
+      "B) narrative structures that are ambiguous",
+      "C) ambiguous narrative structures",
+      "D) there are ambiguous narrative structures"
+    ],
+    correctAnswer: 2,
+    explanation: "The sentence has a parallel series: 'long sentences, abrupt shifts, and _______.' Each item should be a noun phrase. 'Ambiguous narrative structures' (C) maintains this parallel structure. A and D break it by introducing subjects/verbs."
+  },
+  {
+    id: 213,
+    category: "Expression of Ideas",
+    difficulty: "Easy",
+    passage: `In my personal opinion, I think that the school should consider the possibility of maybe extending library hours on weekends.`,
+    question: "Which revision most effectively eliminates unnecessary wordiness?",
+    choices: [
+      "A) In my personal opinion, I think that the school should consider the possibility of maybe extending library hours on weekends.",
+      "B) I believe the school should consider extending library hours on weekends.",
+      "C) The school should extend library hours on weekends.",
+      "D) Personally, in my opinion, I think the school should maybe consider possibly extending weekend library hours."
+    ],
+    correctAnswer: 2,
+    explanation: "'In my personal opinion,' 'I think that,' 'consider the possibility of,' and 'maybe' are all hedging phrases that dilute the message. The direct statement (C) is clearest and most effective. B still hedges with 'consider.'"
+  },
+  {
+    id: 214,
+    category: "Standard English Conventions",
+    difficulty: "Medium",
+    passage: `_______ across the frozen tundra for six days, the exhausted sled dogs finally reached the remote outpost where supplies were waiting.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) Having traveled",
+      "B) To travel",
+      "C) They traveled",
+      "D) Traveling and having traveled"
+    ],
+    correctAnswer: 0,
+    explanation: "The sentence needs a participial phrase modifying 'the exhausted sled dogs.' 'Having traveled' (A) correctly forms this phrase, indicating a completed action before the main clause. 'They traveled' (C) creates a comma splice."
+  },
+  {
+    id: 215,
+    category: "Expression of Ideas",
+    difficulty: "Hard",
+    passage: `The study's methodology was rigorous. However, the sample size was small. The researchers acknowledged this limitation. They recommended larger follow-up studies. The findings were still considered preliminary.`,
+    question: "Which choice most effectively combines these sentences while maintaining the logical relationships?",
+    choices: [
+      "A) Although the study's methodology was rigorous, the small sample size — a limitation the researchers themselves acknowledged — meant the findings remained preliminary, prompting recommendations for larger follow-up studies.",
+      "B) The study had rigorous methodology but a small sample size, and the researchers acknowledged limitations and recommended follow-up studies, and findings were preliminary.",
+      "C) Rigorous in methodology, preliminary in findings, the study's researchers acknowledged limitations about sample size and recommended more studies.",
+      "D) The study was rigorous, however small, the researchers acknowledged and recommended larger studies since findings were preliminary."
+    ],
+    correctAnswer: 0,
+    explanation: "Choice A weaves all five ideas into a clear logical flow: concession (rigorous but small), parenthetical acknowledgment, consequence (preliminary), and recommendation (follow-up) (A). B chains 'ands.' C loses the logical structure. D has a comma splice."
+  },
+  {
+    id: 216,
+    category: "Standard English Conventions",
+    difficulty: "Easy",
+    passage: `The librarian asked the students to return _______ books by the end of the week so that other classes could use them for their research projects.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) they're",
+      "B) there",
+      "C) their",
+      "D) its"
+    ],
+    correctAnswer: 2,
+    explanation: "'Their' (C) is the possessive pronoun referring to 'the students.' 'They're' means 'they are,' 'there' refers to a place, and 'its' is singular."
+  },
+  {
+    id: 217,
+    category: "Standard English Conventions",
+    difficulty: "Hard",
+    passage: `The committee will announce its decision tomorrow; _______ the affected employees have already begun preparing for either outcome.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) meanwhile,",
+      "B) therefore,",
+      "C) for example,",
+      "D) specifically,"
+    ],
+    correctAnswer: 0,
+    explanation: "'Meanwhile' (A) indicates simultaneous action — while the committee prepares its announcement, employees are already preparing. 'Therefore' implies causation, 'for example' introduces an illustration, and 'specifically' narrows a point."
+  },
+  {
+    id: 218,
+    category: "Expression of Ideas",
+    difficulty: "Medium",
+    passage: `It is absolutely essential and vitally important that all employees complete the mandatory required safety training before the deadline date.`,
+    question: "Which revision most effectively eliminates the redundancies?",
+    choices: [
+      "A) It is absolutely essential and vitally important that all employees complete the mandatory required safety training before the deadline date.",
+      "B) All employees must complete the required safety training before the deadline.",
+      "C) It is essential that employees complete mandatory required safety training before the date of the deadline.",
+      "D) All employees should essentially complete vitally important safety training mandatorily."
+    ],
+    correctAnswer: 1,
+    explanation: "'Absolutely essential and vitally important' are redundant (pick one). 'Mandatory required' is redundant (both mean obligatory). 'Deadline date' is redundant (a deadline IS a date). Choice B eliminates all three redundancies (B)."
+  },
+  {
+    id: 219,
+    category: "Standard English Conventions",
+    difficulty: "Medium",
+    passage: `The professor, along with two graduate _______ presenting the findings at the international conference in Geneva next month.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) students, are",
+      "B) students, is",
+      "C) students; is",
+      "D) students are"
+    ],
+    correctAnswer: 1,
+    explanation: "'The professor' is the singular subject. 'Along with two graduate students' is a parenthetical phrase — it does NOT make the subject plural. A comma closes the phrase, and 'is' (B) agrees with the singular subject."
+  },
+  {
+    id: 220,
+    category: "Expression of Ideas",
+    difficulty: "Easy",
+    passage: `The dog was big. The dog was brown. The dog was friendly. The dog belonged to our neighbor.`,
+    question: "Which choice most effectively combines these sentences?",
+    choices: [
+      "A) The dog was big and brown and friendly and belonged to our neighbor.",
+      "B) Our neighbor's big, brown, friendly dog.",
+      "C) Our neighbor had a big, friendly, brown dog.",
+      "D) The big, brown, friendly dog belonged to our neighbor."
+    ],
+    correctAnswer: 3,
+    explanation: "Choice D combines all four details into a single clear sentence with stacked adjectives before the noun and the ownership detail as the main clause (D). A chains too many 'ands.' B is a fragment. C works but reorders the focus."
+  },
+  {
+    id: 221,
+    category: "Standard English Conventions",
+    difficulty: "Hard",
+    passage: `Not until the archaeologists had carefully removed several layers of sediment _______ the full extent of the ancient mosaic floor, which depicted scenes from Greek mythology.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) they revealed",
+      "B) did they reveal",
+      "C) revealing",
+      "D) and they revealed"
+    ],
+    correctAnswer: 1,
+    explanation: "'Not until...' is a negative inversion construction that requires inverted subject-verb order in the main clause. 'Did they reveal' (B) provides this inversion correctly. 'They revealed' (A) uses normal order, which is ungrammatical after 'Not until.'"
+  },
+  {
+    id: 222,
+    category: "Expression of Ideas",
+    difficulty: "Medium",
+    passage: `A student is writing about the benefits of urban farming for a sustainability class. The student wants to address a common objection.\n\n• Urban farms produce less food per acre than rural industrial farms.\n• Urban farms reduce transportation emissions by growing food where consumers live.\n• Urban farms convert vacant lots, which can harbor pests and crime, into productive community spaces.\n• Studies show urban farms increase property values in surrounding neighborhoods by an average of 9%.`,
+    question: "Which choice most effectively uses information from the notes to accomplish the student's goal?",
+    choices: [
+      "A) Urban farms increase property values by 9% and reduce transportation emissions.",
+      "B) While urban farms produce less food per acre than industrial operations, they offer benefits that traditional productivity metrics miss: reducing transportation emissions, revitalizing vacant lots, and increasing surrounding property values by an average of 9%.",
+      "C) Urban farming is a growing trend in cities around the world, with many benefits for local communities.",
+      "D) Vacant lots can harbor pests and crime, which is why cities should convert them to farms."
+    ],
+    correctAnswer: 1,
+    explanation: "The student wants to address an objection. Choice B acknowledges the objection (lower yield) then counters with three specific benefits, effectively reframing the debate (B). A ignores the objection. C is too vague. D only addresses one benefit."
+  },
+  {
+    id: 223,
+    category: "Standard English Conventions",
+    difficulty: "Easy",
+    passage: `The bakery on Main Street _______ fresh croissants every morning, and customers often line up before the doors open at 7 AM.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) bake",
+      "B) have baked",
+      "C) bakes",
+      "D) are baking"
+    ],
+    correctAnswer: 2,
+    explanation: "'The bakery' is a singular subject requiring a singular verb. The sentence describes a habitual action (every morning). 'Bakes' (C) is the correct singular present tense form."
+  },
+  {
+    id: 224,
+    category: "Standard English Conventions",
+    difficulty: "Hard",
+    passage: `The photographs taken by the rover reveal a landscape far more varied than scientists had _______ vast plains of iron-rich dust give way to towering cliff faces of layered sedimentary rock.`,
+    question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    choices: [
+      "A) expected,",
+      "B) expected:",
+      "C) expected;",
+      "D) expected"
+    ],
+    correctAnswer: 1,
+    explanation: "A colon (B) is correct because what follows ('vast plains...') specifies and illustrates what 'far more varied' means. The colon introduces an elaboration of the preceding claim. A comma would create a comma splice between two independent clauses."
+  },
+  {
+    id: 225,
+    category: "Expression of Ideas",
+    difficulty: "Hard",
+    passage: `Text 1: Writing instructor John Warner argues that the five-paragraph essay format taught in most American high schools — introduction with thesis, three body paragraphs, conclusion — actively harms students' writing development. By reducing writing to a fill-in-the-blank template, it discourages original thinking and teaches students that writing is about following rules rather than communicating ideas.\n\nText 2: Teacher educator Les Perelman counters that while the five-paragraph essay is formulaic, it provides essential scaffolding for students who have never been taught to organize their thoughts in writing. Without structure, Perelman argues, many students produce incoherent responses. He suggests the format should be taught as a starting point to be outgrown, not a permanent destination.`,
+    question: "Perelman and Warner would most likely agree that:",
+    choices: [
+      "A) the five-paragraph essay is the best way to teach writing at all levels.",
+      "B) students should never be taught any structural framework for writing.",
+      "C) the five-paragraph format has significant limitations as a permanent approach to writing.",
+      "D) writing instruction is unnecessary because good writing is an innate talent."
+    ],
+    correctAnswer: 2,
+    explanation: "Warner says the format 'harms development.' Perelman says it should be 'outgrown, not a permanent destination.' Both agree it shouldn't be the endpoint — they differ on whether it's useful as a temporary tool (C). A contradicts Warner. B contradicts Perelman."
+  },
 ]
 
 export default questions
