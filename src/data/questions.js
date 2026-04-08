@@ -1286,7 +1286,7 @@ const questions = [
     id: 82,
     category: "Standard English Conventions",
     difficulty: "Medium",
-    passage: `The new housing _______ which was designed by a team of award-winning architects, features rooftop gardens, communal workspaces, and energy-efficient heating systems.`,
+    passage: `The new housing _______ was designed by a team of award-winning architects, features rooftop gardens, communal workspaces, and energy-efficient heating systems.`,
     question: "Which choice completes the text so that it conforms to the conventions of Standard English?",
     choices: [
       "A) complex which",
