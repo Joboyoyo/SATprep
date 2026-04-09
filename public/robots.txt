@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://satprep.cytsai.net/sitemap.xml
