@@ -8,7 +8,7 @@ export default function Navbar({ view, setView }) {
 
   return (
     <nav className="navbar">
-      <div className="navbar-brand">
+      <div className="navbar-brand" onClick={() => setView('home')} style={{ cursor: 'pointer' }}>
         SAT Reading Prep
         {streak.current > 0 && (
           <span className="streak-flame" title={`${streak.current} day streak!`}>

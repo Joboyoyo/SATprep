@@ -6,6 +6,7 @@ import questions from './data/questions'
 import StatsPanel from './components/StatsPanel'
 import WordBank from './components/WordBank'
 import AchievementToast from './components/AchievementToast'
+import HomePage from './components/HomePage'
 import { addToReviewQueue, recordAnswer, getAnsweredIds, markAnswered, resetProgress, recordActivity, getStarred, getStats, getStreak, getWordBank, getDailyGoal, getTodayAnswerCount, getUnlockedAchievements, unlockAchievement } from './utils/storage'
 import { ACHIEVEMENTS, checkAchievements } from './utils/achievements'
 
@@ -75,7 +76,7 @@ function formatSeconds(s) {
 }
 
 export default function App() {
-  const [view, setView] = useState('practice')
+  const [view, setView] = useState('home')
   const [category, setCategory] = useState('All')
   const [difficulty, setDifficulty] = useState('All Levels')
   const [answeredIds, setAnsweredIds] = useState(() => getAnsweredIds())
@@ -279,7 +280,9 @@ export default function App() {
       <Navbar view={view} setView={setView} />
 
       <main className="main-content">
-        {view === 'practice' ? (
+        {view === 'home' ? (
+          <HomePage onStart={() => setView('practice')} />
+        ) : view === 'practice' ? (
           <>
             {sessionResults ? (
               <div className="session-results">
