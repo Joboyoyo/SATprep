@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import questions from '../data/questions'
 
 const FEATURES = [
   { icon: '📝', title: 'Practice Questions', desc: '285 SAT-style reading & writing questions across 6 categories and 3 difficulty levels.' },
@@ -9,42 +10,34 @@ const FEATURES = [
   { icon: '🏆', title: 'Achievements', desc: '16 unlockable milestones from "First Step" to "Unstoppable" — with Steam-style popups.' },
 ]
 
-const STATS = [
-  { number: '285', label: 'Questions' },
-  { number: '6', label: 'Categories' },
-  { number: '66', label: 'Vocab Words' },
-  { number: '3', label: 'Difficulty Levels' },
-]
+function getQuestionStats() {
+  const cats = new Set(questions.map(q => q.category))
+  const diffs = new Set(questions.map(q => q.difficulty))
+  const vocabCount = questions.filter(q => q.vocabWords && q.vocabWords.length > 0).length
+  return [
+    { number: String(questions.length), label: 'Questions' },
+    { number: String(cats.size), label: 'Categories' },
+    { number: String(vocabCount), label: 'Vocab Words' },
+    { number: String(diffs.size), label: 'Difficulty Levels' },
+  ]
+}
+
+const STATS = getQuestionStats()
 
 export default function HomePage({ onStart }) {
   const [visitors, setVisitors] = useState(null)
-  const [weeklyUsers, setWeeklyUsers] = useState(null)
 
   useEffect(() => {
-    // Track visit in localStorage for weekly count
-    const now = Date.now()
-    const weekAgo = now - 7 * 24 * 60 * 60 * 1000
-    const visits = JSON.parse(localStorage.getItem('satprep_visit_log') || '[]')
-    visits.push(now)
-    const recentVisits = visits.filter(t => t > weekAgo)
-    localStorage.setItem('satprep_visit_log', JSON.stringify(recentVisits))
-
-    // Fetch visitor count from free counter API
     fetch('https://api.counterapi.dev/v1/satprep-cytsai/visits/up')
       .then(r => r.json())
       .then(data => {
         if (data && data.count) setVisitors(data.count)
       })
       .catch(() => {
-        // Fallback: use localStorage visit count
         const localCount = parseInt(localStorage.getItem('satprep_local_visits') || '0') + 1
         localStorage.setItem('satprep_local_visits', String(localCount))
         setVisitors(localCount)
       })
-
-    // Weekly users: count unique days with visits in last 7 days
-    const uniqueDays = new Set(recentVisits.map(t => new Date(t).toDateString())).size
-    setWeeklyUsers(uniqueDays)
   }, [])
 
   return (
@@ -88,10 +81,6 @@ export default function HomePage({ onStart }) {
           <div className="visitor-card">
             <div className="visitor-number">{visitors !== null ? visitors.toLocaleString() : '—'}</div>
             <div className="visitor-label">Total Visits</div>
-          </div>
-          <div className="visitor-card">
-            <div className="visitor-number">{weeklyUsers !== null ? weeklyUsers : '—'}</div>
-            <div className="visitor-label">Days Active This Week</div>
           </div>
         </div>
       </div>
